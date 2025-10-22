@@ -1,0 +1,83 @@
+name: Create Foundry VTT Release
+
+on:
+  push:
+    tags:
+      - 'v*'
+
+jobs:
+  release:
+    name: Package and Release
+    runs-on: ubuntu-latest
+    
+    steps:
+    - name: Checkout code
+      uses: actions/checkout@v4
+      with:
+        fetch-depth: 0
+
+    - name: Validate version match
+      run: |
+        MODULE_VERSION=$(node -p "require('./module.json').version")
+        TAG_VERSION="${GITHUB_REF#refs/tags/v}"
+        
+        echo "Module version: $MODULE_VERSION"
+        echo "Tag version: $TAG_VERSION"
+        
+        if [ "$MODULE_VERSION" != "$TAG_VERSION" ]; then
+          echo "❌ Error: module.json version ($MODULE_VERSION) doesn't match git tag version ($TAG_VERSION)"
+          exit 1
+        fi
+        
+        echo "✅ Version validation passed"
+
+    - name: Create module.zip with required files
+      run: |
+        # Create package directory and copy required files
+        mkdir -p package
+        cp module.json register.js package/
+        cp -r assets lang packs package/
+        
+        # Create zip file (excluding the package directory itself)
+        cd package
+        zip -r ../module.zip .
+        cd ..
+        
+        # Verify the zip contains the right files
+        echo "Zip file contents:"
+        unzip -l module.zip
+        
+        # Clean up
+        rm -rf package
+
+    - name: Generate comprehensive changelog
+      id: changelog
+      run: |
+        echo "# Release ${{ github.ref_name }}" > RELEASE_NOTES.md
+        echo "" >> RELEASE_NOTES.md
+        echo "## Installation" >> RELEASE_NOTES.md
+        echo "" >> RELEASE_NOTES.md
+        echo "### Manifest URL" >> RELEASE_NOTES.md
+        echo "Use this URL in Foundry VTT to install:" >> RELEASE_NOTES.md
+        echo "\`https://github.com/${{ github.repository }}/releases/latest/download/module.json\`" >> RELEASE_NOTES.md
+        echo "" >> RELEASE_NOTES.md
+        echo "### Direct Download" >> RELEASE_NOTES.md
+        echo "Or download the module manually: \`https://github.com/${{ github.repository }}/releases/latest/download/module.zip\`" >> RELEASE_NOTES.md
+        echo "" >> RELEASE_NOTES.md
+        echo "## Changes" >> RELEASE_NOTES.md
+        echo "" >> RELEASE_NOTES.md
+        git log --pretty=format:"- **%h**: %s" -10 >> RELEASE_NOTES.md
+
+    - name: Create Release
+      uses: softprops/action-gh-release@v1
+      with:
+        tag_name: ${{ github.ref_name }}
+        name: Release ${{ github.ref_name }}
+        body_path: RELEASE_NOTES.md
+        draft: false
+        prerelease: false
+        files: |
+          module.zip
+          module.json
+      env:
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}

@@ -1,4 +1,4 @@
-# Witcher TRPG Compendiums**
+# Witcher TRPG Compendiums
 
 A collection of Compendiums for the Witcher TRPG for Foundry VTT. Requires [Witcher TTRPG Game System](https://github.com/witchertrpg-foundryvtt/TheWitcherTRPG) to work. <br />It's an updated and with added localization support version of [Schotbruchschorsch's Witcher-TRPG-Compendiums-for-Foundry-VTT](https://github.com/Schotbruchschorsch/Witcher-TRPG-Compendiums-for-Foundry-VTT).
 

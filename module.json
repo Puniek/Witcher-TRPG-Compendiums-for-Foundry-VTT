@@ -7,6 +7,9 @@
     "verified": "13"
   },
   "description": "<p>Races, Professions, Items, Spells and many more for <a href=\"https://github.com/witchertrpg-foundryvtt/TheWitcherTRPG\">Witcher TTRPG Game System</a>.</p><p>It's an updated and with added localization support version of <a href=\"https://github.com/Schotbruchschorsch/Witcher-TRPG-Compendiums-for-Foundry-VTT\">Schotbruchschorsch's Witcher-TRPG-Compendiums-for-Foundry-VTT</a>.</p><p></p><p>If you are willing to translate the compendiums to your language, message author.</p><p><br />Supported Languages:<br />✅ - Full Support<br />🟨 - Partial Support / WIP<br />🟥 - Awaiting Translation<br /><br />✅ English</p><p>🟨 Polish / Polski</p><p>🟥 All the others. Open to contributions.</p>",
+  "url": "https://github.com/Puniek/Witcher-TTRPG-Compendiums-for-Foundry-VTT",
+  "download": "https://github.com/Puniek/Witcher-TTRPG-Compendiums-for-Foundry-VTT/releases/latest/download/module.zip",
+  "manifest": "https://github.com/Puniek/Witcher-TTRPG-Compendiums-for-Foundry-VTT/releases/latest/download/module.json",
   "authors": [
     {
       "name": "Puniek",

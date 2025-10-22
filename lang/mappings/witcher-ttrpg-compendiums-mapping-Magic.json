@@ -1,0 +1,50 @@
+{
+  "actor": [],
+  "item": [
+    {
+      "id": "ter6AoKC1uy6Jv3M",
+      "key": "source",
+      "value": "system.sourcebook"
+    },
+    {
+      "id": "ZLuVkQBrsOpySKig",
+      "key": "range",
+      "value": "system.range"
+    },
+    {
+      "id": "KXmOdn3cqiGjIPPj",
+      "key": "duration",
+      "value": "system.duration"
+    },
+    {
+      "id": "aHMBhoTkevFjmq7x",
+      "key": "defence",
+      "value": "system.defence"
+    },
+    {
+      "id": "liYkb0jZnbHPOX5i",
+      "key": "effect",
+      "value": "system.effect"
+    },
+    {
+      "id": "DH11gcH5C4kQqqIE",
+      "key": "ritualPrepTime",
+      "value": "system.preparationTime"
+    },
+    {
+      "id": "dvD6rlqyj2ok8JGR",
+      "key": "ritualDifficulty",
+      "value": "system.difficultyCheck"
+    },
+    {
+      "id": "yj61Dxq54STXiIRj",
+      "key": "hexLift",
+      "value": "system.liftRequirement"
+    },
+    {
+      "id": "1GJjRm3k6elZZCfp",
+      "key": "components",
+      "value": "system.components"
+    }
+  ]
+}

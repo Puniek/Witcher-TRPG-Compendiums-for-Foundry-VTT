@@ -1,0 +1,55 @@
+{
+  "actor": [],
+  "item": [
+    {
+      "id": "LPatsuh59EhRdOQH",
+      "key": "source",
+      "value": "system.sourcebook"
+    },
+    {
+      "id": "cqn7VQZ58NwEWgUf",
+      "key": "duration",
+      "value": "system.time"
+    },
+    {
+      "id": "uJB4zbgilZwbsXRy",
+      "key": "effect",
+      "value": "system.effect"
+    },
+    {
+      "id": "POQ4t2Zb9i8vnqC3",
+      "key": "description",
+      "value": "system.description"
+    },
+    {
+      "id": "C6dVFiNghHKXCJiz",
+      "key": "forageLocation",
+      "value": "system.location"
+    },
+    {
+      "id": "ZHy9TNS54UmqUkCP",
+      "key": "forageQuantity",
+      "value": "system.quantityObtainable"
+    },
+    {
+      "id": "gHn53tDi9kCDEVRl",
+      "key": "craftinTime",
+      "value": "system.craftingTime"
+    },
+    {
+      "id": "qT6XlruOnwxiF43J",
+      "key": "mutagenSource",
+      "value": "system.source"
+    },
+    {
+      "id": "RFmWeE9ZhOBm5GgN",
+      "key": "minorMutation",
+      "value": "system.minorMutation"
+    },
+    {
+      "id": "kKmBPlMS06IjOSOT",
+      "key": "range",
+      "value": "system.range"
+    }
+  ]
+}

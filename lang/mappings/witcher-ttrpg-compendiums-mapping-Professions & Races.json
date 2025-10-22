@@ -1,0 +1,165 @@
+{
+  "actor": [],
+  "item": [
+    {
+      "id": "PLBQ87elQNuIlyfU",
+      "key": "perk1name",
+      "value": "system.perk1.name"
+    },
+    {
+      "id": "qMYXe5hL7ZgxPuNw",
+      "key": "perk1descr",
+      "value": "system.perk1.description"
+    },
+    {
+      "id": "vwprqT3CS1K9ucIw",
+      "key": "perk2name",
+      "value": "system.perk2.name"
+    },
+    {
+      "id": "oQYfMgTv1jUrw1uq",
+      "key": "perk2descr",
+      "value": "system.perk2.description"
+    },
+    {
+      "id": "jJYEHJ6uKmOy07IY",
+      "key": "perk3name",
+      "value": "system.perk3.name"
+    },
+    {
+      "id": "p9ofZmvGSpuQ8DCH",
+      "key": "perk3descr",
+      "value": "system.perk3.description"
+    },
+    {
+      "id": "g8QpQk8FVl8gmvZ7",
+      "key": "perk4name",
+      "value": "system.perk4.name"
+    },
+    {
+      "id": "ZCTSpb89NAwK7iuK",
+      "key": "perk4descr",
+      "value": "system.perk4.description"
+    },
+    {
+      "id": "ReKmQ5qOyV5MOCze",
+      "key": "definingSkillname",
+      "value": "system.definingSkill.skillName"
+    },
+    {
+      "id": "gV50DKQ52vk0pDRi",
+      "key": "definingSkilldescr",
+      "value": "system.definingSkill.definition"
+    },
+    {
+      "id": "5A7Xp15AQgCK6dJY",
+      "key": "notes",
+      "value": "system.notes"
+    },
+    {
+      "id": "5UNWCmzVD0u4juRz",
+      "key": "skillPath1name",
+      "value": "system.skillPath1.pathName"
+    },
+    {
+      "id": "glWeEwYgopI9LbBg",
+      "key": "skillPath1skill1name",
+      "value": "system.skillPath1.skill1.skillName"
+    },
+    {
+      "id": "N15bz3X1HjrQvQAY",
+      "key": "skillPath1skill1descr",
+      "value": "system.skillPath1.skill1.definition"
+    },
+    {
+      "id": "OOCrWKbDuptj3Ev5",
+      "key": "skillPath1skill2name",
+      "value": "system.skillPath1.skill2.skillName"
+    },
+    {
+      "id": "YzQjzkGSa5PosJu9",
+      "key": "skillPath1skill2descr",
+      "value": "system.skillPath1.skill2.definition"
+    },
+    {
+      "id": "8odCUlMPI0VOomB1",
+      "key": "skillPath1skill3name",
+      "value": "system.skillPath1.skill3.skillName"
+    },
+    {
+      "id": "EUGe5j1HgGTDNh1P",
+      "key": "skillPath1skill3descr",
+      "value": "system.skillPath1.skill3.definition"
+    },
+    {
+      "id": "Ym3Rwj1CFBpbf6cx",
+      "key": "skillPath2name",
+      "value": "system.skillPath2.pathName"
+    },
+    {
+      "id": "eO9h43DolnP1p9nL",
+      "key": "skillPath2skill1name",
+      "value": "system.skillPath2.skill1.skillName"
+    },
+    {
+      "id": "wtJ0GeEHqIHxzh4v",
+      "key": "skillPath2skill1descr",
+      "value": "system.skillPath2.skill1.definition"
+    },
+    {
+      "id": "eMCMtBX3BpmaqeBS",
+      "key": "skillPath2skill2name",
+      "value": "system.skillPath2.skill2.skillName"
+    },
+    {
+      "id": "yCAsH9UAic33jTm3",
+      "key": "skillPath2skill2descr",
+      "value": "system.skillPath2.skill2.definition"
+    },
+    {
+      "id": "0uCjtsPLr0xUWzVf",
+      "key": "skillPath2skill3name",
+      "value": "system.skillPath2.skill3.skillName"
+    },
+    {
+      "id": "pW3wmxWw4YrDi0p4",
+      "key": "skillPath2skill3descr",
+      "value": "system.skillPath2.skill3.definition"
+    },
+    {
+      "id": "pgqcazCyfb1Aqy5R",
+      "key": "skillPath3name",
+      "value": "system.skillPath3.pathName"
+    },
+    {
+      "id": "hjKPYFkwlLagoPoP",
+      "key": "skillPath3skill1name",
+      "value": "system.skillPath3.skill1.skillName"
+    },
+    {
+      "id": "Lcp2WGXQTsHQr9Ue",
+      "key": "skillPath3skill1descr",
+      "value": "system.skillPath3.skill1.definition"
+    },
+    {
+      "id": "eglzMW7qZBvXjOzX",
+      "key": "skillPath3skill2name",
+      "value": "system.skillPath3.skill2.skillName"
+    },
+    {
+      "id": "fGggtHNr8hEnFR1w",
+      "key": "skillPath3skill2descr",
+      "value": "system.skillPath3.skill2.definition"
+    },
+    {
+      "id": "7M7VKfv4ZDIjc0ur",
+      "key": "skillPath3skill3name",
+      "value": "system.skillPath3.skill3.skillName"
+    },
+    {
+      "id": "iMTrltx58mWjVWns",
+      "key": "skillPath3skill3descr",
+      "value": "system.skillPath3.skill3.definition"
+    }
+  ]
+}

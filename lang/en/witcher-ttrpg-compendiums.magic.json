@@ -1,0 +1,2050 @@
+{
+  "label": "Magic",
+  "mapping": {
+    "source": "system.sourcebook",
+    "range": "system.range",
+    "duration": "system.duration",
+    "defence": "system.defence",
+    "effect": "system.effect",
+    "ritualPrepTime": "system.preparationTime",
+    "ritualDifficulty": "system.difficultyCheck",
+    "hexLift": "system.liftRequirement",
+    "components": "system.components"
+  },
+  "folders": {
+    "Advanced Signs": "Advanced Signs",
+    "Air": "Air",
+    "Alternate Sign": "Alternate Sign",
+    "Arch Priest Invocations": "Arch Priest Invocations",
+    "Basic Signs": "Basic Signs",
+    "Druid  Invocations": "Druid  Invocations",
+    "Earth": "Earth",
+    "Fire": "Fire",
+    "Goetia": "Goetia",
+    "Hexes": "Hexes",
+    "Hierophant/Flaminika Invocations": "Hierophant/Flaminika Invocations",
+    "High Danger": "High Danger",
+    "Journeyman Druid Invocations": "Journeyman Druid Invocations",
+    "Journeyman Priest Invocations": "Journeyman Priest Invocations",
+    "Journeyman Rituals": "Journeyman Rituals",
+    "Journeyman Spells": "Journeyman Spells",
+    "Low Danger": "Low Danger",
+    "Magical Gifts": "Magical Gifts",
+    "Major Gifts": "Major Gifts",
+    "Master Druid Invocations": "Master Druid Invocations",
+    "Master Priest Invocations": "Master Priest Invocations",
+    "Master Rituals": "Master Rituals",
+    "Master Spells": "Master Spells",
+    "Medium Danger": "Medium Danger",
+    "Minor Gifts": "Minor Gifts",
+    "Mixed": "Mixed",
+    "Necromancy": "Necromancy",
+    "Novice Druid Invocations": "Novice Druid Invocations",
+    "Novice Priest Invocations": "Novice Priest Invocations",
+    "Novice Rituals": "Novice Rituals",
+    "Novice Spells": "Novice Spells",
+    "Priest Invocations": "Priest Invocations",
+    "Rituals": "Rituals",
+    "Spells": "Spells",
+    "Water": "Water",
+    "Witcher Signs": "Witcher Signs"
+  },
+  "entries": {
+    "Aard": {
+      "name": "Aard",
+      "source": "Core",
+      "range": "2m Cone",
+      "duration": "Immediate",
+      "defence": "Dodge",
+      "effect": "Aard shoots a wave of telekinetic force, staggering creatures with a 10% chance of those affected being knocked prone. The percentage rises by 10% for each point of STA spent."
+    },
+    "Aard Sweep": {
+      "name": "Aard Sweep",
+      "source": "Core",
+      "range": "4m Radius",
+      "duration": "Immediate",
+      "defence": "Dodge",
+      "effect": "Aard now shoots a burst of telekinetic force around you. For each STA point spent, everything caught in the burst has a 10% chance of being knocked to the ground and staggered. The burst travels out in all directions as a sphere. Flying creatures struck with Aard Sweep are knocked out of the air as well as being knocked down."
+    },
+    "Active Shield": {
+      "name": "Active Shield",
+      "source": "Core",
+      "range": "Self",
+      "duration": "Active (Initial STA)",
+      "defence": "None",
+      "effect": "Quen now creates a glowing shield around you. The shield has 10 HP for every Stamina point spent. Each round after the first, you must spend a number of STA points equal to the initial STA cost to maintain the shield. Active Shield only covers you, but you can fit one other person into it if you are pressed together. While in the active shield nothing tangible can pass in or out without destroying the shield first and you must move slowly to keep the shield up, meaning you cannot run. When the shield is expended or dropped, anything adjacent to you is pushed back 2m and takes 1d6 damage to the torso. This includes objects, furniture, and allies. Anything rooted to the ground or heavier than 226kg is not pushed back but still takes damage."
+    },
+    "Adenydd": {
+      "name": "Adenydd",
+      "source": "Core",
+      "range": "Self",
+      "duration": "Active (2 STA)",
+      "defence": "None",
+      "effect": "Adenydd allows you to lighten yourself slightly and create a simple glide path when falling. This means for each 2m you fall you travel 2m in a direction. If you make it to the ground within the duration of the spell you take no damage."
+    },
+    "Aenye": {
+      "name": "Aenye",
+      "source": "Core",
+      "range": "12m",
+      "duration": "Immediate",
+      "defence": "Dodge & Block",
+      "effect": "Aenye allows you to throw a ball of pure fire at an opponent within the range of the spell. This ball of fire does 4d6 damage and has a 75% chance of lighting the target on fire."
+    },
+    "Aerokinesis": {
+      "name": "Aerokinesis",
+      "source": "Tome",
+      "effect": "As a full round action, you can manipulate up to 5 ENC of material at a range of 8m as if you were holding it."
+    },
+    "Afan's Mirror": {
+      "name": "Afan's Mirror",
+      "source": "Core",
+      "range": "10m",
+      "duration": "Active (2 STA)",
+      "defence": "None",
+      "effect": "Created by the talented Aedirnian mage Afan of Gulet, Afan’s mirror creates 1d10 illusory copies of the caster. These copies are intangible, but indistinguishable from the caster and controlled by the caster’s mind. Controlling the copies does not require an action but they cannot leave the spell’s range."
+    },
+    "Aine Verseos": {
+      "name": "Aine Verseos",
+      "source": "Core",
+      "range": "4m Radius",
+      "duration": "Active (2 STA)",
+      "defence": "None",
+      "effect": "Aine Verseos creates an area of bright light in a 4m radius centred on you."
+    },
+    "Ainfra's Extraction": {
+      "name": "Ainfra's Extraction",
+      "source": "Tome",
+      "range": "8m",
+      "duration": "immediate",
+      "defence": "Resist Magic",
+      "effect": "Created by the famed Ainfra of Mag Turga, Ainfra’s Extraction allows you to desiccate a target and then utilize their water for your own means. Upon casting this spell, a target that fails to defend lowers their current STA by 8d6 and the caster may immediately cast Rhewi, Ice Slick, or Water Jet at no STA cost."
+    },
+    "Air Pocket": {
+      "name": "Air Pocket",
+      "source": "Core",
+      "range": "12m",
+      "duration": "2d10 Rounds",
+      "defence": "None",
+      "effect": "Air Pocket allows you to create a pocket of fresh air underwater or in an area where there normally wouldn’t be fresh air. The pocket has a 1m radius for the duration of the spell."
+    },
+    "Akhan Daal": {
+      "name": "Akhan Daal",
+      "source": "UNKNOWN",
+      "range": "4m",
+      "duration": "Immediate",
+      "defence": "Dodge",
+      "effect": "A favorite spell of the Witch of Lynx Crag, Akhan Daal allows you to create a small explosion of concussive energy at range. Anyone in the area of this spell who fails to defend takes 4d6 Damage to the Torso, is Knocked Down and Knocked Back 4m. If an affected target hits something they take ramming damage."
+    },
+    "Alchemical Recovery": {
+      "name": "Alchemical Recovery",
+      "source": "Tome",
+      "range": "2m",
+      "duration": "Immediate",
+      "defence": "None",
+      "effect": "Alchemical Recovery allows you to revitalize the potency of a spent substance. Upon casting this spell, you can choose an alchemical crafting project that has failed and recover one of its Alchemical Substances. This spell cannot be cast on the same failed project more than once but can be used alongside the standard Recovery step."
+    },
+    "Alzur's Thunder": {
+      "name": "Alzur's Thunder",
+      "source": "Core",
+      "range": "25m",
+      "duration": "Immediate",
+      "defence": "Dodge",
+      "effect": "Alzur’s Thunder allows you to shoot a powerful lightning bolt at a target which does 8d6 damage and has a 75% chance of setting the target on fire. Alzur’s Thunder can travel in a straight line through targets. For every target it passes through the damage to the next target decreases by 1d6."
+    },
+    "Anialwch": {
+      "name": "Anialwch",
+      "source": "Core",
+      "range": "10m",
+      "duration": "Immediate",
+      "defence": "Resist Magic",
+      "effect": "Anialwch allows you to suck some of the liquid from a target’s body, damaging and exhausting them. The spell does [[/r 4d6]] damage which cannot be blocked by armor or shields. The extreme dehydration creates a fatigue which lowers the target’s current STA by [[/r 4d6]] as well."
+    },
+    "Animate Armor": {
+      "name": "Animate Armor",
+      "source": "Tome",
+      "duration": "Permanent",
+      "effect": "By assembling a full suit of armor with a golem heart at its core and infusing the heart with magic you can animate the suit of armor as a loyal servant. Upon performing this ritual, the suit of armor you used becomes animate and uses the living armor stat block (TOC pg. 204) except for its armor Stopping Power which is equal to the armor you used. The living armor is not a sapient creature and is eternally loyal to its creator. It will  perform any task given by its creator to the letter.",
+      "ritualPrepTime": "10 Rounds",
+      "components": "Head Armor (x1), Torso Armor (x1), Leg Armor (x1), Fifth Essence (x3), Infused Dust (x3), Golem Heart (x1)"
+    },
+    "Artifact Compression": {
+      "name": "Artifact Compression",
+      "source": "Core",
+      "duration": "Until Reversed",
+      "effect": "Artifact Compression converts a target creature within 10m to 1/10th original scale and encases them in jade. While in the statuette this target is unconscious. The process of transformation is excruciatingly painful for the target and the target must make a DC:15 Endurance check or take 6d6 damage to their torso. \n\nA target can be kept in a state of Artifact Compression for an indefinite amount of time and their body is held in suspension so they don’t age. While in condensed form, a target has 1/5th (rounded up) their normal Health Points. If these points are expended the target dies. If a limb is broken off, either with a DC:14 Physique check or 5 points of damage, the target is treated as if that limb was dismembered. If the head is snapped off, the target dies. Gluing pieces back onto a compressed figurine doesn’t reattach the limb. After a target is uncompressed they are stunned until they make a successful Stun save.",
+      "ritualPrepTime": "10 Rounds",
+      "components": "Perfect Gemstone (x1), Fifth Essence (x5), Infused Dust (x2), River Clay (x4)"
+    },
+    "Aurora's Breath": {
+      "name": "Aurora's Breath",
+      "source": "Tome",
+      "range": "self",
+      "duration": "30 minutes",
+      "defence": "None",
+      "effect": "Developed by the famed Water Mage, Aurora Henson, to explore submerged ruins off the coast of the Continent, Aurora’s Breath allows you to breath water as well as air through skillful manipulation of water magic."
+    },
+    "Axii": {
+      "name": "Axii",
+      "source": "Core",
+      "range": "8m",
+      "duration": "Until Shaken Off",
+      "defence": "Resist Magic",
+      "effect": "Axii stuns an opponent until they can make Stun save at -1. For every 2 points of additional STA you spend past 1, the Stun save becomes harder by 1 point.\n\nAxii can also be used instead of Persuasion. You roll Spell Casting instead of Persuasion, and the opponent rolls Resist Magic instead of Resist Coercion. However Axii summons a glow of white energy around your hand and the arget’s head, so it is easily spotted by anyone watching."
+    },
+    "Ball Lightning": {
+      "name": "Ball Lightning",
+      "source": "Tome",
+      "range": "20m",
+      "duration": "5 rounds",
+      "defence": "Dodge",
+      "effect": "Favored by mages who commonly fight agile targets, Ball Lightning summons an orb of magical lightning which flies through the air at your command. Upon casting this spell, you can direct the ball lightning at a single target who must make a defense check against your Spell Casting check. If they fail, the target takes 3d6 damage to the torso and suffers the Concussion Critical Injury Effect for 10 Minutes. If the target successfully defends, the Ball Lightning remains in the area. On subsequent turns you can use your action to make a new attack against a target with a new Spell Casting check. Once the ball lightning hits a target it dissipates."
+    },
+    "Beacon of the Unnatural": {
+      "name": "Beacon of the Unnatural",
+      "source": "Tome",
+      "duration": "Until Destroyed",
+      "effect": "By constructing a grim totem containing a fifth essence infused mutagen you create a beacon for monsters. Upon performing this ritual, the Beacon of the Unnatural calls to any monsters within 1 mile to come and build a new nest at the location. The scent given off by the Beacon grows stronger over time, expanding the range of its draw by a mile every year. The Beacon is 2m tall and has 20 Hit Points.",
+      "ritualPrepTime": "15 Rounds",
+      "components": "Hardened Timber (x4), A Mutagen, Rope, Beast Bones (x5), Fifth Essence (x1)"
+    },
+    "Bekker's Dark Mirror": {
+      "name": "Bekker's Dark Mirror",
+      "source": "Tome",
+      "range": "10m",
+      "duration": "1 month",
+      "defence": "Resist Magic",
+      "effect": "Bekker’s Dark Mirror allows you to trap a creature’s reflection in a reflective surface near them, draining their strength. Upon casting this spell, you can choose two of the target’s Statistics and reduce them each by 1d6. This reduction affects Derived Statistics. Once drained, this Statistic remains lowered for the duration of the spell or until the mirrored surface containing the reflection is completely destroyed. The affected target casts no reflection until the spell ends. A creature without a reflection cannot be affected by Bekker’s Dark Mirror."
+    },
+    "Bekker's Rockslide": {
+      "name": "Bekker's Rockslide",
+      "source": "Tome",
+      "range": "10m",
+      "duration": "Immediate",
+      "defence": "Dodge (Reposition)",
+      "effect": "Bekker’s Rockslide allows you to rip a large stone from beneath the ground and drop it on a target. Upon casting this spell, the target must roll a Reposition roll against your Spell Casting check. If they fail, the target takes 6d6 damage to the torso with a 100% chance of Knock-Down. As the rock makes impact, it explosively shatters covering a 6m radius. Anyone in that area must make a DC:16 Athletics check or be Knocked-Down and take 4d6 damage to the torso."
+    },
+    "Bigelow's Befoulment": {
+      "name": "Bigelow's Befoulment",
+      "source": "Tome",
+      "range": "4m",
+      "duration": "Permanent",
+      "defence": "None",
+      "effect": "Bigelow’s Befoulment taints all food or drink you desire within a 2m cubed area with harmful bacteria.\n\nIf you spend 5 STA casting this invocation, anyone who consumes the affected food or drink suffers the Disease condition within the next hour. While affected by the Disease condition, a target takes a -2 to all actions, lowers their maximum STA by one quarter, and must make DC:14 Endurance checks at the discretion of the Game Master or suffer the Nausea condition. The Disease condition can only be removed by having a Doctor roll a DC:15 Healing Hands check on the affected character and then that character getting a full night’s rest.\n\nIf you spend 10 STA casting this invocation, the affected targets also suffer the Poison condition."
+    },
+    "Blaze of the Korath": {
+      "name": "Blaze of the Korath",
+      "source": "Tome",
+      "range": "100m",
+      "duration": "Active (4 STA)",
+      "defence": "None",
+      "effect": "Blaze of the Korath allows you to create a sweltering aura with up to a 40m radius which eats away at creatures’ STA. Upon casting this spell, each creature in the area lowers their current STA by 2d6. Additionally, while in the area, creatures are incapable of taking the Recovery action. If a creature is in the area at the start of its turn or enters the area on its turn, they lower their current STA by 2d6. If a target is reduced to 0 points of STA by this spell, they fall unconscious until they recover at least 20 points of STA and make a successful Stun save."
+    },
+    "Blemish": {
+      "name": "Blemish",
+      "source": "Tome",
+      "range": "4m",
+      "duration": "1d6 hours",
+      "defence": "Resist Magic",
+      "effect": "Blemish allows you to create a small but noticeable illusion on a target that they are unaware of which makes them off-putting or unattractive. Upon casting this spell, the target suffers a -3 to Seduction, Charisma, and Leadership checks. If the target is alerted to the illusory blemish, they become aware of it. A target that looks in a mirror or reflective surface, can make a DC:16 Awareness check to notice it as well."
+    },
+    "Blessed Herd (Epona)": {
+      "name": "Blessed Herd (Epona)",
+      "source": "Tome",
+      "range": "N/A",
+      "duration": "1 Week",
+      "defence": "None",
+      "effect": "With power granted to you by Epona, you summon up to 10 wild horses and empower them with magic. These horses appear within the next hour. A horse empowered by this invocation can either be empowered with swiftness or strength.\n\nIf enchanted with swiftness, the horse summoned is a Horse with a Speed Statistic of 24 and an Athletics Skill Base of 20.\nIf enchanted with strength, the horse summoned is a Warhorse with a Control Mod of +2 and a natural armor value of 20 which can’t be layered with barding.\n\nWhile riding these mounts, creatures you choose get a +5 to their riding checks. You can only have up to ten horses summoned with this invocation at a time."
+    },
+    "Blessed Weapon": {
+      "name": "Blessed Weapon",
+      "source": "Tome",
+      "range": "2m",
+      "duration": "½ Hour",
+      "defence": "None",
+      "effect": "Blessed Weapon creates a glowing rune on a melee weapon you touch which magically lightens and balances the weapon. For the duration of the invocation, the weapon has the Balanced Effect."
+    },
+    "Blessing of Abundance": {
+      "name": "Blessing of Abundance",
+      "source": "Tome",
+      "range": "Self",
+      "duration": "1 Day",
+      "defence": "None",
+      "effect": "Blessing of Abundance imbues you with divine providence, making you more likely to benefit from found goods. The first time you or your GM rolls to determine how much loot you gain, the roll is made twice and the higher value is taken. This applies to an entire loot source; meaning that if you loot a dead monster, you would roll each loot item twice and take the higher value."
+    },
+    "Blessing of Death (Corram Agh  Tera)": {
+      "name": "Blessing of Death (Corram Agh  Tera)",
+      "source": "Core",
+      "range": "10m",
+      "duration": "Immediate",
+      "defence": "Resist Magic",
+      "effect": "Summoning the power of the Lion-Headed Spider, you cut the ties of life holding a target to this world. The target must roll Resist Magic or be thrust into Death state as if by taking normal damage. However if they are treated with a successful First Aid or Healing Hands roll at a DC of 16, they immediately recover their previous number of Health Points."
+    },
+    "Blessing of Fortune": {
+      "name": "Blessing of Fortune",
+      "source": "Core",
+      "range": "10m",
+      "duration": "Until Expended",
+      "defence": "None",
+      "effect": "The Blessing of Fortune gives the target LUCK points equal to half the value you rolled over DC:12 (max 5)."
+    },
+    "Blessing of Healing": {
+      "name": "Blessing of Healing",
+      "source": "Core",
+      "range": "2m",
+      "duration": "Active (3 STA)",
+      "defence": "None",
+      "effect": "Blessing of Healing jumpstarts a target’s healing, allowing them to heal at 3 points per round. This blessing can be used multiple times to heal a critical wound."
+    },
+    "Blessing of Love": {
+      "name": "Blessing of Love",
+      "source": "Core",
+      "range": "5m",
+      "duration": "1d10 Rounds",
+      "defence": "None",
+      "effect": "The Blessing of Love gives the caster a +3 to Charisma and Seduction for the duration of the invocation."
+    },
+    "Blinding Dust": {
+      "name": "Blinding Dust",
+      "source": "Core",
+      "range": "4m",
+      "duration": "1d10 Rounds",
+      "defence": "Dodge & Block",
+      "effect": "Blinding Dust allows you to shoot a magical dust into the eyes of a target that blinds them for the duration of the spell."
+    },
+    "Blood of the Berserker (Svalblod)": {
+      "name": "Blood of the Berserker (Svalblod)",
+      "source": "Tome",
+      "range": "Self",
+      "duration": "1 Day",
+      "defence": "None",
+      "effect": "Channeling the power of Svalblod, you transform your body into a towering great bear. While in this form, any items on your person meld into your form and you gain access to all the abilities of the Great Bear but loose access to your Profession abilities and magic. Your Statistic and Skill values change to those a great bear with the exception of any values that would be higher than those of a Great Bear. When you end the effects of this invocation, any damage or Critical wound you took as a Great Bear are transferred to your natural body. However, if the damage sustained as a Great Bear would be enough to kill you normally you are instead reduced to 1 Hit Point. Similarly, when you cast this invocation, any damage or critical wounds you already had are applied to your Great Bear form."
+    },
+    "Blood of the Mountain": {
+      "name": "Blood of the Mountain",
+      "source": "Tome",
+      "range": "6m",
+      "duration": "10 minutes",
+      "defence": "None",
+      "effect": "Calling upon the wellspring of power deep within the earth, Blood of the Mountain empowers a target with tremendous strength. The target’s melee attacks cannot be parried and deal double ablation damage to weapons, shields, and armor. Additionally, the target is immune to any effect that would knock them off their feet."
+    },
+    "Boiling Blood": {
+      "name": "Boiling Blood",
+      "source": "Core",
+      "range": "8m",
+      "duration": "1d10 Rounds",
+      "defence": "Creature’s WILLx3",
+      "effect": "Boiling Blood causes an animal or non-sentient monster within range to become enraged at a target. The creature will try to attack the chosen target until the duration ends."
+    },
+    "Bones of Glass": {
+      "name": "Bones of Glass",
+      "source": "Tome",
+      "effect": "Bones of Glass magically hollows the bones of the subject, making them prone to splintering. When the subject would suffer the Cracked Ribs Critical Wound, they instead suffer the Broken Ribs Critical Wound. When they would suffer the Fractured Arm/Leg Critical Wounds they instead suffer the Compound Arm/Leg Fracture Critical Wounds. When they would suffer the Minor Head Wound Critical Wound, they instead suffer the Skull Fracture Critical Wound. Additionally, rolls made to stabilize or treat these critical wounds are made at a -3 penalty.",
+      "hexLift": "The subject must acquire a war horse, a troll liver, meat from a wolf, 3 units of balisse leaves, and a bottle of spirits. Upon gathering these things, the subject must bleed the war horse, collecting some of the blood in a pot and add the liver, meat, and leaves to form a foul stew which takes 3 hours to cook. The subject must then consume the entire pot of stew within 1 hour and follow it by chugging the bottle of spirits. When they finish the bottle, the hex will have been lifted."
+    },
+    "Brand of Fire": {
+      "name": "Brand of Fire",
+      "source": "Core",
+      "range": "8m",
+      "duration": "Immediate",
+      "defence": "None",
+      "effect": "Brand of Fire allows you to brand a target with a simple symbol or word anywhere on their exposed body. This does 1d6 damage to the target and leaves a large, permanent scar.\n\nOnly a surgeon can obliterate words burned into skin by a Brand of Fire. A doctor can remove a scar by rolling a DC:15 Healing Hands check. A brand is too large to remove, but after treatment it won’t spell anything out anymore."
+    },
+    "Brand of Withering": {
+      "name": "Brand of Withering",
+      "source": "Tome",
+      "range": "8m",
+      "duration": "1 Week",
+      "defence": "Resist Magic",
+      "effect": "Favored by death cultists of all creeds, Brand of Withering marks a target with a symbol of creeping decay that arrests their ability to heal. Upon casting this invocation, a target who failed to defend can no longer benefit from any effect that would allow them to recover Hit Points, including natural healing."
+    },
+    "Breath of Fire": {
+      "name": "Breath of Fire",
+      "source": "Tome",
+      "range": "4m",
+      "duration": "Immediate",
+      "defence": "Dodge & Block",
+      "effect": "An imperfect attempt by the sorcerer Afan of Gulet to re-create the breath of a true dragon, Breath of Fire allows you to exhale a stream of magical fire onto a target. If the target fails their defense, they take 3d6 damage and have a 100% chance of being lit on fire."
+    },
+    "Bronwyn's Bow": {
+      "name": "Bronwyn's Bow",
+      "source": "Tome",
+      "range": "50m",
+      "duration": "Immediate",
+      "defence": "Dodge & Block",
+      "effect": "Developed by Bronwyn Deadeye to bombard the Nilfgaardian Navy, this spell allows you to summon a powerful current of air to propel a thrown weapon great distances. Upon casting this spell, you can make an attack with any Thrown Weapon, handheld Ranged Weapon Ammunition (Arrows or Bolts), or Bomb against a target using your Spell Casting base. If throwing an arrow or bolt, you deal 4d6 damage."
+    },
+    "Bronwyn's Gust": {
+      "name": "Bronwyn's Gust",
+      "source": "Core",
+      "range": "2m",
+      "duration": "Immediate",
+      "defence": "Dodge",
+      "effect": "Bronwyn’s Gust is named after the Skellige mage and raider, Bronwyn Deadeye. The spell allows you to knock a target back a number of meters equal to the number of points you rolled over the opponent’s defense. This attack only does 1d6 damage, but if your opponent strikes something they take ramming damage."
+    },
+    "Cadfan's Grasp": {
+      "name": "Cadfan's Grasp",
+      "source": "Core",
+      "range": "8m",
+      "duration": "1d6 Rounds",
+      "defence": "None",
+      "effect": "Cadfan’s Grasp, named for the magician and smith Cadfan of Ebbing, allows you to super-heat a metal item, making the holder drop the item or take 2d6 damage to the limb holding it. Alternatively, the spell can  heat weapons to give +2d6 damage and a 50% chance to ignite a target."
+    },
+    "Cadfan's Synthesis": {
+      "name": "Cadfan's Synthesis",
+      "source": "Tome",
+      "duration": "Permanent",
+      "effect": "Cadfan’s Synthesis is a highly complex ritual created by the infamous necromancer Cadfan of Ebbing before his disappearance. The ritual partially animates a great number of corpses, binding them together into a single amalgamated creature that can move and act on your commands. The creature you create is a Corpse Amalgam. Like a golem, it will perform any task given by its creator to the letter but is no longer capable of higher thought.",
+      "ritualPrepTime": "15 Rounds",
+      "components": "10 Corpses (from creatures killed within the last 24 hours), Chalk (x5), Tanning Herbs (x10), Lunar Shards (x1), Hellebore Petals (x2), Ducal Water (x3), Fifth Essence (x10), Candles (x10), Crow’s Eye (x5), Specter Dust (x5), Essence of Wraith (x5)"
+    },
+    "Calm Animals": {
+      "name": "Calm Animals",
+      "source": "Tome",
+      "duration": "Permanent",
+      "effect": "As an action, you can calm a Beast that does not have a Medium or Hard Threat Rating. After this effect, the Beast considers you and your allies friendly and will not attack unless provoked."
+    },
+    "Carys' Hail": {
+      "name": "Carys' Hail",
+      "source": "Core",
+      "range": "5m",
+      "duration": "Immediate",
+      "defence": "Dodge & Block",
+      "effect": "Named for its creator Carys of Cintra, this spell hurls pellets of ice at high speeds at 1 opponent. For every 1 point you roll over your opponent’s Dodge/Block (maximum 5), you deal 1d6 damage and have a 25% chance to freeze your opponent."
+    },
+    "Cenlly Graig": {
+      "name": "Cenlly Graig",
+      "source": "Core",
+      "range": "5m",
+      "duration": "Immediate",
+      "defence": "Dodge & Block",
+      "effect": "Cenlly Graig hurls sharp stones at your opponent. For every point you roll above your opponent’s defense (maximum 10) you deal 1d6 damage."
+    },
+    "Champion of The River (Veyopatis)": {
+      "name": "Champion of The River (Veyopatis)",
+      "source": "Tome",
+      "range": "10m",
+      "duration": "Active (5 STA)",
+      "defence": "None",
+      "effect": "With the power of Veyopatis you anoint with river water a target as your champion and suffuse them with magical strength. As long as this invocation is active, your champion has Resistance to all damage sources and gains a +5 to all rolls."
+    },
+    "Cinder Door": {
+      "name": "Cinder Door",
+      "source": "Tome",
+      "range": "2m",
+      "duration": "Active (3 STA)",
+      "defence": "None",
+      "effect": "Cinder Door allows you to funnel fire magic into a flammable structure to safely and silently consume it from within. Upon casting this spell, up to a 2m cubed section of the cover you touch takes 4d6 ablation damage. This spell can be maintained by spending extra rounds focusing on it during the casting. For each round that you continue to maintain the spell and pay its active cost the cover takes 4d6 ablation damage. When this area of cover no longer has any SP, it crumbles away."
+    },
+    "Cleansing Fire": {
+      "name": "Cleansing Fire",
+      "source": "Core",
+      "range": "10m",
+      "duration": "Until Put Out",
+      "defence": "Resist Magic",
+      "effect": "Cleansing Fire ignites one target, doing 3d6 damage and setting them on fire."
+    },
+    "Cleansing Ritual": {
+      "name": "Cleansing Ritual",
+      "source": "Core",
+      "duration": "Immediate",
+      "effect": "Cleansing Ritual cleanses one target’s body of poisons or diseases. When activated, the caster makes a Ritual Crafting check against a specific DC to cleanse the target’s body. Alcohol and drugs are reasonably easy, with a DC of 12. Poisons and oils are harder, with a DC of 15. Major illnesses are very difficult to cleanse, with a DC of 18. Cleansing Ritual cannot cure plagues such as Catriona.",
+      "ritualPrepTime": "5 Rounds",
+      "components": "Chalk (x2), Spirits (x1), Mistletoe (x2), Crow’s Eye (x1), Balisse Leaves (x1)"
+    },
+    "Cloak": {
+      "name": "Cloak",
+      "source": "Tome",
+      "range": "self",
+      "duration": "Active (2 STA)",
+      "defence": "None",
+      "effect": "Cloak allow you to render yourself and anything you are carrying invisible. This grants you a +10 to Stealth and a +5 to Attack and Defense. Even if a creature makes their Awareness check to spot you, you still gain a +3 to Attack and Defense. Yrden or a Moondust Bomb can render you partially visible, reducing your Stealth bonus to +5 and your Attack and Defense bonus to +3. If you are hit by an attack while invisible, this spell ends immediately."
+    },
+    "Coating of Fire": {
+      "name": "Coating of Fire",
+      "source": "Tome",
+      "range": "2m",
+      "duration": "1 hour",
+      "defence": "Dodge",
+      "effect": "Coating of Fire allows you to subtly permeate a single object with fire magic to make it highly flammable. For the duration of the spell, the object will burst into flame immediately if exposed to any open flame. If cast on a creature any effect that would have a chance to light them on fire automatically does."
+    },
+    "Codi Bywyd": {
+      "name": "Codi Bywyd",
+      "source": "Core",
+      "range": "4m",
+      "duration": "Immediate",
+      "defence": "None",
+      "effect": "Codi Bywyd can grow a small plant from seed to maturity in one turn. This allows you to grow herbs and alchemical plants,  but not larger plants such as trees."
+    },
+    "Consecrate": {
+      "name": "Consecrate",
+      "source": "Core",
+      "duration": "Until Dispelled",
+      "effect": "Consecrate creates a magic circle which temporarily repels monsters. This circle can be up to 10m in radius and forces any monster that tries to enter the area to roll a Resist Magic check at a DC equal to the Ritual Crafting check used to create the circle. Spell effects generated by monsters cannot enter the circle, but non-magical projectiles thrown by monstersignore it.  A monster that makes a successful roll to enter the circle can remain in it, but must make another roll to exit the circle. If you are using the traditional rules for monster vulnerabilities, you must use silver for monsters vulnerable to silver and meteorite for monsters vulnerable to meteorite.",
+      "ritualPrepTime": "10 Rounds",
+      "components": "Fifth Essence (x5), Infused Dust (x2), Chalk (x4), Silver or Meteorite (x5)"
+    },
+    "Conspiracy of the Mother (Crow Clan)": {
+      "name": "Conspiracy of the Mother (Crow Clan)",
+      "source": "Tome",
+      "range": "½ Mile",
+      "duration": "Immediate",
+      "defence": "None",
+      "effect": "Conspiracy of the Mother allows you to reach out to up to 10 crows and summon them to you. Any crow affected forms a telepathic link with you. This telepathic link allows you to communicate with them silently within 20m, raises their Intelligence, Reflex, & Dexterity Statistic to 7, gives them a Sleight of Hand score of 7, and makes them sapient creatures who follow your orders unless you abuse them. This telepathic link also allows you to view their memories while you are physical touching them and lets them know where you are at all times. Finally, any crow affected by this spell Hierophant/Flaminika Invocations raises their claw damage from 1d6/2 to 2d6. You can only be bonded to 10 crows with this invocation at a time but the effects on the crow are permanent."
+    },
+    "Control Water": {
+      "name": "Control Water",
+      "source": "Core",
+      "range": "10m",
+      "duration": "Active (2 STA)",
+      "defence": "DC set by the GM",
+      "effect": "Control Water allows you to control the speed at which a body of water is moving and in what direction it’s moving for the duration of the spell. This can be used to slow swimming targets by half, speed up ships by half, or slow or halt river currents."
+    },
+    "Controlled Summoning": {
+      "name": "Controlled Summoning",
+      "source": "Tome",
+      "duration": "Instant",
+      "effect": "In a bowl of oil, add infused dust and essence of wraith, mixing them into a thick paste. Spread this paste into a circle, and place equally spread outside of that circle five unlit candles. Add to the circle an item beloved by the species of demon you wish to summon. To summon a bes, have everyone participating in the ritual add an offering of their flesh, freshly cut. If enough flesh is offered, a greater bes may be summoned. To summon a marilywd, fill the circle with fresh food and ale, or to attract a greater mari lywd, prepare a feast (100 crowns). To summon a casglydd, place into the circle a letter of introduction, promising it a relationship of mutual benefit. To attract a greater casglydd, over-promise in this letter. Chant the name of a demon five times. If you know the true name of a demon, chanting it here will force it to be summoned. Otherwise, pick three syllables from your heart (the Demon True Name Generator on TOC Pg.143), which will attract a demon, because it sounds like a demon’s true name. After each repetition, one candle should light itself. When all five are lit, the demon will appear.\n\nThis summoning ritual allows the players to choose which species of demon they wish to summon, and whether or not they wish to summon a more powerful one. Without protections in place, like a Goatskin Mantle, or protections specific to the demon being summoned, the ritual is still incredibly dangerous, and often deadly.",
+      "ritualPrepTime": "15 Rounds",
+      "components": "Candle (x5), Essence of Wraith (x2), Infused Dust (x3), Oil (x2)\n\nInvestment: 639"
+    },
+    "Corpse Restoration": {
+      "name": "Corpse Restoration",
+      "source": "Tome",
+      "range": "4m",
+      "duration": "1 hour",
+      "defence": "None",
+      "effect": "Corpse Restoration uses magic to restore the muscle, flesh, skin, and hair of a targeted corpse in ghostly form. The restored corpse appears to be a slightly translucent version of the person they were at the moment they died. Any wounds the targeted corpse had sustained before they died are present in this illusory form and the form can be touched and examined as if they were real. You can only summon the “flesh and blood” of the pieces of the body you have but they need not be connected as long as they are within 4m."
+    },
+    "Create Crystal Skull": {
+      "name": "Create Crystal Skull",
+      "source": "Tome",
+      "duration": "Immediate",
+      "effect": "By infusing an existing animal skull from a cat, dog, bird, or serpent with fifth essence you create a crystal skull which can be used to form a single animal of that type as per the Crystal Skull on TOC pg.119. If the animal created by a Crystal Skull dies, the Crystal Skull can be recharged by performing this ritual again using only 2 units of Fifth Essence and the inactive skull.",
+      "ritualPrepTime": "10 Rounds",
+      "components": "Animal Skull, Fifth Essence (x5)"
+    },
+    "Create Place of Power": {
+      "name": "Create Place of Power",
+      "source": "Tome",
+      "duration": "Permanent",
+      "effect": "By carving complex sigils on a standing stone erected at the confluence of two ley lines of the same element you create a Place of Power. This Place of Power remains indefinitely. If you fumble when performing this ritual your fumble outcome always results in a 10 and all of the stone usedfor the ritual explodes as if it were a bomb (doing 7d6 damage) with a 6m radius.",
+      "ritualPrepTime": "20 Rounds",
+      "components": "Stone (x40), Runewright’s Tools"
+    },
+    "Create Soul Beacon": {
+      "name": "Create Soul Beacon",
+      "source": "Tome",
+      "duration": "1 Day",
+      "effect": "Create Soul Beacon uses bones to create a totem that enhances the abilities of a Necromancer within 6m. A soul beacon is a 1 meter tall totem topped with a skull. The Beacon has 10 Hit üoints. You can only benefit from one Soul Beacon at one time. The bonuses you gain are based on the skull used.\n◆ Human/Elderfolk: The DC of any necromancy ritual is lowered by 3. Additionally, the Stamina Cost required to perform any necromancy ritual is lowered by 3. Finally, if you fumble or overdraw while casting a necromancy ritual or spell, you roll 1d10-2 instead of 1d10 when rolling on the Restless Spirits table.\n◆ Beast/Monster: Any creature created by necromancy gains a +2 to Attack and Defense rolls. Additionally, the senses of a person in Hanmarvyn’s Blue Dream are heightened, giving them Scent Tracking and Night Vision.",
+      "ritualPrepTime": "10 Rounds",
+      "components": "A Skull (from a creature killed within the last 24 hours), Ashes (x10), Fifth Essence (x2), Infused Dust (x3), Timber (x5), Stone (x2), Leather (x3), Specter Dust (x2)"
+    },
+    "Cryfhau": {
+      "name": "Cryfhau",
+      "source": "Tome",
+      "range": "2m",
+      "duration": "Immediate",
+      "defence": "None",
+      "effect": "Cryfhau allows you to permanently increase the density of a single 2m cubed area of cover. Upon casting this spell, you immediately raise the cover’s SP by 5. This can raise the SP higher than its original total. Cryfhau cannot be cast multiple times on the same area."
+    },
+    "Cryokinesis": {
+      "name": "Cryokinesis",
+      "source": "Tome",
+      "effect": "As a full round action, you can freeze up to 2 square meters of liquid or a single target within 8m."
+    },
+    "Crystal Stasis": {
+      "name": "Crystal Stasis",
+      "source": "Tome",
+      "range": "6m",
+      "duration": "Active (6 STA)",
+      "defence": "Resist Magic & Dodge",
+      "effect": "Crystal Stasis allows you to cause crystals to grow up around a target and encase them entirely, placing them into an unaging, coma-like state. These crystals grow rapidly but not instantaneously and the spell must be maintained as per an Active Spell over three rounds. On the arget’s next turn, their body becomes sluggish and stiff, imposing a -3 to attack and defense and a -3 to their SPD. On their second turn, heir body begins to be consumed by crystal and they additionally cannot move from where they stand. On their third turn, the target is entirely entombed in a pillar of crystal rendering them unconscious. If the mage is forced to stop maintaining this spell before the third round, the spell ends and the effects are reversed. Otherwise, the only way to reverse the effects are the use of the Dispel spell."
+    },
+    "Curse of Sedna": {
+      "name": "Curse of Sedna",
+      "source": "Core",
+      "range": "12m",
+      "duration": "Active (2 STA)",
+      "defence": "Dodge",
+      "effect": "Named after the tumultuous Sedna Abyss, which is considered a suicidal destination for ships, Curse of Sedna creates a powerful whirlpool in a 4 meter area. Anyone within 5m must make a Swimming check equal to your Spell Casting check or be dragged underwater. They must make a check each round or remain underwater, where they will start suffocating."
+    },
+    "Curse of Temperance": {
+      "name": "Curse of Temperance",
+      "source": "Tome",
+      "effect": "The Curse of Temperance sours the subject’s stomach to alcohol and exacerbates the effects of drunkenness. If the subject consumes anything that would cause them to become intoxicated, they immediately suffer the Intoxication and Nausea effects as their head spins and their stomach churns violently.",
+      "hexLift": "The subject must gather 40 Crowns worth of alcohol and find a bucket. They must then fill the bucket with the alcohol and dunk their head. Their head must remain submerged until they suffer the Suffocation effect. Upon pulling their head from the bucket the hex will be broken."
+    },
+    "Cursed Illness": {
+      "name": "Cursed Illness",
+      "source": "Core",
+      "range": "8m",
+      "duration": "Endurance Roll Ends",
+      "defence": "Resist Magic",
+      "effect": "Cursed Illness causes one target to fall ill. The illness manifests differently based on how many Stamina points are spent. 2 points causes the target to double over coughing and staggers them. 4 points causes the target to become violently ill, stunning them. 6 points causes the target to become ill with a ravaging disease which is treated as a poison. The invocation ends when the target makes an Endurance roll at a DC equal to the casting roll."
+    },
+    "De Claudine's Substitution": {
+      "name": "De Claudine's Substitution",
+      "source": "UNKNOWN",
+      "range": "2m",
+      "duration": "Permanent",
+      "defence": "None",
+      "effect": "Popular with Alchemists and useful when looking for rare substances in a region, De Claudine’s Substitution allows you to permanently change the Alchemical Substance of one Unit of an Alchemy ingredient to a different Alchemical Substance. Only one Unit of any such transmuted Alchemical Substance can be used in an Alchemical Formula without ruining the concoction."
+    },
+    "Deluge of Ys": {
+      "name": "Deluge of Ys",
+      "source": "Tome",
+      "range": "40m",
+      "duration": "immediate",
+      "defence": "None",
+      "effect": "Deluge of Ys allows you to summon a 20m³ cube of water which floods out in all directions. Anyone caught in the area takes 5d6 damage to the torso and must make a DC:24 Physique check or be knocked prone as water batters them. If cast in an open area, the water will flood outwards within the same turn it was cast. If cast in an enclosed space, the water fills the space, breaking any non-reinforced barriers and leaves the area entirely submerged."
+    },
+    "Demetia's Crest Surge": {
+      "name": "Demetia's Crest Surge",
+      "source": "Core",
+      "range": "10m",
+      "duration": "Active (4 STA)",
+      "defence": "None",
+      "effect": "Demetia’s Crest Surge allows you to create a shield of pure fire magic around you that blocks a number of water spells equal to 2 times your Spell Casting skill value. Projectiles that enter the shield are destroyed, and living creatures cannot enter the area of the shield."
+    },
+    "Dervish": {
+      "name": "Dervish",
+      "source": "Core",
+      "range": "2m Radius",
+      "duration": "Active (6 STA)",
+      "defence": "Dodge",
+      "effect": "Created by a mysterious Ofieri magician, Dervish allows you to create a 2m tornado around yourself. This tornado immediately redirects ranged attacks as per Gwynt Troelli (blocks ranged attacks and projectiles; any projectile attack must beat your Spell Casting roll; if they fail, the barrier knocks the projectile 8m away in a random direction) and acts a Zephyr (Knockback 6m) spell against anyone within 2m of you. You cannot run while within this tornado, or make attacks out of it. But if you move within 2m of a target they are effected by Zephyr."
+    },
+    "Detect Ley Line": {
+      "name": "Detect Ley Line",
+      "source": "Tome",
+      "range": "1.6 km",
+      "duration": "Immediate",
+      "defence": "None",
+      "effect": "Detect Ley Line allows you to locate the closest Ley Line by sending out a magical pulse. Upon casting this spell, your hand points in the direction of the closest Ley Line and you can feel which element it is connected to."
+    },
+    "Detect Poison": {
+      "name": "Detect Poison",
+      "source": "Tome",
+      "effect": "As a full round action, you can smell a substance to detect whether it has been poisoned."
+    },
+    "Diagnostic Spell": {
+      "name": "Diagnostic Spell",
+      "source": "Core",
+      "range": "5m",
+      "duration": "Immediate",
+      "defence": "None",
+      "effect": "Diagnostic Spell allows you to quickly assess a person’s health and determine how many Health Points they have, what critical wounds they have, and if they are sick or poisoned."
+    },
+    "Dispel": {
+      "name": "Dispel",
+      "source": "Core",
+      "range": "10m",
+      "duration": "Immediate",
+      "defence": "Spell Casting",
+      "effect": "Dispel allows you to end a spell/ritual/hex within the range of this spell. This spell can cancel magic with a duration and can be used as a defensive action to block magic attacks with or without physical components. To cancel a magical effect you must spend half as many Stamina points as the caster spent to cast the magic and make a Spell Casting roll that beats their casting roll."
+    },
+    "Disrupt Focus": {
+      "name": "Disrupt Focus",
+      "source": "Tome",
+      "range": "10m",
+      "duration": "10 minutes",
+      "defence": "None",
+      "effect": "Disrupt Focus allows you to temporarily disturb the magical pathways in an item with the Focus effect. Upon casting this spell, a single item with the Focus effect ceases to act as a focus for the duration of the spell."
+    },
+    "Divine Inspiration": {
+      "name": "Divine Inspiration",
+      "source": "Tome",
+      "range": "8m",
+      "duration": "10 Minutes",
+      "defence": "None",
+      "effect": "Common among inquisitors and artists alike, Divine Inspiration allows you to bless a target with insight. Upon casting this invocation, you grant a +2 bonus to a single skill. The target of this invocation must have at least a Skill value of 1 in the skill affected before the invocation is cast. A character can only benefit from this invocation once per day."
+    },
+    "Divine Portal": {
+      "name": "Divine Portal",
+      "source": "Core",
+      "range": "0",
+      "duration": "1 Runde",
+      "defence": "Keine",
+      "effect": "Divine Portal creates a standing portal for a brief instant. The portal lasts for just one round and allows you to transport yourself or others anywhere you can recall. This portal otherwise functions like the mage spell, Standing Portal.\n\nIf you end the portal while something is partially through, the portal slices the object (or creature) in two. The person is counted as being dismembered, as per the Critical Wound.\n\nYou can create a portal to a location you don’t know as long as you have an item from that location. For instance you can teleport to a tranger’s house if you have a piece of their cutlery or something of the like. This is far more complicated however and requires a DC: 20 Spell Casting check. If you succeed you teleport into the center of that location. If you fail you teleport to a random location within 2d10 Miles."
+    },
+    "Divine Wisdom": {
+      "name": "Divine Wisdom",
+      "source": "Core",
+      "range": "50m",
+      "duration": "Active (5 STA)",
+      "defence": "None",
+      "effect": "Divine Wisdom searches with a powerful augury for the answer to a question. This answer cannot predict the future. The GM sets your DC based on the secrecy of the information."
+    },
+    "Dormyn's Chamber": {
+      "name": "Dormyn's Chamber",
+      "source": "Tome",
+      "range": "10m",
+      "duration": "Active (8 STA)",
+      "defence": "Dodge",
+      "effect": "Dormyn’s Chamber allows you to imprison a single target within a translucent magical bubble. The chamber has 40 Hit Points and remains stationary where it was cast. The creature within the chamber cannot target or be targeted by anything outside. Additionally, sound does not pass through the chamber’s walls."
+    },
+    "Dormyn's Fog": {
+      "name": "Dormyn's Fog",
+      "source": "Core",
+      "range": "10m Radius",
+      "duration": "Active (2 STA)",
+      "defence": "None",
+      "effect": "Created by Dormyn of Gemmera, Dormyn’s Fog creates an area with a 10m radius, centred on you, of thick fog which puts anyone in it at a -3 to Awareness and limits vision range to 4m."
+    },
+    "Downpour": {
+      "name": "Downpour",
+      "source": "Core",
+      "range": "8m",
+      "duration": "Active (2 STA)",
+      "defence": "None",
+      "effect": "Downpour creates a 10m radius area of rain that puts out any fire it hits. This spell counteracts fire effects."
+    },
+    "Druidic Totem": {
+      "name": "Druidic Totem",
+      "source": "Tome",
+      "range": "2m",
+      "duration": "Immediate",
+      "defence": "None",
+      "effect": "Druidic Totem allows you to sacrifice your staff of oak and mistletoe to create a magical totem which connects you to the natural world. After casting this Invocation, you must sacrifice the focus created by the Rite of Oak and Mistletoe by planting it in the ground. The \nstaff grows into a 2m tall totem with 20 Hit Points, reminiscent of the local flora. While within 1-Mile of this totem, you are always counted as having a focus with a value of 4, all animals are considered friendly to you and your allies, and you gain an additional benefit based on the location where you placed the totem. You can only have one totem active at a time and creating a new totem transforms the old totem into a non-magical plant.\n◆ Fields: You have a Speed Statistic of 12.\n◆ Mountains: You have Resistance to Bludgeoning, Slashing & Piercing damage.\n◆ Underground: You have Superior Night Vision and gain a +4 to Stealth checks.\n◆ Forest: If you consume fruit grown within the area of your totem, you gain a Regeneration value of 3 for 1 Hour.\n◆ Swamp: You are immune to the Poison and Disease conditions.\n◆ Shore: You can breath underwater and have no penalties for fighting or maneuvering in water.\n◆ Desert: You are immune to the Extreme Heat condition and you can always find a source of water. Once per day, when you consume water collected within the area of your totem, you regain all lost STA.\n◆ Tundra: You are immune to the Snow & Ice conditions, you cannot be lit on fire or frozen, and you gain resistance to fire and ice damage."
+    },
+    "Duplicitous Darknes": {
+      "name": "Duplicitous Darknes",
+      "source": "Tome",
+      "range": "2m",
+      "duration": "1 Hour",
+      "defence": "None",
+      "effect": "Duplicitous Darkness shrouds your target’s mind in a veil of false thoughts. Your target gains a +2 to Deceit checks, cannot be forced to tell the truth by magic, and cannot be mentally spied on with Telepathy. Anyone attempting to probe the target with magic is unaware that this invocation has been cast unless they make a DC:20 Awareness check."
+    },
+    "Dust Coating": {
+      "name": "Dust Coating",
+      "source": "Tome",
+      "range": "20m",
+      "duration": "Active (2 STA)",
+      "defence": "Dodge",
+      "effect": "Dust Coating allows you to whip up dust from the local area into a 10m cubed cloud which reveals any invisible creatures for one round. Choose one target within this area to adhere the dust to. If the target fails to defend, you cover them in a coating of dust which egates the benefits of invisibility."
+    },
+    "Earthen Pillar": {
+      "name": "Earthen Pillar",
+      "source": "Tome",
+      "range": "10m",
+      "duration": "Immediate",
+      "defence": "None",
+      "effect": "Earthen Pillar allows you raise a 2m cubed pillar from earthen ground. This pillar counts as cover with 10 SP and remains until destroyed."
+    },
+    "Earthen Spike": {
+      "name": "Earthen Spike",
+      "source": "Core",
+      "range": "6m",
+      "duration": "Immediate",
+      "defence": "Dodge & Block",
+      "effect": "Earthen Spike creates an angled stalagmite to stab up into the target. This spike does 5d6 damage and remains until destroyed. It can be destroyed by doing 20 points of damage to it."
+    },
+    "Eilhart's Technique": {
+      "name": "Eilhart's Technique",
+      "source": "Core",
+      "range": "3m",
+      "duration": "Immediate",
+      "defence": "Resist Magic",
+      "effect": "Named for its creator Philippa Eilhart, this gruesome spell allows you to dig into a target’s mind and tear out information. If you succeed on your Spell Casting roll you gain one piece of information from the target. If the target fumbles their defense, their INT is reduced by 1 permanently."
+    },
+    "Elgan's Bastion": {
+      "name": "Elgan's Bastion",
+      "source": "Tome",
+      "range": "self",
+      "duration": "Active (4 STA)",
+      "defence": "None",
+      "effect": "Created by the famed magician Elgan of Verden, Elgan’s Bastion uses trace amounts of metal in stone to magnetically lift a shield of rocks around you to defend yourself from physical attacks and damage. This shield of rocks counts as a Cover with 30 SP and entirely surrounds you. Whiles surrounded, your SPEED Statistic cannot be higher than 2 and you cannot do anything on your turn but take a single Movement Action."
+    },
+    "Elgan's Theory": {
+      "name": "Elgan's Theory",
+      "source": "Core",
+      "range": "8m",
+      "duration": "2d10 Rounds",
+      "defence": "None",
+      "effect": "Elgan’s Theory was discovered by Elgan of Verden who travelled to the heart of Mahakam and worked for years studying earth magic. The spell allows you to magnetize a metal object within 8m. Anything metal within 2m is drawn and sticks to the magnet. It takes a DC:18 Physique check to pry an object off. All metal that sticks to someone’s weapons or armor counts against their ENC."
+    },
+    "Empower": {
+      "name": "Empower",
+      "source": "Tome",
+      "range": "Self",
+      "duration": "1 minute",
+      "defence": "None",
+      "effect": "Empower allows you to weave additional magic into your spell casting to create a dangerous convergence of chaos. The next spell you cast gains one of the following benefits of your choice:\n\n- the percentage chance of any effects caused by the spell raise to 100%\n- the roll to cast the spell is made at a +2 bonus\n- or an already damaging spell deals an additional 2d6 damage.\n\nHowever, if you roll a 1 when making the Spell Casting check you automatically suffer from a Magical Fumble as though you had rolled a 10."
+    },
+    "Enchant Amulet": {
+      "name": "Enchant Amulet",
+      "source": "Tome",
+      "duration": "Permanent",
+      "effect": "By inlaying a common amulet with gemstones etched with magic glyphs you create an enchanted amulet that stores the knowledge of casting certain spells. When creating a magic amulet, a character must spend the required STA for each spell cast. If a spell has an active duration, the caster must also spend enough STA to sustain it for 4 rounds. When creating an amulet, the caster may not use a magical focus. Every spell to be imbued in the amulet must be cast quickly in succession, without taking any other action in-between, otherwise the Crafting process fails.",
+      "ritualPrepTime": "15 Rounds",
+      "components": "Simple Amulet (x1), Perfect Gemstone (1 Per Spell/Invocation), Fifth Essence (x2), Runewright’s Tools"
+    },
+    "Essence of Potion": {
+      "name": "Essence of Potion",
+      "source": "Tome",
+      "range": "2m",
+      "duration": "permanent",
+      "defence": "None",
+      "effect": "Essence of Potion allows you to take a single dose of any Decoction, Potion, or Elixir that has not yet been affected by this spell and magically transfer some of its properties into a unit of Essence of Water, transforming it into a copy of that item."
+    },
+    "Eternal Judgement (The Eternal  Fire)": {
+      "name": "Eternal Judgement (The Eternal  Fire)",
+      "source": "Core",
+      "range": "10m",
+      "duration": "Until Put Out",
+      "defence": "Resist Magic",
+      "effect": "Using the power granted to you by the Eternal Fire, you cause a target to burst into a bright white fire, tinged with red. The fire does double the normal fire damage and cannot be extinguished except by magic, or by completely submerging underwater for 3 rounds. Anything that touches this magical fire ignites with normal fire and can be put out in one full round."
+    },
+    "Fear Aura": {
+      "name": "Fear Aura",
+      "source": "Tome",
+      "duration": "24 hours",
+      "effect": "As an action, you are able to emit an aura of palpable fear. Everyone within 4m of you must make a DC:12 Resist Magic check or be frightened and take a -2 to any action made against you for 24 hours."
+    },
+    "Feast of Plenty (Dana Meadbh)": {
+      "name": "Feast of Plenty (Dana Meadbh)",
+      "source": "Tome",
+      "range": "2m",
+      "duration": "Immediate",
+      "defence": "None",
+      "effect": "Calling upon the power of the Lady of the Valley, you bless a feast gathered entirely from the local area and large enough to feed at least 20. Upon eating from this feast, a creature gains 6d6 Hit Points, immediately treats all critical wounds; and removes the Poison and Disease conditions. This invocation can affect as many people as the feast can feed."
+    },
+    "Fergus' Demise": {
+      "name": "Fergus' Demise",
+      "source": "Tome",
+      "range": "5m",
+      "duration": "1 hour",
+      "defence": "None",
+      "effect": "No one knows who created this spell but it was made infamous by its use on Emperor Fergus var Emreis after he was dethroned. Fergus’ Demise allows you to summon a cluster of magical needles that act on your command, to torture a target within range. For the duration of this spell, you are able to make a Spell Casting check instead of an Intimidation check to interrogate your target."
+    },
+    "Fire Stream": {
+      "name": "Fire Stream",
+      "source": "Core",
+      "range": "3m",
+      "duration": "Active (1/2 Initial STA)",
+      "defence": "Dodge & Block",
+      "effect": "Igni now throws out a constant stream of fire and sparks from your hand which does 1d6 damage per STA point spent, and has a 75% chance of lighting the opponent on fire. Fire Stream must be maintained every round with a number of STA points equal to 1/2 the number of STA points spent to cast the sign. You can switch targets on your turn and the stream can be aimed at body locations."
+    },
+    "Flaming Vortex": {
+      "name": "Flaming Vortex",
+      "source": "Core",
+      "range": "10m Radius",
+      "duration": "Active (4 STA)",
+      "defence": "Dodge",
+      "effect": "Flaming Vortex creates a flaming tornado 2m wide. You can direct the tornado to move a number of meters equal to your Spell Casting skill value per turn. If it runs over or into a target, make a Spell Casting roll versus their Dodge/Escape roll. If they fail, they take 5d6 damage and have a 50% chance of being set on fire. The vortex will not travel beyond the spell’s range."
+    },
+    "Fleet of Foot": {
+      "name": "Fleet of Foot",
+      "source": "Tome",
+      "duration": "1 round",
+      "effect": "As an action, you can double the range of your LEAP for 1 Round."
+    },
+    "Fog of the Past": {
+      "name": "Fog of the Past",
+      "source": "Tome",
+      "duration": "20 Minutes",
+      "effect": "By arranging a circle of candles, creating a pyramidal sculpture of glass with a lunar shard in its center, and filling it with essence of wraith you create a magical projector which summons up a vision of the past. Upon performing this ritual, the projector shows the most emotionally resonant moment to have ever occurred in the area. This moment can be up to 5 minutes long and plays on repeat until the end of the ritual.",
+      "ritualPrepTime": "20 Minutes",
+      "components": "Glass (x5), Lunar Shard (x1), Candles (x5), Essence of Wraith (x2)"
+    },
+    "Fortify": {
+      "name": "Fortify",
+      "source": "Tome",
+      "effect": "As a full round action, you can increase the Reliability or SP of an item you can touch by 1. An item can only benefit from Fortify once."
+    },
+    "Freshen Air": {
+      "name": "Freshen Air",
+      "source": "Core",
+      "range": "4m Radius",
+      "duration": "Active (2 STA)",
+      "defence": "None",
+      "effect": "Freshen Air allows you to clear a 4m radius area (centered around you) of any smoke, poison, or any other tainted air for the duration of the spell."
+    },
+    "Freya's Bravery (Freya)": {
+      "name": "Freya's Bravery (Freya)",
+      "source": "Core",
+      "range": "20m Radius",
+      "duration": "20 Rounds",
+      "defence": "None",
+      "effect": "Calling upon the power of the goddess Freya, you summon her spirit into your body, creating a glow around yourself which emanates 20m in all directions. Every person within that area is emboldened by Modron Freya’s love and guidance. They become immune to fear and gain 25 Health Points for the duration of the spell. If they leave the area of the invocation, its effects last for 1d6 rounds. These rounds renew if the person re-enters the area of the invocation and leaves again. This invocation affects those who don’t believe in Freya, but the power can be withheld from anyone the caster chooses."
+    },
+    "Friend to Wild Kind": {
+      "name": "Friend to Wild Kind",
+      "source": "Core",
+      "range": "Self or 5m",
+      "duration": "1d6 Hours",
+      "defence": "Creature’s WILLx3",
+      "effect": "Friend to Wild Kind grants the caster a +3 to Wilderness Survival for handling animals. Alternately it can calm one animal if the Spell Casting roll exceeds the animal’s WILLx3."
+    },
+    "Geokinesis": {
+      "name": "Geokinesis",
+      "source": "Tome",
+      "effect": "As a full round action, you can create a tremor with a 8m radius centered on yourself. Anyone within this area must make a DC:14 Athletics check or fall prone and be staggered."
+    },
+    "Glamour": {
+      "name": "Glamour",
+      "source": "Core",
+      "range": "Self",
+      "duration": "1d6 hours",
+      "defence": "None",
+      "effect": "Glamour allows you to cast an illusion around yourself that makes you look stunning. This spell grants you +3 to Seduction, Charisma, and Leadership."
+    },
+    "Golem Crafting": {
+      "name": "Golem Crafting",
+      "source": "Core",
+      "duration": "Permanent",
+      "effect": "Golem Crafting creates a golem that serves the caster until it dies. The process creates a simple golem that is bound to your will. It will do anything that you ask it to, but it cannot think and can’t perform finesse tasks that require fingers or grabbing small things. A golem will execute the last order it was given. If it fails, it will try again endlessly until it succeeds or you order it to stop. If the order is ongoing (“fetch some water”) the golem will continue to perform that order until it dies or you order it to stop.",
+      "ritualPrepTime": "10 Rounds",
+      "components": "Chalk (x2), A Perfect Gemstone (x1), Hardened Timber (x10), Stone (x10), Infused Dust (x5), Fifth Essence (x2)"
+    },
+    "Green Thumb": {
+      "name": "Green Thumb",
+      "source": "Tome",
+      "duration": "Permanent",
+      "effect": "As an action, you can grow a small plant from seed to maturity. This allows you to grow herbs and alchemical plants but not larger plants such as trees."
+    },
+    "Gwynt Troelli": {
+      "name": "Gwynt Troelli",
+      "source": "Core",
+      "range": "10m Radius",
+      "duration": "Active (4 STA)",
+      "defence": "None",
+      "effect": "Gwynt Troelli creates a barrier of wind around you that blocks ranged attacks and projectiles. Any projectile attack must beat your Spell Casting roll. If they fail, the barrier knocks the projectile 8m away in a random direction."
+    },
+    "Gwyntog": {
+      "name": "Gwyntog",
+      "source": "Tome",
+      "range": "2m Radius",
+      "duration": "Active (6 STA)",
+      "defence": "Dodge",
+      "effect": "Gwyntog allows you to create a localized windstorm with up to a 40m radius. While this spell is in effect, gale force winds whip around the area making flight impossible and movement extremely difficult. Immediately, any flying creature is knocked out of the air and suffers damage as per normal. Ranged attacks made will fail to hit their intended target and land wherever the GM decides. Finally, any creature in the area must make an Athletics check DC:20 or be unable to take a Movement or Run Action during their turn."
+    },
+    "Hand of the Tempest": {
+      "name": "Hand of the Tempest",
+      "source": "Tome",
+      "range": "20m",
+      "duration": "immediate",
+      "defence": "Dodge",
+      "effect": "Summoning the full force of gales, you exert a tremendous force on a target which can manifest in one of 3 ways.\n\nWith a powerful updraft you can send a target who fails a Reposition check or object of 1000kg or lighter flying 14m into the air. The target begins to fall at the end of their next turn. Upon hitting the ground, the target and anything it hits takes 7d6 bludgeoning damage to the torso and are knocked prone.\n\nAlternatively, with a powerful gust you can flood a 14m cone with powerful wind. Anyone in this area who fails a Reposition check or could not escape the area of the spell with their reposition is knocked back 14m and takes ramming damage if they hit anything as they fly.\n\nFinally, you can manipulate an object up to 1000kg as though you were holding it in your hand."
+    },
+    "Hanmarvyn's Blue Dream": {
+      "name": "Hanmarvyn's Blue Dream",
+      "source": "Tome",
+      "duration": "10 Minutes",
+      "effect": "Hanmarvyn’s Blue Dream allows a single person to witness the last moments of a corpse’s life. Upon casting the ritual, choose one person within 4m to receive the memories of the corpse. This person must make a DC:24 Endurance check to withstand the shock of the event. If they succeed, the effects of the ritual begin. If they fail, they are immediately put into Death State but the effects of the ritual still begin. For the duration of the ritual, the affected person falls unconscious and witnesses the last 10 minutes of the corpse’s life. They experience these memories as if they were their own, even feeling that person’s emotions. If under the influence of a Hallucinogen, the duration of this ritual increases to 20 minutes.",
+      "ritualPrepTime": "10 Rounds",
+      "components": "A Corpse, Fifth Essence (x10), Lunar Shards (x2), Essence of Wraith (x3), Ginatia Petals (x2), Quicksilver Solution (x1), Green Mold (x2), Mandrake Root (x1), Phosphorus (x3), Specter Dust (x2)"
+    },
+    "Harmless Fire": {
+      "name": "Harmless Fire",
+      "source": "Tome",
+      "range": "8m",
+      "duration": "10 minutes",
+      "defence": "None",
+      "effect": "Harmless Fire allows you to manipulate the heat and power of a fire to make it temporarily safe. Upon casting this spell, choose an area of fire no larger than 2m cubed and that fire becomes harmless to anyone touching it. The fire will not spread or otherwise damage anything it is touching. If you are on fire and under the effect of this spell you can still take damage from fire-based attacks."
+    },
+    "Healing Rest (Melitele)": {
+      "name": "Healing Rest (Melitele)",
+      "source": "Core",
+      "range": "2m",
+      "duration": "1 Day",
+      "defence": "None",
+      "effect": "With the power granted to you by Melitele, the mother goddess, you can place a number of people equal to the value of your Spell Casting skill into a deep coma in which their bodies heal themselves. They cannot act for the entirety of the rest and are unaware of their surroundings even if touched, moved, or attacked. At the end of the rest, targets revive at full health. If they had any critical wounds that had been treated, these wounds have been healed. This does not remove permanent penalties from Deadly Critical Wounds."
+    },
+    "Heliotrop": {
+      "name": "Heliotrop",
+      "source": "Core",
+      "range": "self",
+      "duration": "Immediate",
+      "defence": "None",
+      "effect": "Protects against falling and effects of ramming or hitting against some object after telekinetic attack. Reduces damage by 1 die and an additional 1 die for each 2 STA spent excluding first one (-1 to -4).\n\nWitcher can use the sign not in his turn, reacting to some event, but he has to pay the cost of 2 STA as usual for an extra defense in a turn."
+    },
+    "Herbalism": {
+      "name": "Herbalism",
+      "source": "Tome",
+      "range": "2m",
+      "duration": "Immediate",
+      "defence": "None",
+      "effect": "Herbalism allows you to create an elixir using ancient druidic practices instead of traditional alchemy. As long as all the ingredients for the elixir are plants, you can roll a Spell Casting check instead of an Alchemy check when creating the Elixir or in the Recovery step."
+    },
+    "Hex of Forgetfulness": {
+      "name": "Hex of Forgetfulness",
+      "source": "Tome",
+      "effect": "The Hex of Forgetfulness submerges the subjects mind in a thick soup of magical obscurement making it difficult for them to retain knowledge and memories. The subject can no longer gain I.P. via being taught or study and practice, can no longer teach someone, and can no longer learn new magic. Additionally, once per day, the GM can call upon the subject to make a Resist Magic roll at a DC:20 or forget a fact, memory, recipe, spell, invocation, ritual, hex, or sign of the GM’s choice until the Hex is removed.",
+      "hexLift": "The subject must shave their head of all hair and then prepare a paste of 2 units of essence of water and 2 units of river clay. The subject must then inscribe specific sigils on their scalp with the clay and hold a unit of optima matter under their tongue. They must wait silently for a full day and night for the clay to dry. When the clay is removed from the scalp and the optima matter is removed from their mouth, the optima matter will be ashen gray and the hex will have been removed, returning anything forgotten. The optima matter used is permanently grayed and acts as a Focus (2) that can only be used for Hexes, Goetia, and Necromancy."
+    },
+    "Hold Tongue": {
+      "name": "Hold Tongue",
+      "source": "Tome",
+      "range": "10m",
+      "duration": "10 minutes",
+      "defence": "Resist Magic",
+      "effect": "Hold Tongue allows you to magically glue a target’s lips and paralyze their tongue, rendering the them unable to speak. While affected by this spell, the target cannot open their mouth and can only emit muffled sounds. If a Mage, Priest, or Druid with a Spell Casting skill value below 7 is affected by this spell, they cannot cast magic. At the end of every round, the target can attempt another Resist Magic check against a new Spell Casting check to end the effect."
+    },
+    "Holy Fortification": {
+      "name": "Holy Fortification",
+      "source": "Core",
+      "range": "10m",
+      "duration": "Immediate",
+      "defence": "None",
+      "effect": "Holy Fortification bolsters a target’s willpower and allows the target to make a new check against the effects of any spell that is currently affecting them."
+    },
+    "Holy Light": {
+      "name": "Holy Light",
+      "source": "Core",
+      "range": "Self",
+      "duration": "3d10 Rounds",
+      "defence": "None",
+      "effect": "Holy Light lights up an area as though the caster was carrying a torch (Raises light levels by 1 for 5m all around.). The light gives off no heat and cannot be used to ignite other objects like a torch can."
+    },
+    "Hydromancy": {
+      "name": "Hydromancy",
+      "source": "Core",
+      "duration": "Active (2 STA)",
+      "effect": "Hydromancy allows you to stare into a small body of water and glimpse an event that happened within the last two days or that is currently happening. Watching an event in the past uses the base DC. If you are trying to glimpse an event that is currently happening, increase the DC by 3 points. If you are viewing a current event, a magician present at that event can sense the augury with a Magic Training roll that beats your Ritual Crafting roll.",
+      "ritualPrepTime": "5 Rounds",
+      "components": "A Small Body of Water or a Bowl of Water, Fifth Essence (x2), White Myrtle Petals (x2), Pearl (x2), Lunar Shards (x1), Berbercane Fruit (x1)"
+    },
+    "Ice Slick": {
+      "name": "Ice Slick",
+      "source": "Core",
+      "range": "10m",
+      "duration": "2d10 Rounds",
+      "defence": "Dodge",
+      "effect": "Ice Slick allows you to create a 2m square area of ice. Anyone who crosses that area must make an Athletics check at a DC equal to your Spell Casting check or trip on the ice."
+    },
+    "Igni": {
+      "name": "Igni",
+      "source": "Core",
+      "range": "2m Cone",
+      "duration": "Immediate",
+      "defence": "Dodge & Block",
+      "effect": "Igni throws out a wave of sparks and fire which does 1d6 damage per STA point spent and has a 50% chance of lighting anything it hits on fire. Igni always deals damage to the torso unless used at point blank range. When used at point blank range Igni can be aimed at body locations."
+    },
+    "Illusion": {
+      "name": "Illusion",
+      "source": "Core",
+      "range": "20m",
+      "duration": "Active (4 STA)",
+      "defence": "Resist Magic",
+      "effect": "Illusion allows you to create any visual illusion you want within 20m of yourself. Anyone who fails the Resist Magic check sees the illusion and believes it. The illusion cannot be touched, smelled, or heard, however."
+    },
+    "Imbue Trophy": {
+      "name": "Imbue Trophy",
+      "source": "Tome",
+      "duration": "Immediate",
+      "effect": "By properly preparing and taxidermizing the remains of a monster, this ritual allows you to make use of a monster’s alien physiology to channel magical effects. Upon performing this ritual, a single non-enchanted trophy you possess becomes a permanent magical trophy that grants the benefits listed on TOC pg.124 to anyone who carries the trophy who also helped kill the monster.",
+      "ritualPrepTime": "10 Rounds",
+      "components": "Monster Trophy, Fifth Essence (x1), Infused Dust (x1), Tanning Herbs (x10), Ogre Wax (x1), Ester Grease (x2)"
+    },
+    "Interactive Illusion": {
+      "name": "Interactive Illusion",
+      "source": "Core",
+      "duration": "Until Dispelled",
+      "effect": "Interactive Illusion creates an illusion with sight, sound, smell, and tangible feelings. Nothing about the illusion is real but it all feels real to anyone who enters its area. The illusion covers a 20m radius and its caster actively controls and shapes it. If they create a danger within the illusion to battle intruders, each intruder may make a Magic Resistance or Endurance check at DC:12. If they succeed, they realize that nothing is actually happening to them and take no damage. If they fail they think that the damage is real, and must roll a Stun save. The damage cannot kill but it can stun.",
+      "ritualPrepTime": "10 Runden",
+      "components": "Perfect Gemstone (x1), Fifth Essence (x5), Infused Shard (x1), Glass, (x2), Ducal Water (x3)"
+    },
+    "Invaerne": {
+      "name": "Invaerne",
+      "source": "Tome",
+      "range": "50m",
+      "duration": "1 hour",
+      "defence": "None",
+      "effect": "Invaerne allows you to create a howling snowy gale in an area with a 30m radius. This area has Snow & Ice conditions. If cast in a cold environment, the duration of this spell is increased to one week."
+    },
+    "Invisible Ribbon": {
+      "name": "Invisible Ribbon",
+      "source": "Tome",
+      "range": "10m",
+      "duration": "immediate",
+      "defence": "Dodge & Block",
+      "effect": "With a whisper, Invisible Ribbon allows you to focus a gust of wind into a sharp, invisible blade that whistles through the air. Upon casting this spell, a single target must make a Defense check against your Spell Casting check. If they fail, the target takes 3d6 damage. The ribbon is invisible and thus even after attacking, anyone in the area must make a DC:20 Perception check to determine where the attack came from."
+    },
+    "Javed's Swarm": {
+      "name": "Javed's Swarm",
+      "source": "Tome",
+      "range": "6m",
+      "duration": "10 minutes",
+      "defence": "None",
+      "effect": "Javed’s Swarm allows you to control a great number of insects from the environment. Upon casting this spell, a swarm of controlled insects crawls out from nearby crevices and forms a horde with a SPD Statistic of 7 which can engulf a single target by making an attack at a Base 14. This attack deals 1d6 damage to the target’s torso, ignores all worn armor, and has a 100% chance of poisoning. The Horde has 15 Hit Points and a Dodge base of 14."
+    },
+    "Korath's Breath": {
+      "name": "Korath's Breath",
+      "source": "Core",
+      "range": "3m Cone",
+      "duration": "Immediate",
+      "defence": "Dodge & Block",
+      "effect": "Korath’s Breath breaks down a nearby stone or earth surface and sprays burning sand in a 3m cone in front of you. Opponents in that area that fail their defense are blinded for 1d6 rounds."
+    },
+    "Light Feet": {
+      "name": "Light Feet",
+      "source": "Tome",
+      "range": "Self",
+      "duration": "Active (2 STA)",
+      "defence": "None",
+      "effect": "Light Feet allows you to accelerate your movement by carrying yourself along on a gust of wind. Upon casting this spell, you raise your Speed Statistic by 5, your Run Derived Statistic by 15, and your Leap Derived Statistic by 3."
+    },
+    "Light of Penance": {
+      "name": "Light of Penance",
+      "source": "Tome",
+      "range": "6m",
+      "duration": "Immediate",
+      "defence": "Resist Magic",
+      "effect": "Developed by the beloved Incandescent Anika var Myricks in the heart of Nilfgaard, Light of Penance summons the power of your deity to punish a target, draining them of their will to resist. Upon casting this invocation, the target lowers their current STA by 2d6. If the target has a Vigor Threshold of 1 or higher, they lower their current STA by an additional 2d6 as well."
+    },
+    "Light of Truth": {
+      "name": "Light of Truth",
+      "source": "Core",
+      "range": "5m",
+      "duration": "Active (2 STA)",
+      "defence": "Resist Magic",
+      "effect": "The Light of Truth allows you to create a bright white light that forces one target to speak truthfully. Every round the target must make another check. If they fail, they must answer any question truthfully."
+    },
+    "Lightning Storm": {
+      "name": "Lightning Storm",
+      "source": "Core",
+      "range": "20m Radius",
+      "duration": "Active (6 STA)",
+      "defence": "Dodge",
+      "effect": "Lightning Storm allows you to create a lightning storm. Lightning strikes randomly around the area. Anyone (except you) in the area has a 35% chance of being struck by lightning. If they miss this roll, they must make a Dodge/Escape check or take 8d6 damage to the torso and have a 75% chance to be ignited."
+    },
+    "Living Fire": {
+      "name": "Living Fire",
+      "source": "Tome",
+      "range": "10m",
+      "duration": "10 minutes",
+      "defence": "None",
+      "effect": "Living Fire allows you to summon a small amount of life into a fire. While not as sentient or powerful as a Fire Elemental, this living fire is capable of taking a turn, at your Initiative. The Living Fire has a Speed Statistic of 5, is considered Incorporeal, and can cast Aenye, Wave of Fire, and Flaming Vortex, with a Spell Casting Base of 16 and infinite STA. The Living Fire cannot take extra actions and is destroyed if the fire is put out."
+    },
+    "Luck of the Father (Kreve)": {
+      "name": "Luck of the Father (Kreve)",
+      "source": "Core",
+      "range": "Self//10m",
+      "duration": "1 Hour",
+      "defence": "None",
+      "effect": "With power granted to you by Kreve, the All-Father, you gather divine providence to you. For the duration of the spell you can spend a number of LUCK points equal to your Spell Casting skill value times 3. You can augment any rolls you make, but can also impose penalties or grant bonuses to the roll of anyone within 10m."
+    },
+    "Luthien's Quill": {
+      "name": "Luthien's Quill",
+      "source": "Core",
+      "range": "1m",
+      "duration": "Immediate",
+      "defence": "None",
+      "effect": "Named for its inventor, Luthien of Ebbing, Luthien’s Quill can etch writing or drawings into any solid surface. It cannot be used on living creatures."
+    },
+    "Mage's Forge": {
+      "name": "Mage's Forge",
+      "source": "Tome",
+      "range": "2m",
+      "duration": "1 day",
+      "defence": "None",
+      "effect": "Mage’s Forge allows you to create a magical fire that can be used to purify metal. When ingots of metal are placed within this fire their mpurities are burned away making them easier to recover after a failed crafting attempt. During the Recovery Step any purified ingots used are automatically recovered. Additionally, the fire created acts as a Tinker’s Forge for the purposes of crafting, but cannot be used on Dimeritium.\n\nThe ingots created by Mage’s Forge don’t look any different and are not magical which means that it is difficult to convince a to pay a higher price for them without demonstrating their purity."
+    },
+    "Magic Barrier": {
+      "name": "Magic Barrier",
+      "source": "Core",
+      "duration": "Active (2 STA)",
+      "effect": "Magic Barrier creates a circular barrier of pure force that is 10m in diameter. This barrier takes 50 Health Points before it is destroyed. On your turn you can spend an additional STA point on top of the active cost to regenerate Health Points in the shield at a rate of 5 Health per STA point.\n\nThis shield is solid and impassible to any solid object. Once the shield has been erected, nothing can enter. Air is replenished within the shield, so those within can breathe. If a mage wishes, they can stop this replenishment, leaving only 20 rounds of air. For every extra person in the shield the rounds of air are reduced by 1. Ethereal creatures can pass through this shield, and you can teleport in or out.",
+      "ritualPrepTime": "10 Rounds",
+      "components": "Fifth Essence (x5), Infused Dust (x2), Chalk (x4)"
+    },
+    "Magic Compass": {
+      "name": "Magic Compass",
+      "source": "Core",
+      "range": "Self",
+      "duration": "1d6 Hours",
+      "defence": "None",
+      "effect": "Magic Compass allows you to instantly determine the direction to a place you have been before. Alternately, the spell tells which direction is north."
+    },
+    "Magic Flare": {
+      "name": "Magic Flare",
+      "source": "Core",
+      "range": "8m Radius",
+      "duration": "Immediate",
+      "defence": "Resist Magic",
+      "effect": "Magic Flare creates a bright flash above you. Everyone within an 8m radius must make a Resist Magic check or be blinded for 1d6 rounds. This flare can be seen for 10 kilometers."
+    },
+    "Magic Healing": {
+      "name": "Magic Healing",
+      "source": "Core",
+      "range": "2m",
+      "duration": "1d10 Rounds",
+      "defence": "None",
+      "effect": "Magic Healing stimulates the natural healing of a target to heal them at a rate of 3 points of damage per round. This lasts for the duration of the spell. Alternatively, this spell can be used repeatedly to heal a critical wound."
+    },
+    "Magic Screen": {
+      "name": "Magic Screen",
+      "source": "Tome",
+      "range": "4m",
+      "duration": "Immediate",
+      "defence": "Resist Magic",
+      "effect": "Magic Screen allows you to create a very specific illusion over a 2m cubed area to hide or alter items. Upon casting this spell, you can hide or change the appearance of items within the area. This change can only be visual and remains until dispelled or until any items are removed from that 2m cubed area. When a target comes within 4m of the Magic Screen they can make a Resist Magic check to see through the Illusion."
+    },
+    "Magic Trap": {
+      "name": "Magic Trap",
+      "source": "Core",
+      "range": "3m Radius",
+      "duration": "1 Round per STA",
+      "defence": "Dodge & Block",
+      "effect": "Yrden now creates a magical trap that takes one round to prepare. This trap attacks using your Spell Casting & WILL and does 3d6 damage. The trap will make one attack against the closest enemy each round."
+    },
+    "Magical Guestbook": {
+      "name": "Magical Guestbook",
+      "source": "Tome",
+      "duration": "1 Day",
+      "effect": "By weaving symbols in chalk and coal on an archway or door frame and placing a small fifth-essence-infused clay icon on the top of the entryway you create an invisible curtain. This magical curtain records the faces of anyone who passes through and alerts you telepathically if anyone you designated when you cast the ritual pass through it. The curtain keeps the recordings of the faces until the ritual ends, after which they are stored in the clay icon which can be viewed by someone with a Vigor Threshold of 1 or higher. These recordings remain as long as the icon remains intact. While the ritual is active, you can access the records at any time telepathically while within 100m. You must also be within 100m for the Magical Guestbook to alert you to a designated person entering.",
+      "ritualPrepTime": "10 Rounds",
+      "components": "Chalk (x2), Coal (x2), River Clay (x1), Fifth Essence (x1)"
+    },
+    "Magical Message": {
+      "name": "Magical Message",
+      "source": "Core",
+      "duration": "Permanent",
+      "effect": "Magical Message records a message of up to 5 minutes into a gemstone or piece of glass etched with a magical sigil. You can set up to 3 specific triggers that activate the message. Once played, the message goes dormant until another trigger occurs. When triggered, an illusion of the caster appears and gives the message. When crafted with a perfect gemstone, the message appears as clear as if the ritual crafter were truly there.",
+      "ritualPrepTime": "5 Rounds",
+      "components": "Glass (x1), Fifth Essence (x1), Quicksilver Solution (x1)\nAlternate Components: Perfect Gemstone (x1)"
+    },
+    "Magnify Odor": {
+      "name": "Magnify Odor",
+      "source": "Tome",
+      "range": "10m",
+      "duration": "1 week",
+      "defence": "None",
+      "effect": "Magnify Odor allows you to intensify an existing scent until it encompasses a 6m cubed area. A creature who starts their turn in this area or enters it must make an Endurance check against your Spell Casting check or be overwhelmed by the odor and Nauseated for 1 Minute. Additionally, anyone who enters the area is permeated by the scent for 1 week along with their possessions granting anyone with Scent Tracking a +2 to track them. Any creature with Scent Tracking loses that ability while affected by this spell. This scent lasts for the duration of the spell or until entirely submerged in water."
+    },
+    "Melgar's Fire": {
+      "name": "Melgar's Fire",
+      "source": "Core",
+      "range": "40m Radius",
+      "duration": "2d6 Rounds",
+      "defence": "Dodge & Block",
+      "effect": "This spell is well known for sowing chaos on the fields of the Pontar Valley. Melgar’s Fire allows you to rain balls of fire from the sky over a huge area. Anyone (except you) in the area has a 75% chance of being struck by a ball of fire. If they miss this roll, they must defend at a DC equal to your Spell Casting check or take 4d6 damage to a random location and have a 75% chance of being ignited."
+    },
+    "Mental Command": {
+      "name": "Mental Command",
+      "source": "Core",
+      "range": "10m",
+      "duration": "Until Task is Done",
+      "defence": "Resist Magic",
+      "effect": "Mental Command allows you to plant an order in the mind of a target. This command must be executed to the letter by the target. If the command is something the target would never do, they get a +5 to their Resist Magic check.\n\nTargets who wish to can attempt another Resist Magic check every 1d6 rounds to throw off the mental command. If they succeed they are able to stop the compulsion."
+    },
+    "Merigold's Hailstorm": {
+      "name": "Merigold's Hailstorm",
+      "source": "Core",
+      "range": "30m Radius",
+      "duration": "Active (4 STA)",
+      "defence": "Dodge",
+      "effect": "Named for its creator Triss Merigold, ex-advisor of King Foltest of Temeria, Merigold’s Hailstorm creates a hailstorm encompassing the area of the spell. Everyone within the storm must make a Dodge/Escape check at a DC equal to your Spell Casting check each round or take 2d6 damage to a body part."
+    },
+    "Mind Manipulation": {
+      "name": "Mind Manipulation",
+      "source": "Core",
+      "range": "5m",
+      "duration": "1d10 Rounds",
+      "defence": "Resist Magic",
+      "effect": "Mind Manipulation allows you to force one target to feel one of the following emotions for the duration of the spell: hatred, love, depression, or euphoria."
+    },
+    "Minuscule Illusion": {
+      "name": "Minuscule Illusion",
+      "source": "Tome",
+      "duration": "Permanent",
+      "effect": "As an action, you are able to create an illusion within 4m that fills a 1m cubed space. This illusion must be simple and is only visual."
+    },
+    "Miracle of Lebioda (Lebioda)": {
+      "name": "Miracle of Lebioda (Lebioda)",
+      "source": "Tome",
+      "range": "2m",
+      "duration": "Immediate",
+      "defence": "None",
+      "effect": "Calling upon the power of the Prophet Lebioda you command the body of a target to heal itself. Immediately upon casting this invocation, a living target entirely heals one critical wound or removes the lingering penalty from a past critical wound. The wound is treated as though it had never been inflicted even if this means regrowing limbs, eyes, etc."
+    },
+    "Mirror Effect": {
+      "name": "Mirror Effect",
+      "source": "Core",
+      "range": "20m",
+      "duration": "2d6 Rounds",
+      "defence": "Dodge & Block",
+      "effect": "Mirror Effect creates a blinding beam of light which does 10d6 damage. This laser can be dodged and blocked (destroying whatever blocks it) but it cannot be  displaced by wind and can only be parried by a reflective surface, which still takes damage. The reflected laser goes off in a random direction. This spell uses the rays of the sun and cannot be used where the sun’s rays can’t penetrate. By the light of the moon or on overcast days, it does half damage."
+    },
+    "Nature's Gift": {
+      "name": "Nature's Gift",
+      "source": "Core",
+      "range": "2m",
+      "duration": "Immediate",
+      "defence": "None",
+      "effect": "Nature’s Gift grows a small cluster of edible plants in soil of any kind. These plants are enough to sustain a number of people equal to the number of STA points spent for 1 day."
+    },
+    "Nature's Sight": {
+      "name": "Nature's Sight",
+      "source": "Core",
+      "range": "Self",
+      "duration": "Active (1 STA)",
+      "defence": "None",
+      "effect": "Nature’s Sight allows you to see creatures that are not natural to this realm. This allows you to see monsters within 50m, even through obstacles. Monsters seen in this view appears as glowing versions of themselves."
+    },
+    "Omens of the Future (Nehaleni)": {
+      "name": "Omens of the Future (Nehaleni)",
+      "source": "Tome",
+      "range": "Self",
+      "duration": "1 Day",
+      "defence": "None",
+      "effect": "You allow Nehaleni to fill your mind with thousands of glimpses of possible futures which you cannot immediately decipher. Roll 1d10 until you get 3 outcomes that are not 1 or 10 and record these numbers. For the duration of this invocation, if a target within 20m of you rolls one of these values on 1d10 you are immediately able to recognize this outcome, allowing you to, without taking an action, intervene in some minor way and force that target to instead roll a fumble."
+    },
+    "Oneiromancy": {
+      "name": "Oneiromancy",
+      "source": "Core",
+      "duration": "1d10 Rounds",
+      "effect": "Oneiromancy grants the caster a dream which unveils secrets and events of the past and present. A caster can perform the ritual alone, such like Hydromancy. It also requires a Ritual Casting check to witness events that have occurred previously and a more difficult DC to witness events that are occurring at the moment. Oneiromancy can be detected like Hydromancy. If you are viewing a current event, a magician present at that event can sense the augury with a Magic Training roll that beats your Ritual Crafting roll.\n\nHowever the Oneiromancer can also guide a number of people equal to their Ritual Crafting skill value to share their enlightening dream. To do this, the oneiromancer must make a bond with the people they want to enlighten. This requires the participants to answer a series of personal questions, as truthfully as possible. The dream lasts for the duration of the ritual.",
+      "ritualPrepTime": "10 Rounds",
+      "components": "A Place to Sleep"
+    },
+    "Part Water": {
+      "name": "Part Water",
+      "source": "Core",
+      "range": "10m",
+      "duration": "Active (6 STA)",
+      "defence": "None",
+      "effect": "Part Water allows you to create an open area in a body of water, up to 10m by 100m by 10m. Fish, monsters, and other creatures in the water are swept back with the water. You can pass in and out of the wall as easily as stepping in or out of a body of water without disturbing the walls. If used while in the water the the effect pushes the caster aside as well. The area can be summoned in any orientation, even vertical."
+    },
+    "Pigment": {
+      "name": "Pigment",
+      "source": "Tome",
+      "duration": "Permanent",
+      "effect": "As an action, you can make a mark with your hand on a surface that has a color you desire that can optionally glow, should you desire. The glowing mark raises the light level by 1 for 4m all around it (Maximum Daylight). Once you have made a mark you can take an another action as long as you are within 4m to make the mark emit a flash of Glaring Light for one round after which it disappears."
+    },
+    "Polymorphism": {
+      "name": "Polymorphism",
+      "source": "Core",
+      "range": "self",
+      "duration": "Until Re-Cast",
+      "defence": "none",
+      "effect": "Polymorphism allows you to take the shape of a serpent, a cat, a bird, or a dog. While in this form, you have the physical statistics of that animal (See Bestiary, pg.310). Any items on your person transform with you. You must cast the spell again to change back to your human form."
+    },
+    "Preece's Procedure": {
+      "name": "Preece's Procedure",
+      "source": "UNKNOWN",
+      "range": "3m",
+      "duration": "8 Hours",
+      "defence": "Resist Magic",
+      "effect": "Developed by Catrin Preece to navigate the dangerous waters of high society, Preece’s Procedure allows you to temporarily lock away one a target’s emotions. When the spell is cast, you can choose one of the following Emotions to lock away: Hatred, Love, Depression, or Euphoria. For the duration of this spell, the target is incapable of having this emotion and is unaware they have been affected with magic. At the end of the spell’s duration, the target’s locked emotion returns but they are still unaware they were affected by magic. Each time the spell is cast on a single target that is currently being affected by the spell, the Stamina Cost to cast Preece’s Procedure raises by 2."
+    },
+    "Presence of the Divine": {
+      "name": "Presence of the Divine",
+      "source": "Tome",
+      "range": "10m",
+      "duration": "10 Minutes",
+      "defence": "None",
+      "effect": "Presence of the Divine allows you to summon the aspect of your deity to make your bearing more imposing. Upon casting this invocation, you can make your voice boom loud enough to be heard from far away and you gain a +4 to Intimidation checks. Alternatively, this invocation can be cast on up to 6 targets to make them immune to fear effects."
+    },
+    "Primal Reservoir": {
+      "name": "Primal Reservoir",
+      "source": "Core",
+      "range": "5m",
+      "duration": "2d6 rounds",
+      "defence": "Resist Magic",
+      "effect": "Primal Reservoir allows you to tap into the primal power of a target and awaken it. It grants them a +2 to Melee Damage, but a -2 to INT for the duration of the spell."
+    },
+    "Puppet": {
+      "name": "Puppet",
+      "source": "Core",
+      "range": "8m",
+      "duration": "Until Shaken Off or STA",
+      "defence": "Resist Magic",
+      "effect": "Axii now controls an opponent’s mind, making them your ally for a number of rounds equal to the number of STA points you spent on the spell. Each round, the target can make a Resist Magic roll against your Spell Casting roll to try and free themselves."
+    },
+    "Puro Dwr": {
+      "name": "Puro Dwr",
+      "source": "Core",
+      "range": "4m",
+      "duration": "1d10 Rounds",
+      "defence": "None",
+      "effect": "Puro Dwr allows you to purify 1 cubic meter of water. This negates poison and disease, but will not force living creatures out of it. If cast on a small part of a larger body of polluted water, the water will begin to pollute again after the duration of the spell ends."
+    },
+    "Pyrokinesis": {
+      "name": "Pyrokinesis",
+      "source": "Tome",
+      "effect": "As a full round action, you can light a fire or put out a fire. You can light one object or target within 8m on fire. You cannot target yourself with this ability."
+    },
+    "Pyromancy": {
+      "name": "Pyromancy",
+      "source": "Core",
+      "duration": "Active (4 STA)",
+      "effect": "Pyromancy allows you to stare into a burning fire and witness events that are currently happening. Pyromancy is more dangerous than Hydromancy, making it harder to maintain and impossible to peer backwards. However, it is easier to view events that are currently happening. Similarly to Hydromancy, a mage you view can sense the augury with a Magic Training roll that beats your Ritual Crafting roll.",
+      "ritualPrepTime": "5 Rounds",
+      "components": "A Small Fire, Fifth Essence (x2), Ashes (x2), Calcium Equum (x5), Crow’s Eye (x2), Wax (x2)"
+    },
+    "Quen": {
+      "name": "Quen",
+      "source": "Core",
+      "range": "self",
+      "duration": "10 rounds or until exhausted",
+      "defence": "None",
+      "effect": "Quen creates a shield with 5 Health Points per point of Stamina spent to protect you. If you fail (or choose not to or are unable to) to defend against an attack or effect which causes damage, the damage is first applied to the Quen shield. Lethal and non-lethal damage reduce the Quen shield’s Health Points equally. If the shield is reduced to 0 Health any remaining damage is applied to you as per normal and must penetrate your armor and damage resistances to impact your Health Points or Stamina just like any other attack.\n\nQuen can be used to defend against any spell which can be Blocked but is ineffective against damage caused by spells which cannot be Blocked or against damage caused by already being poisoned, having a disease, or suffocation due to a lack of oxygen in the surrounding area.\n\nYou cannot cast Quen again until your current Quen shield has been exhausted or the duration ends."
+    },
+    "Quill of the Divine": {
+      "name": "Quill of the Divine",
+      "source": "Tome",
+      "range": "2m",
+      "duration": "Permanent",
+      "defence": "Resist Magic",
+      "effect": "Quill of the Divine allows you to reach into a target’s mind and alter their memories. By spending 14 STA you can lock away the memories of a target who fails to defend against this invocation giving them severe retrograde amnesia. By spending 16 STA you can implant memories of your own creation into a target who fails to defend. Unless the target has had their memories locked away with this spell, they gain a +5 to resist the implantation of these new memories."
+    },
+    "Raise Flame": {
+      "name": "Raise Flame",
+      "source": "Core",
+      "range": "10m",
+      "duration": "Active (2 STA)",
+      "defence": "None",
+      "effect": "Raise Flame allows you to spread an existing fire at a speed of 2m per round in any direction, dull down a fire to a weak blaze (lowering the fire damage by 1), or intensify the fire (raising the fire damage by 1)."
+    },
+    "Reanimate Corpse": {
+      "name": "Reanimate Corpse",
+      "source": "Tome",
+      "duration": "Active (3 STA per Minute)",
+      "effect": "Reanimate Corpse forcibly summons a soul and binds it within its dead body. While animated, the corpse acts as though it were alive but is in excruciating pain which prevents it from moving and imposes a -3 to Resist Coercion checks. However, for the corpse to answer any questions it must have all parts required to speak including lungs, vocal chords, and a mouth and tongue. Additionally, it’s brain must be at least 50% intact. For the purposes of Verbal Combat, Torture and Torment will not work on a corpse revived by necromancy as it is already in unimaginable pain.",
+      "ritualPrepTime": "10 Rounds",
+      "components": "A corpse (with working vocal cords, lungs, brain, and a mouth), Chalk (x4), Fifth Essence (x5), Candles (x5), Crow’s Eye (x2), Specter Dust (x5), Essence of Wraith (x2)"
+    },
+    "Reopen Portal": {
+      "name": "Reopen Portal",
+      "source": "Tome",
+      "range": "2m",
+      "duration": "1 round",
+      "defence": "None",
+      "effect": "Reopen Portal allows you to find the trace of an existing portal and reopen that connection temporarily. Upon casting this spell, you can choose either a Permanent Portal which is currently closed or the trace of a Standing Portal which was cast within the last 30 seconds and roll a Spell Casting check. If the chosen portal is a Permanent Portal, the DC to reopen it is 16. If the chosen portal is a Standing Portal, the DC is 20."
+    },
+    "Retribution of the Raven (Morrigan)": {
+      "name": "Retribution of the Raven (Morrigan)",
+      "source": "Tome",
+      "range": "20m",
+      "duration": "Active (5 STA)",
+      "defence": "Resist Magic",
+      "effect": "With power granted to you by Morrigan, the Lady of Ravens, you block the connection to the elemental planes, nullifying magic. Within the area of this invocation, all magical effects, such as runes, glyphs, focuses, curses, trophies, relics, magical items, etc. are rendered inert. As long as this invocation is active, only those you choose or those who successfully defended against this invocation can cast magic of any form. This invocation cannot be dispelled."
+    },
+    "Rhewi": {
+      "name": "Rhewi",
+      "source": "Core",
+      "range": "8m",
+      "duration": "1d10 Rounds",
+      "defence": "Dodge",
+      "effect": "Rhewi creates a thick layer of ice around a target for the duration of the spell. The target is treated as frozen. If used on a non-living target, the target cannot to be manipulated or moved."
+    },
+    "Rhwystr Graig": {
+      "name": "Rhwystr Graig",
+      "source": "Core",
+      "range": "20m",
+      "duration": "Until Destroyed",
+      "defence": "None",
+      "effect": "Rhwystr Graig allows you to create a 2m by 3m rock wall with 30 points of SP anywhere within 20m with any facing. This wall remains until destroyed."
+    },
+    "Ritual of Binding": {
+      "name": "Ritual of Binding",
+      "source": "Tome",
+      "duration": "24 Hours",
+      "effect": "Prepare as you would for a ritual of Controlled Summoning, by making a circle of candles and infused paste. Make a second paste of coal and your own blood and write the true name of a demon just outside of the circle of controlled summoning. Line the inside of circle with silver, which will create a protective barrier within the circle, trapping the demon inside and leaving it helpless to resist you. Within the silver, present an offering to the demon as you would in a ritual of Controlled Summoning. Once you are prepared, chant the true name of a demon until it appears within the circle, helpless to resist you. Torture the demon with the forked end of the Staff of Binding, until it accepts to be bound to you, granting you benefits beyond your wildest dreams.\n\n You must know the name of the demon you are planning to bind before you begin this ritual. Upon casting the Ritual, the demon you named is summoned within the ritual circle and is trapped in a magical cage that renders it unable to escape or attack you for the duration of the Ritual. The demon is aware that the ritual has a finite duration but perceives time as passing more slowly. Once this ritual has been cast, you enter Verbal Combat with the demon with your end goal being the Binding of the demon. A True Staff of Binding can be used to make attacks through the magical cage and torment the demon but other weaponry and spells cannot penetrate this barrier. A regular Staff of Binding will not penetrate this barrier either. The demon is bound to any agreements made while the Ritual of Binding is in effect and cannot go back on these agreements unless the binding is broken. Once, every 2 weeks the demon can attempt a Resist Magic check against the Binding Character’s original Ritual Crafting check to attempt to break the Binding. This roll is made secretly by the Game Master. If the demon breaks the Binding they are no longer beholden to any agreements made earlier and are capable of harming the Binder but may not do so until the moment is right. Unless broken, the binding last indefinitely. During the duration of the Binding, the Binder can summon the bound demon at any time without performing the Controlled Summoning Ritual.",
+      "ritualPrepTime": "30 Rounds",
+      "components": "Candle (x5), Essence of Wraith (x2), Infused Dust (x3), Oil (x1), Coal (x10), Silver (x6), A Jug of Your Own Blood, True Staff of Binding\n\nInvestment: 1288"
+    },
+    "Ritual of Life": {
+      "name": "Ritual of Life",
+      "source": "Core",
+      "duration": "One Use",
+      "effect": "The Ritual of Life creates a magic circle which influences the healing capabilities of a target within it. The circle grants regeneration of 3 Health Points per turn. This regeneration lasts for 10 rounds, and only while the target remains in the circle. If the target leaves the circle it disappears.",
+      "ritualPrepTime": "5 Rounds",
+      "components": "Chalk (x2), Ashes (x2), Wax (x2), Mandrake Root (x2)"
+    },
+    "Ritual of Magic": {
+      "name": "Ritual of Magic",
+      "source": "Core",
+      "duration": "One Use",
+      "effect": "The Ritual of Magic creates a magic circle which bolsters magical tolerance, granting a bonus to Vigor Threshold equal to half the caster’s Ritual Crafting skill value. This benefit is bestowed on the first person with magical ability to enter the circle and focus on it, and lasts for 5 hours. Alternatively, the caster can expend the circle to gain 1d6/2 units of Fifth Essence.",
+      "ritualPrepTime": "5 Rounds",
+      "components": "Chalk (x2), Glass (x2), Sulfur (x2), Infused Dust (x1)"
+    },
+    "Ritual of Naming": {
+      "name": "Ritual of Naming",
+      "source": "Tome",
+      "duration": "Instant",
+      "effect": "Create a bonfire of beast bones, coal, and dry wood. This fire must be hot enough to burn bright orange. Rub a mixture of coal, fifth essence, and your own blood onto your exposed skin to protect it. While holding a branch of hazel, submerge the treated skin into the fire. The fire will be harmless to you, and should burn white hot for a while before going out. While the fire burns hot, think of a demon whose true name you wish to discover. When the fire expires, remove your skin from the fire. The true name of the demon should appear in the crust of the coal coating your skin.This summoning ritual allows the players to choose which species of demon they wish to summon, and whether or not they wish to summon a more powerful one. Without protections in place, like a Goatskin Mantle, or protections specific to the demon being summoned, the ritual is still incredibly dangerous, and often deadly.\n\nThis ritual allows the player to learn the true name of a specific demon. Once removed from the fire, the name can be safely recorded to save for later. If you fail the Ritual Crafting check, then upon removing your skin from the fire, you find the coal had burned off during the ritual and the true name of a demon has been burned into your skin, marking you with a Lucifuge. You may have discovered the true name of a demon, but it will forever know where you are while you bear this mark, and may appear to you on it’s own terms, as it wishes.",
+      "ritualPrepTime": "20 Rounds",
+      "components": "Coal (x10), Hardened Timber (x20), Beast Bones (x10), Infused Dust (x3), Your Own Blood\n\nInvestment: 848"
+    },
+    "Ritual of the Goat Skin": {
+      "name": "Ritual of the Goat Skin",
+      "source": "Tome",
+      "duration": "Permanent",
+      "effect": "The Ritual of the Goat Skin is a complex ritual used to create a Goat Skin Mantle which protects goetic practitioners during their rituals. During this ritual, the practitioner, who must have abstained from all pleasures of the flesh and fasted for a fortnight beforehand, must anoint a goat with oil infused with ginatia and hellebore petals and place a wreath of verbena and silk on its head. As the ritual begins, the practitioner must kill the goat, skin its body, and cast the body into a burning bonfire of timber and animal bones. While the goat burns the practitioner must recite an unbroken series of protective prayers. When the fire burns down, the practitioner must take the ashes of the bonfire and rub it into the pelt of the goat and then tan it and attach toggles made from the goat’s bones.\n\nEffect: You create a single Goat Skin Mantle.",
+      "ritualPrepTime": "30 Rounds",
+      "components": "Components: Goat (x1), Oil (x5), Coal (x1), Bloodstone Dagger, Ginitia Petals (x2), Hellebore Petals (x3), Tanning Herbs (x3), Verbena (x4), Timber (x10), Beast Bones (x3), Silk (x1)\n\nInvestment: 400"
+    },
+    "Rusting": {
+      "name": "Rusting",
+      "source": "Tome",
+      "range": "4m",
+      "duration": "Permanent",
+      "defence": "Dodge & Block",
+      "effect": "Rusting allows you to emit a spray of chemically reactive water which rapidly oxidizes metal objects. If using this spell on a target’s armor, all their worn armor takes 2d6 ablation damage and wearing any of it imposes a -2 to their Reflex, dexterity, & Speed Statistics. If using this spell on a target’s weapon, the weapon takes 2d6 reliability damage and imposes a -2 to attacks made with it. If this spell is blocked by a shield, the shield takes 2d6 Reliability damage. The rust created by this spell can be removed from 10 items by taking an hour to make a DC:14 Crafting check."
+    },
+    "Sagitta Aurea": {
+      "name": "Sagitta Aurea",
+      "source": "Tome",
+      "range": "20m",
+      "duration": "Immediate",
+      "defence": "Dodge",
+      "effect": "Sagitta Aurea summons the divine power of your deity to form a spear of golden light. Upon casting this invocation, a target must make a Defense check against your Spell Casting check. If they fail, the target takes 7d6 damage. Sagitta Aurea can travel in a straight line through targets with each target making a Defense check. If a target is possessed by a demon, the demon takes the damage as well and is forced out of their body. Additionally, any demon damaged by this invocation cannot use any of its abilities for the next round."
+    },
+    "Sanctuary of the Black Grove (Caed Myrkvid)": {
+      "name": "Sanctuary of the Black Grove (Caed Myrkvid)",
+      "source": "Tome",
+      "range": "1 Mile Radius",
+      "duration": "1 Hour",
+      "defence": "None",
+      "effect": "Sanctuary of the Black Grove allows you to attune yourself and as many allies as you wish to the trees within a 1 Mile radius. While this invocation is active, you can touch a tree and look simultaneously through all the trees within 1 mile of you. You are able to parse this information and focus on specific views if you want. Additionally, you and any allies you designate can pass through any tree within this area and come out of any another tree within the area. Your allies cannot see through the trees but are able to designate where they want to go."
+    },
+    "Savolla's Method": {
+      "name": "Savolla's Method",
+      "source": "Tome",
+      "range": "2m",
+      "duration": "immediate",
+      "defence": "None",
+      "effect": "An evolution of ancient techniques, Savolla’s Method breaks down the tissue and mucous membranes of a corpse and makes it easier to find and extract mutagenic compounds. Upon casting this spell, the Mutagen within a corpse separates itself and emits a slight glow allowing it to be extracted with a DC:14 Alchemy or Witcher Training Check."
+    },
+    "See Aura": {
+      "name": "See Aura",
+      "source": "Tome",
+      "effect": "As a full round action, you can see the aura of all targets within 8m of you. This aura tells you what the Vigor Threshold of each target is."
+    },
+    "Seek the Seekers": {
+      "name": "Seek the Seekers",
+      "source": "Tome",
+      "range": "Self",
+      "duration": "1 Day",
+      "defence": "None",
+      "effect": "Seek the Seekers creates a magical ward around you that warns you of divination such as Hydromancy, or Pyromancy. If you or anyone within 10m of you is the target of divination you are alerted as soon as it is cast and are shown the face of the diviner. Anyone who tries to spy on you with divination must make a DC:20 Education or Magic Training check to realize they have been caught. However, if they succeed this check, you are made aware that they know you caught them."
+    },
+    "Seirff Haul": {
+      "name": "Seirff Haul",
+      "source": "Core",
+      "range": "10m",
+      "duration": "2d10 rounds",
+      "defence": "Dodge",
+      "effect": "Seirff Haul creates a number of serpents from fire magic that swarm over a target. The target is grappled and on fire until they make a Dodge/Escape check vs. your Spell Casting roll. Every round that the target fails the Dodge/Escape check, the DC rises by 1 point as the serpents tighten."
+    },
+    "Shade of Bleobheris (Bleobheris)": {
+      "name": "Shade of Bleobheris (Bleobheris)",
+      "source": "Tome",
+      "range": "50m Radius",
+      "duration": "1 Day",
+      "defence": "Resist Magic",
+      "effect": "Shade of Bleobheris calls upon the great oak to calm the hearts of man and beast. Upon casting this invocation, all animals become docile and all affected combatants are removed from initiative and cannot take hostile actions for 1 day. Additionally, the essence of Bleobheris temporarily suppresses the prejudices of all affected creatures, negating any penalties from Social Standing or monstrous heritage. On each of its turns, a target affected by this invocation can use its action to attempt a Resist Magic check against a new Spell Casting check to end this effect. If the target is attacked this spell no longer affects them."
+    },
+    "Shape Earth": {
+      "name": "Shape Earth",
+      "source": "Tome",
+      "range": "6m",
+      "duration": "permanent",
+      "defence": "none",
+      "effect": "Shape Earth allows you to create a single structure composed of materials present at the site such as wood, stone, or earth that fills a 20m cubed cube. This structure can be whatever you wish, provided that it is simple in nature for example, a tremendous wall, a statue, or a fortification with a few rooms and simple furnishings. The structure will build itself over the next 10 minutes and will vary in SP from a wooden wall with 5 SP to a stone wall with 30 SP. This is determined by the GM."
+    },
+    "Shape Nature": {
+      "name": "Shape Nature",
+      "source": "Core",
+      "range": "10m",
+      "duration": "1d10 Rounds",
+      "defence": "None",
+      "effect": "Shape Nature allows you to create a golem from a small nearby tree. The golem serves you for the duration of the spell and will turn back into a tree when the duration ends. If killed, the golem only yields 2d10 units of timber. In all other ways, the tree acts as a normal golem."
+    },
+    "Sharpen Senses": {
+      "name": "Sharpen Senses",
+      "source": "Tome",
+      "range": "self",
+      "duration": "30 minutes",
+      "defence": "None",
+      "effect": "Sharpen Senses allows you to heighten the sensitivity of your sight, smell, and hearing. Upon casting this spell, you immediately gain the benefits of Night Vision (no dim light penaltes) and Scent Tracking (can track by scent) and have a +2 to Awareness checks. However, if you are subjected to a bright light or a very loud noise, you suffer Staggered condition."
+    },
+    "Sigil of Bounty": {
+      "name": "Sigil of Bounty",
+      "source": "Tome",
+      "range": "2m",
+      "duration": "1 Year",
+      "defence": "None",
+      "effect": "Widely used by druids who advise rural communities, Sigil of Bounty imbues an aspect of nature with vigor to cause one of three effects.\n\n- If cast on spoiled food or drink, this invocation causes them to become fresh and delicious again.\n- If cast on a forageable plant, the plant will produce twice the units of forageable material. \n- Finally, if cast on soil, any plant grown in the soil will grow to twice its typical size in half the time."
+    },
+    "Sigil of the Hidden": {
+      "name": "Sigil of the Hidden",
+      "source": "Core",
+      "range": "Self",
+      "duration": "Until Dispelled",
+      "defence": "None",
+      "effect": "Drawing the Sigil of the Hidden covers a 3m area in branches, foliage, and other natural elements to provide complete visual cover. This grants you a +5 to Stealth, but immobilizes those inside and must be cast again to uncover yourself. You can cut away the brush by doing 10 points of damage to it."
+    },
+    "Sigil of the Hunt": {
+      "name": "Sigil of the Hunt",
+      "source": "Tome",
+      "range": "2m",
+      "duration": "1 Day",
+      "defence": "Resist Magic",
+      "effect": "Drawing the Sigil of the Hunt on a target allows you to change how animals and monsters perceive them. Upon casting this Invocation, you can mark up to 6 targets as either “safe” or “prey”. A target marked “safe” does not disturb animals and any beast they encounter is initially friendly; and any monster they encounter will initially be neutral. A target marked “prey” is perceived as prey by all predatory animals or monsters. These creatures will attack the target on sight. Both “Prey” and “Safe” marks appear almost identical but with a DC:16 Education check, you can tell the difference."
+    },
+    "Silverlight (Lilvani)": {
+      "name": "Silverlight (Lilvani)",
+      "source": "Tome",
+      "range": "2m",
+      "duration": "Until the next Sunrise",
+      "defence": "None",
+      "effect": "Summoning the power of the Moon Goddess Lilvani you anoint up to 5 people with a blessing of moonlight which shelters them in their darkest hour. For the duration of this invocation, affected characters take no penalties from being within their Wound Threshold or in Death State and the first time they would be reduced to below 1 Hit Point they are instead reduced to 1 Hit Point."
+    },
+    "Slip Stream": {
+      "name": "Slip Stream",
+      "source": "Tome",
+      "range": "self",
+      "duration": "10 minutes",
+      "defence": "None",
+      "effect": "Slip Stream allows you to propel yourself through the water in a current of your own creation. While swimming, your Speed Statistic is changed to 12 and you do not suffer the normal penalties for attacking and defending underwater."
+    },
+    "Smith's Touch": {
+      "name": "Smith's Touch",
+      "source": "Tome",
+      "range": "2m",
+      "duration": "Active (10 STA)",
+      "defence": "Dodge",
+      "effect": "Smith’s Touch focuses fire magic into metal allowing you to manipulate it with your bare hands. While this spell is active, you are able to bend, shape, and manipulate metal as if it were clay. Additionally, by taking an action to make a Brawling attack, you can deal 3d6 ablation damage to armor or reliability damage to a weapon. This spell cannot be used on Dimeritium."
+    },
+    "Soften Earth": {
+      "name": "Soften Earth",
+      "source": "Tome",
+      "range": "10m",
+      "duration": "2d10 rounds",
+      "defence": "None",
+      "effect": "Soften Earth allows you to soften a 6m cubed area of earth into a muddy morass or change sand into quicksand. The area of the spell becomes difficult to maneuver within and imposes a -2 to Dodge/Escape and Athletics checks."
+    },
+    "Somne": {
+      "name": "Somne",
+      "source": "Tome",
+      "range": "8m",
+      "duration": "8 hours",
+      "defence": "Resist Magic",
+      "effect": "Somne puts a single target to sleep with soothing magic. Upon casting this sign, if the target fails to defend, they are put to sleep and considered Stunned until they wake, 8 hours later. If you spend 2 points of STA casting this Sign the target wakes if they take damage, if someone wakes them, or if a loud noise occurs. If you spend 4 points of STA the target only wakes if they take damage or if someone tries to wake them with an action. If you spend 6 points of STA the target wakes only if they take damage or if someone tries to wake them with a full round action. If you spend 7 points of STA the target only wakes if they take damage. If the target has no reason to suspect magical interference before being put to sleep, they do not know they were affected by magic when they wake."
+    },
+    "Song of the Sky": {
+      "name": "Song of the Sky",
+      "source": "Core",
+      "range": "50m Radius",
+      "duration": "Active (5 STA)",
+      "defence": "None",
+      "effect": "The Song of the Sky changes the weather in the area directly around you. You can change the weather to: clear sky (no modifiers), cloudy (little sunlight), rainstorm (puts out fires), wind storm (-2 to DEX for ranged attacks), or lightning storm (35% chance of being struck by lightning, equivalent to the Lightning Storm spell)."
+    },
+    "Spectral Tether": {
+      "name": "Spectral Tether",
+      "source": "Tome",
+      "range": "10m",
+      "duration": "Active (4 STA)",
+      "defence": "Resist Magic",
+      "effect": "Spectral Tether allows you to weave a tether of magic around a target which binds it to it’s physical form. While affected by this spell, a target cannot become incorporeal or invisible and cannot teleport by any means. Additionally, as long as the spell is in effect, the target cannot move more than 10m away from you. Each turn, the target can spend their action to attempt another Resist Magic check against a new Spell Casting check to end the \neffect."
+    },
+    "Spell Jar": {
+      "name": "Spell Jar",
+      "source": "Core",
+      "duration": "1d6 Days",
+      "effect": "Spell Jar creates a magical vortex inside a sealed clay jar. This magical vortex lasts for 1d6 days and activates when the jar is broken. When broken, the magical vortex opens and a random spell from the list below occurs. Roll 1d10/2:\n1. Talfryn’s Prison\n2. Zephyr\n3. Tanio Ilchar\n4. Dormyn’s Fog\n5. Static Storm",
+      "ritualPrepTime": "5 Rounds",
+      "components": "River Clay (x5), Fifth Essence (x1), Thread (x2), Chalk (x1), Wax (x1), Han Fiber (x2), Infused Dust (x1)"
+    },
+    "Spirit Seance": {
+      "name": "Spirit Seance",
+      "source": "Core",
+      "duration": "Permanent",
+      "effect": "Spirit Seance contacts the spirit of a dead person. The seance brings the soul back as a specter with the sentience of the original person. The specter retains all memories, including the memory of their death, and can be spoken with at its burial site. The specter cannot be sent back to the realm of the dead except at its own choice, or by killling it. The Seance will summon the spirits of anyone of the same bloodline within 20m so using this spell in family crypts is not advised.\n\nAny specter summoned by a Spirit Seance can possess a target by making a Spell Casting check greater than the target’s Resist Magic roll. The target gets a save against the original Spell Casting check every 1d6 rounds. Until they make this check the specter completely controls their body. The possessed person gets a +5 to their Resist Magic roll if the specter makes them do something they would never do, and a +10 if the specter makes them do something suicidal.",
+      "ritualPrepTime": "5 Rounds",
+      "components": "Some Blood of the Deceased or a Relative, Mandrake Root (x1), Sewant Mushrooms (x2), Wolfsbane (x2), Sulfur (x2)"
+    },
+    "Stammelford's Earthquake": {
+      "name": "Stammelford's Earthquake",
+      "source": "Core",
+      "range": "30m",
+      "duration": "1d10 Rounds",
+      "defence": "Dodge",
+      "effect": "Stammelford’s Earthquake allows you to disrupt the ground in a 10m area and create a jagged, crumbling terrain which puts everyone in the area at a -2 to Reflex and a -3 to SPD. Small structures on the shattered ground have a 10% chance of collapsing. Each round, a creature in the spell’s area must make an Athletics roll or sink into the crumbling ground, which causes them to suffocate until they make a successful Athletics check to climb out. After the duration of the spell ends, the ground stops churning but it will remain shattered."
+    },
+    "Standing Portal": {
+      "name": "Standing Portal",
+      "source": "Core",
+      "range": "10m",
+      "duration": "Active (6 STA)",
+      "defence": "None",
+      "effect": "Standing Portal creates a 1m by 2m floating portal up to 10m from you. Stepping through this portal teleports you anywhere you can recall. The portal can transport anything that fits through it. If you end the portal while something is partially through, the portal slices the object (or creature) in two. The person is counted as being dismembered, as per the Critical Wound.\n\nYou can create a portal to a location you don’t know as long as you have an item from that location. For instance you can teleport to a tranger’s house if you have a piece of their cutlery or something of the like. This is far more complicated however and requires a DC: 20 Spell Casting check. If you succeed you teleport into the center of that location. If you fail you teleport to a random location within 2d10 Miles."
+    },
+    "Static Storm": {
+      "name": "Static Storm",
+      "source": "Core",
+      "range": "5m Radius",
+      "duration": "2d6 Rounds",
+      "defence": "None",
+      "effect": "Static Storm allows you to infuse a 5m radius centred around you with electricity. Anyone within this area (excluding you) who is wearing metal armor or carrying metal weapons takes 2 points of damage per round."
+    },
+    "Steal Spell": {
+      "name": "Steal Spell",
+      "source": "Tome",
+      "range": "10m",
+      "duration": "immediate",
+      "defence": "None",
+      "effect": "Steal Spell allows you to take control of another mage’s spell and re-designate its target. When another mage casts a Non-Master level spell you can immediately force the mage to make a contested Spell Casting check against you. If you succeed at this check, you change the target of the spell to anyone within range of the original caster or yourself if the spell had a range of self. If the spell requires an attack check, use your Spell Casting check from the contested check. If the spell you steal is active, you remain in control of the spell but must pay its active cost."
+    },
+    "Storm of Souls": {
+      "name": "Storm of Souls",
+      "source": "Tome",
+      "range": "10m",
+      "duration": "2d6 rounds",
+      "defence": "None",
+      "effect": "Storm of Souls was first seen during a Nazairi riot after Nilfgaardian invaders captured the local magic academy and shipped its students to Gweison Haul. This highly volatile spell drags restless souls into the world to sow chaos. Immediately upon casting this spell, 1d6+4 wraiths are summoned. These shrieking wraiths are blinded by rage and will attack any target including the caster or their allies."
+    },
+    "Suffocate": {
+      "name": "Suffocate",
+      "source": "Core",
+      "range": "10m",
+      "duration": "Active (4 STA)",
+      "defence": "Resist Magic",
+      "effect": "Suffocates a target for 1d10 damage per turn. The suffocation ends if the caster is struck with a weapon or stops focusing on the spell. While suffocating, a target is treated as staggered."
+    },
+    "Summon Staff": {
+      "name": "Summon Staff",
+      "source": "Core",
+      "range": "N/A",
+      "duration": "Immediate",
+      "defence": "None",
+      "effect": "Summon Staff allows you dematerialize your staff and transport it to a place you have been within the last day. You can cast the spell again to summon the staff back to you."
+    },
+    "Supirre": {
+      "name": "Supirre",
+      "source": "Tome",
+      "range": "variable",
+      "duration": "10 minutes",
+      "defence": "none",
+      "effect": "Drawing the Sign of Supirre on a surface allows you to link it to a point within the range of the spell. When linked, you can hear anything happening near that point as if it were right next to you and can choose to focus on a single sound or conversation by tuning out all other noise. \nAs long as this sign is active, you do not need to make an Awareness check to hear any conversation at the linked point. The sign can only be linked to one location and must be recast to listen in another. The range of this sign is determined by the number of STA Points spent when cast. If cast with 1 STA Point, Supirre has a range of 2m. For every STA Point spent beyond that, the maximum range of the sign increases by 2m."
+    },
+    "Talfryn's Prison": {
+      "name": "Talfryn's Prison",
+      "source": "Core",
+      "range": "10m",
+      "duration": "Until Destroyed",
+      "defence": "Dodge",
+      "effect": "Talfryn’s Prison is named for Talfryn of Nazair, a treacherous knight who was trapped for three days in the garden of the magician Drystan. The spell allows you to bind a target in roots. The roots take 15 points of damage to break. Otherwise a Dodge/Escape check must be made at a DC equal to your original Spell Casting roll to escape."
+    },
+    "Tanio Ilchar": {
+      "name": "Tanio Ilchar",
+      "source": "Core",
+      "range": "8m",
+      "duration": "Immediate",
+      "defence": "Dodge",
+      "effect": "Tanio Ilchar creates a burst of fire in a 2m by 2m area. This has a 100% chance of lighting a target in the area on fire."
+    },
+    "Telecommunication": {
+      "name": "Telecommunication",
+      "source": "Core",
+      "duration": "1 Hour",
+      "effect": "A Telecommunicator allows you to communicate with another person with a Telecommunicator. The ritual is simple but requires both participants to have a telecommunicator and perform the ritual. However it allows you to communicate across tremendous distances, allowing communication between all parts of the known Continent.",
+      "ritualPrepTime": "5 Rounds",
+      "components": "A Telecommunicator"
+    },
+    "Telekinesis": {
+      "name": "Telekinesis",
+      "source": "Core",
+      "range": "5m",
+      "duration": "Active (2 STA)",
+      "defence": "None",
+      "effect": "Telekinesis allows you to lift and manipulate an object (up to 5 ENC per 1 point of Spell Casting) as though you were holding it.\n\nWhen manipulating an object with Telekinesis, you are basically just bending powerful wind around it. This allows you to lift objects, push objects, and to some extent hold objects. Any skill-based task you try to perform with Telekinesis, such as tripping a foe, maneuvering something through an obstacle course, or (god help you) swinging a sword, uses your Will and Spell Casting at a -3. Complex actions like picking locks, firing bows, and loading crossbows are incredibly difficult, taking a -5. If you choose to throw something with telekinesis use your WILL stat instead of your BODY to calculate range."
+    },
+    "Telepathy": {
+      "name": "Telepathy",
+      "source": "Core",
+      "range": "10m",
+      "duration": "Active (1 STA)",
+      "defence": "None",
+      "effect": "Telepathy allows you to communicate telepathically with one subject for the duration of the spell. Telepathy crosses language barriers."
+    },
+    "Teleportation": {
+      "name": "Teleportation",
+      "source": "Core",
+      "range": "N/A",
+      "duration": "Immediate",
+      "defence": "None",
+      "effect": "Teleportation allows you to teleport to a known location instantaneously. You cannot take anyone with you and can only transport the items \non your person or in your hands. Attempting to teleport with a person simply teleports you and leaves them behind. Teleporting require a DC: 15 Spell Casting roll. If you fail the roll, you wind up in a random location 1d6 miles away.\n\nYou can teleport to a place you don’t know as long as you have an item from that location. For instance you can teleport to a stranger’s house if you have a piece of their cutlery or something of the like. This is far more complicated however and requires a DC: 20 Spell Casting check. If you succeed you teleport into the center of that location. If you fail you teleport to a random location within 2d10 miles."
+    },
+    "The Devil's Luck": {
+      "name": "The Devil's Luck",
+      "source": "Core",
+      "effect": "The Devil’s Luck plagues the subject with bouts of bad fortune. In situations of high stress such as combat or when performing any task with a deadline or a DC higher than 15, the subject rolls a fumble on a natural 1 or 2.",
+      "hexLift": "The subject must hammer a silver nail into their door frame and hang 2 units of wolvesbane, tied with a lock of virgin’s hair, from it. Finally the subject must stand under the silver nail, set fire to the bundle of wolvesbane and virgin hair, and breath deeply."
+    },
+    "The Eternal Itch": {
+      "name": "The Eternal Itch",
+      "source": "Core",
+      "effect": "The Eternal Itch causes enflamed, itchy pustules to grow on the subjects genitals. The itch does no damage but is a constant annoyance, causing a -1 to all tasks. As well as this -1 the target takes a -5 to Seduction once ‘in the bedroom.’",
+      "hexLift": "The subject must gather a unit of scleroderm, fool’s parsely, and bryonia. The subject must light a campfire and bundle up the herbs. With everything prepared the subject must light the herbs and crumble the burning ashes onto the afflicted area while reciting a series of magic words."
+    },
+    "The Evil Eye": {
+      "name": "The Evil Eye",
+      "source": "Tome",
+      "effect": "Casting The Evil Eye upon a subject weaves a web of misfortune around them which threatens their every move. Whenever the subject rolls a Fumble, they must roll twice and take the worse outcome. Additionally, the GM is encouraged to choose the subject whenever they would be randomly determining the target of a threat.",
+      "hexLift": "The subject must acquire a unit of coral from the Great Sea (50 Crowns) and fashion it into an amulet with a DC:14 Fine Arts check. The amulet must be worn during the entirety of a full moon and will shatter at the sunrise, freeing you of the Hex."
+    },
+    "The Hex of Shadows": {
+      "name": "The Hex of Shadows",
+      "source": "Core",
+      "effect": "The Hex of Shadows creates whispers in the shadows, and silhouettes around corners. The subject must make random Awareness checks with an unspecified DC, always almost catching a glimpse of something or someone. The awareness checks are never a real threat, just visions.",
+      "hexLift": "The subject must bring a bowl of clear water, a branch from a white myrtle bush, and a bottle of ink to a clearing under a crescent moon. When the moon is at its highest the subject must pour the ink into the water, dip the branch in the mixture, and shake droplets in a circle around themselves while holding their breath."
+    },
+    "The Hex of the Beast": {
+      "name": "The Hex of the Beast",
+      "source": "Core",
+      "effect": "The Hex of the Beast makes the target anathema to animals and beasts. Any time the target comes within 10m of an animal that animal will react poorly to the subject, giving them a -3 to Wilderness Survival for handling animals. Each time they come within 10m of an animal there is a 50% chance the animal will attack.",
+      "hexLift": "The subject must gather a small live animal of some sort,  2 units of mistletoe, 1 unit of phosphorus, 2 units of crow’s eye, 3 units of mandrake root. Under a full moon the subject must cut the throat of the animal and consume its blood. Then the animal’s body must be wrapped in bundles of mistletoe, crow’s eye, and mandrake root and placed in an open fire. As the scales or fur of the animal start to burn away, the phosphorus must be thrown into the fire. When the fire has burned out the subject must remove the bones of the animal and wear them on their person for a full day."
+    },
+    "The Nightmare": {
+      "name": "The Nightmare",
+      "source": "Core",
+      "effect": "The Nightmare forces the subject to relive the same horrifying nightmare. Every night the subject must make a Resist Coercion check at a DC equal to the Hex Weaving roll the caster made to hex them. If they succeed they manage to get a full, though restless, night’s sleep. If they fail, they barely sleep and do not recover STA or HP during the night. If they fail 3 nights in a row they halve their Stamina and take a -2 to all actions until they can get a full night’s rest.",
+      "hexLift": "The subject must gather 5 candles, 5 units of beast bones, and 1 unit of glowing ore. The night of the ceremony the subject must arrange the candles in a circle around them, linked by bones, and place the glowing ore under their head. If the subject is able to sleep through the night they will be freed of the hex."
+    },
+    "The Odious Hex": {
+      "name": "The Odious Hex",
+      "source": "Tome",
+      "effect": "The Odious Hex weaves around a subject and makes them repellent. While hexed, the subject always counts as one level lower on the Social Standing table unless they were already Hated. This affects people of the subject’s own race.",
+      "hexLift": "The subject must construct an effigy of themselves from a unit each of Han Fiber, Barley, & Fool’s Parsley. They must then insult the effigy as if they were insulting themselves until they can no longer think of insults. Finally, the subject must burn the effigy to free themselves of the hex."
+    },
+    "The Pesta's Kiss": {
+      "name": "The Pesta's Kiss",
+      "source": "Core",
+      "effect": "The Pesta’s Kiss breaks down the subject’s ability to fight illness and resist nausea. Anytime the subject comes in contact with a diseased person they have a 75% chance of catching the illness. Any time they smell something even slightly nauseating they must succeed at a DC:16 Endurance check or be nauseated.",
+      "hexLift": "The subject must gather 3 units of river clay, 1 unit of coal, 3 units of resin, and 1 unit of infused dust. First the subject must craft a totem from the clay mixed with infused dust and coated in resin, with the coal forming its eyes. This takes a DC:14 Fine Arts roll. Then the subject must repeat a series of magic words, infusing the totem with power. Immediately after, the totem must be smashed and the coal eyes must be powdered and consumed by the subject."
+    },
+    "Threads of Life": {
+      "name": "Threads of Life",
+      "source": "Core",
+      "range": "10m",
+      "duration": "Active (2 STA)",
+      "defence": "None",
+      "effect": "Threads of Life allows you to see the life energy binding every target within the radius of the spell, which tells you their current Health Points and any critical wounds they have suffered."
+    },
+    "Touch of Lightning": {
+      "name": "Touch of Lightning",
+      "source": "Tome",
+      "range": "2m",
+      "duration": "Active (5 STA)",
+      "defence": "None",
+      "effect": "Touch of Lightning allows you to imbue a stationary metal object with a powerful charge of electricity. Upon casting this spell, the object becomes an electrical trap which will deal 1d6 damage to the first body location that touches it. This spell can be charged by spending extra rounds focusing on it during the casting. For each round that you continue to hold the object and pay its active cost the trap deals an extra 1D6 of damage (maximum 8D6 total). If the object is moved before it is touched by a body location it loses all charges. Additionally, 24 hours after the spell is cast the object loses all charges. It requires a DC:20 Perception check to determine an object has been affected by this spell."
+    },
+    "Transmutation": {
+      "name": "Transmutation",
+      "source": "Core",
+      "range": "2m",
+      "duration": "Permanent",
+      "defence": "None",
+      "effect": "Transmutation allows you to change the properties of a mineral or metal. You can change one unit of metal into any other metal, or change an imperfect gem into a perfect gem suitable for magic. Dimeritium or other metals in contact with dimeritium cannot be created or changed by this spell."
+    },
+    "Trap Portal": {
+      "name": "Trap Portal",
+      "source": "Tome",
+      "range": "4m",
+      "duration": "1 month",
+      "defence": "None",
+      "effect": "Trap Portal allows you to place a magical trap inside a portal which redirects the portal’s end point. Upon casting the spell, you learn the portal’s end point and can choose a location within 1 mile of that point to be the new end point. This trap makes a notable change to the portal which requires a DC:16 Magic Training check or a DC:20 Education check to spot. Anyone with at least 1 point in Magic Training automatically gets to roll a Magic Training check upon seeing the portal to try and spot the trap. Immediately after a creature passes through the portal, the trap is dispelled but evidence that the portal was trapped remains for 1 month."
+    },
+    "Tryferi Gaeaf": {
+      "name": "Tryferi Gaeaf",
+      "source": "Core",
+      "range": "20m",
+      "duration": "1d10 Rounds",
+      "defence": "Dodge & Block",
+      "effect": "Tryferi Gaeaf allows you to shoot a number of 2m spikes of ice equal to half your Spell Casting skill value at any number of targets within range. These spikes do 5d6 points of damage and, if they do damage through armor, freeze the opponent and do 2 points of damage each round until they are broken off with a DC:20 Physique check or by doing 20 points of damage to them. Otherwise, these spikes last for the duration of the spell. Each attack resolves separately."
+    },
+    "Tyromancy": {
+      "name": "Tyromancy",
+      "source": "Tome",
+      "duration": "Immediate",
+      "effect": "By magically aging or melting cheese and watching closely its qualities, Tyromancy allows you to divine whether a course of action will have a positive or negative outcome. When the ritual is performed, the GM privately rolls 1d6 and either adds or subtracts it from 13 to determine the DC of the ritual. If the cheese used is of standard quality or lower (10 Crowns per Unit) the d6 is added to 13. If the cheese used is of high quality (30 Crowns per Unit) the d6 is subtracted. You then make a Ritual Crafting check against this DC. After the check, you may ask the GM whether a course of action will have a positive or negative outcome. If your check was successful, the GM must answer truthfully. If the outcome of the action would be both positive and negative, the answer is whichever would be more immediate. If you fail, the GM will give you a false answer based on the private roll of their d6. If the number was odd the false answer is negative, if the number was even, the false answer is positive.",
+      "ritualPrepTime": "5 Rounds",
+      "components": "Cheese(x2)"
+    },
+    "Uncontrolled Summoning": {
+      "name": "Uncontrolled Summoning",
+      "source": "Tome",
+      "duration": "Instant",
+      "effect": "Designate a chief summoner, to lead the chant. Have them stand forward, with the rest of your group behind them in a semicircle. Scribe a chalk circle into the ground before you, to guide the demon to your ritual. Pick three syllables from your heart (the Demon True Name Generator on TOC Pg.143) at random, and chant them while visualizing your heart’s desire, one syllable at a time, without ceasing, until a demon appears to you.\n\nThis summoning ritual is incredibly dangerous. The demon that is summoned is not bound by any sort of code of conduct, and is not controlled by the players. It may attack them, or go back on any deal made with them, with no consequences. Furthermore, a demon of any species may show up in the summoning, including greater demons. This ritual is responsible for most of the deaths associated with goetia.",
+      "ritualPrepTime": "10 Rounds",
+      "components": "Chalk x1\n\nInvestment: 2"
+    },
+    "Unending Need": {
+      "name": "Unending Need",
+      "source": "Tome",
+      "effect": "Unending Need causes the subject’s body to be consumed by sloth and gluttony, requiring more sleep and food to function properly. The subject must get 10 hours of uninterrupted sleep each night or take the -3 penalty on rolls for Sleep-Deprivation. Additionally, the subject must eat 5 meals a day or halve their total STA for the next day.",
+      "hexLift": "The subject must fast for 3 full days and 3 nights drinking only water and sleeping with sweets underneath their pillow. If the subject is able to perform this fast and not touch the sweets beneath their pillow the hex breaks on the morning of the fourth day."
+    },
+    "Urien's Shelter": {
+      "name": "Urien's Shelter",
+      "source": "Core",
+      "range": "8m Radius",
+      "duration": "1d6 Hours",
+      "defence": "None",
+      "effect": "Urien’s Shelter, created by the nautical air magician Urien of Cidaris, allows you to negate hostile weather effects in an 8m radius centered on you. This negates extreme heat, extreme cold, rain, and snow."
+    },
+    "Vahila's Smoke": {
+      "name": "Vahila's Smoke",
+      "source": "Tome",
+      "range": "10m",
+      "duration": "Active (2 STA)",
+      "defence": "Dodge",
+      "effect": "Created by the feared Etolian assassin Vahila, this spell transforms a wisp of smoke into a choking veil. Upon casting this spell, you can engulf a single target’s head in thick smoke. If this target fails to defend they are immersed in smoke and considered Blinded and Suffocating. Each turn, the target can spend their action to attempt another defense check against a new Spell Casting check to end the effect."
+    },
+    "Van Adelaide's Gale": {
+      "name": "Van Adelaide's Gale",
+      "source": "UNKNOWN",
+      "range": "Self",
+      "duration": "Immediate",
+      "defence": "None",
+      "effect": "Created by Louise Van Adelaide to help escape capture in the North, Van Adelaide’s Gale uses powerful wind to launch you in an arc up to 30m away. Upon casting the spell, a rush of wind bursts out from you in a 2m sphere, knocking anyone who fails to defend back 6m. This attack also does only 1d6 damage, but if someone effected by the spell strikes something, they take ramming damage. While in the air, wind cushions your fall, meaning that you take no damage upon landing."
+    },
+    "Vaults of Knowledge": {
+      "name": "Vaults of Knowledge",
+      "source": "Core",
+      "range": "Selbst",
+      "duration": "Immediate",
+      "defence": "None",
+      "effect": "Vaults of Knowledge allows you to reach back into your mind and access any knowledge or memory that you’ve ever known as if you were just experiencing it."
+    },
+    "Voice of the Counselor": {
+      "name": "Voice of the Counselor",
+      "source": "Tome",
+      "range": "10m",
+      "duration": "10 Minutes",
+      "defence": "None",
+      "effect": "Voice of the Counselor allows you to imbue your words with inspiration, you can either make your voice boom loud enough to be heard from far away or whisper in the ear of one person within range. Additionally, you gain a +4 to Leadership checks."
+    },
+    "Wagerer's Pendant": {
+      "name": "Wagerer's Pendant",
+      "source": "Tome",
+      "duration": "1 Week",
+      "effect": "By binding a shard of etched glass in a pendant of wolfsbane, beast bones, and leather strips, you can create a locus of dark magic. This pendant absorbs the chaos which forms hexes and temporarily stores it. While a person wears it, they are freed from the effects of all hexes. If the pendant is removed at any point, all of the effects return. Additionally, if the person fails to rid themselves of all of the hexes by the end of this ritual’s duration, the pendant breaks and releases a torrent of dark magic. Should this occur, the person wearing the pendant and anyone within 2m of them are immediately afflicted by a number of hexes chosen by the GM.",
+      "ritualPrepTime": "10 rounds",
+      "components": "Glass (x2), Beast Bones (x1), Wolfsbane (x2), Leather (x2), Chalk (x2), Etching Acid (x5), Ashes (x2)"
+    },
+    "Water Jet": {
+      "name": "Water Jet",
+      "source": "Tome",
+      "range": "8m",
+      "duration": "Immediate",
+      "defence": "Dodge & Block",
+      "effect": "Water Jet creates a controlled geyser from a source of water to strike a target with your choice of slashing, piercing, or bludgeoning damage. If the target fails to defend, they take 4d6 damage and are knocked Prone."
+    },
+    "Waters of Clearance": {
+      "name": "Waters of Clearance",
+      "source": "Core",
+      "range": "5m",
+      "duration": "Immediate",
+      "defence": "Resist Magic",
+      "effect": "Waters of Clearance sobers the target immediately. This incantation counteracts alcohol and alchemical solutions that cause intoxication."
+    },
+    "Wave of Fire": {
+      "name": "Wave of Fire",
+      "source": "Core",
+      "range": "3m Cone",
+      "duration": "Immediate",
+      "defence": "Dodge & Block",
+      "effect": "Wave of Fire shoots a 3m cone of fire in one direction that does 2d6 damage to anyone who isn’t able to dodge or block, and has a 50% chance of igniting a target."
+    },
+    "Waves of the Naglfar": {
+      "name": "Waves of the Naglfar",
+      "source": "Core",
+      "range": "3m Radius",
+      "duration": "Immediate",
+      "defence": "Dodge & Block",
+      "effect": "Created by a mage who claimed to have witnessed the ride of the Wild Hunt, this spell creates a wave of ice magic that spreads out 3m from you in all directions. Anyone who doesn’t dodge or block the spell is frozen and takes 4d6 damage."
+    },
+    "Weapon Honing": {
+      "name": "Weapon Honing",
+      "source": "Tome",
+      "effect": "As a full round action, you can add a 25% Bleed chance to a weapon that deals Piercing or Slashing damage."
+    },
+    "Web of Ice": {
+      "name": "Web of Ice",
+      "source": "Tome",
+      "range": "2m",
+      "duration": "1 day",
+      "defence": "None",
+      "effect": "Web of Ice allows you to create a delicate structure of ice on a surface which is linked to a duplicate that you possess. The moment a creature interacts with the surface it is placed on, the structure and its duplicate break. Alternatively, breaking the duplicate melts the original structure. The ice can be spotted with a DC:18 Awareness check."
+    },
+    "Web of Lies": {
+      "name": "Web of Lies",
+      "source": "Core",
+      "range": "8m",
+      "duration": "INT roll ends",
+      "defence": "Resist Magic",
+      "effect": "Web of Lies allows you to scramble the information in a target’s head, making them question every piece of information and memory. This stuns the target. Once per round, on their turn, the target can roll 1d10. If they roll under their INT the effect ends."
+    },
+    "Web of Roots": {
+      "name": "Web of Roots",
+      "source": "Tome",
+      "range": "10m",
+      "duration": "Active (1 STA)",
+      "defence": "None",
+      "effect": "Web of Roots allows you to take control of the roots of a nearby tree to grapple a target. Upon casting this invocation on a tree, you can use its roots to grapple, trip, or disarm a target within 10m of the tree who fails a Defense check against your Spell Casting check. Each round that you maintain this invocation you can either maintain your grapple or attempt one of the other options on a target within 10m of the tree. A grappled target can escape by succeeding a Dodge/Escape check against a new Spell Casting check or by dealing 15 points of damage to the roots."
+    },
+    "Well of Knowledge (Gedyneith)": {
+      "name": "Well of Knowledge (Gedyneith)",
+      "source": "Tome",
+      "range": "½ Mile",
+      "duration": "1 Day",
+      "defence": "None",
+      "effect": "Well of Knowledge causes a tree you touch to grow an integrated basin of fluorescing water blessed by nature. The next 20 people to drink from this basin are affected immediately. For one day after consuming the water of the basin, a creature gains a +4 to Initiative and Awareness, becomes immune to the Stagger, Stun, & Hallucination conditions, and can see through any illusions. If the creature had a Vigor Threshold of one or more before consuming the water, they raise their Vigor Threshold by 4 but suffer a -4 to Resist Magic. After the invocation ends, the tree shifts back to normal leaving only an etched sigil unique to the druid. A creature cannot benefit from this invocation more than once a week."
+    },
+    "White Flame (The Great Sun)": {
+      "name": "White Flame (The Great Sun)",
+      "source": "Core",
+      "range": "10m Radius",
+      "duration": "1 Hour",
+      "defence": "Resist Magic",
+      "effect": "Summoning the power of the Great Sun, you create a bright aura of White Fire which lights the surrounding area to the level of bright light. This aura of fire doesn’t burn anyone who touches it but does thaw anyone in the spell’s area, and dispels water-based spells in the area. Water-based spells can only be cast in the area of the spell if the caster’s Spell Casting check beats that of the Priest of the Great Sun. On top of this, any monster in the area that is vulnerable to sunlight takes double the normal penalties."
+    },
+    "Winds of the Taiga (Gwyn Carn)": {
+      "name": "Winds of the Taiga (Gwyn Carn)",
+      "source": "Tome",
+      "range": "1 Mile Radius",
+      "duration": "1 Hour",
+      "defence": "None",
+      "effect": "Winds of the Taiga summons the winter winds of the Far North to create a blizzard that shelters you and your allies. The area of the invocation is immersed in a blizzard that blinds anyone in it and creates Snow & Ice conditions. Any number of people you choose are not blinded by the blizzard, are immune to the Snow & Ice conditions, and their attacks have an additional 50% chance of freezing."
+    },
+    "Word of Summoning": {
+      "name": "Word of Summoning",
+      "source": "Tome",
+      "range": "N",
+      "duration": "10 Minutes",
+      "defence": "None",
+      "effect": "Speaking the Word of Summoning calls out to a nearby wild animal which arrives within 1d6 rounds. When the animal arrives, it is friendly to you and will help you as long as you don’t betray or abuse it.\n\nIf you spend 2 STA casting Word of Summoning you can summon a small animal (Bird, Serpent, Cat, etc.).\nIf you spend 5 STA you can summon a medium animal (Wolves, Panthers, Boars, etc.).\nIf you spend 10 STA you can summon a large animal (Bear, Ox, Horse, etc.). Word of Summoning can only be cast once in an area per day. \n\nWhen this invocation ends, the animal becomes neutral to you."
+    },
+    "Wrath of Nature": {
+      "name": "Wrath of Nature",
+      "source": "Tome",
+      "range": "60m",
+      "duration": "Active (6 STA)",
+      "defence": "Variable",
+      "effect": "Wrath of Nature allows you to summon the tremendous power of the natural world to wreak havoc on your enemies. Depending on the terrain, Wrath of Nature creates a different effect centered on you with a 60m radius.\n◆ Fields: Every turn you can spend a full round action to either touch down a rope tornado within 10m of you or direct a single rope tornado within the area of the storm. A rope tornado covers a 4m cubed area and when directed by you can move 10m per turn. If it runs over or into targets those targets must make Athletics checks against your Spell Casting check. If they fail, they take 4d6 damage to the torso and are knocked back 10m in a direction decided by the GM.\n◆ Mountains: Every turn you can spend a full round action to summon down a bolt of lightning which strikes a target. The target must make a Dodge/Escape or Athletics check against your Spell Casting check or take 6d6 damage to the torso and have a 50% chance of being lit on fire.\n◆ Underground: Every turn you can spend a full round action to summon a stalagmite or stalactite to violently erupt from the stone and stab a single target. The target of this attack must make a Dodge/Escape, Athletics, or Block check against your Spell Casting check or take 5d6 damage. Each summoned stalagmite or stalactite remains until destroyed and counts as a 2m cubed piece of cover with 20 SP.\n◆ Forest: Every turn you can spend a full round action to either summon up a tangle of roots from the ground to take one of the following actions or give a single command to each existing tangle of roots you have summoned. These roots are immobile but have the Long Reach Effect and can be used to Grapple, Trip, Disarm, Choke, or Pin a target. They have a Brawling base of 16 unless your Spell Casting base would be higher.\n◆ Swamp: Every turn you can spend a full round action to summon a 6m radius area of swamp gas that erupts from the ground. Anyone caught in the gas must make an Endurance check against your Spell Casting check or suffer from the Disease condition. This gas remains until the invocation ends. Additionally, if an exposed flame is present in the area of this gas, it explodes, causing every creature in the gas to take 5d6 damage to the torso and have a 75% chance of catching on fire.\n◆ Shore: Every turn you can spend a full round action to summon a powerful waterspout out of the nearby body of water to knock down targets with pressurized water. Two jets of water emit from the spout towards one or two targets within 20m. These target’s must make Dodge/Escape or Athletics checks against your Spell Casting check or take 3d6 damage and be knocked back 6m.\n◆ Desert: Every turn you can spend a full round action to kick up a gust of burning sand in a 6m radius area. Any creatures within this area must make a Dodge/Escape or Athletics check versus your Spell Casting check or be blinded for 5 rounds and be lit on fire.\n◆ Tundra: Every turn you can spend a full round action to summon up a whirl of snow and water magic around a single target to encase them in ice.The target must make a Dodge/Escape, Athletics, or Resist Magic check versus your Spell Casting check or be encased in solid ice. This ice immobilizes the target and keeps them from taking actions. To break out of this ice, the target must make a DC:16 Physique check. Alternatively, if someone deals 10 points of damage to the ice or 5 points of fire damage to the ice, it allows the person to break free. Any damage beyond the 10 points (or 5 points) required to break the ice is dealt to the target’s torso."
+    },
+    "Yrden": {
+      "name": "Yrden",
+      "source": "Core",
+      "range": "3m Radius",
+      "duration": "5 rounds",
+      "defence": "None",
+      "effect": "Yrden creates a large magic circle on the ground around you. Anything that steps into that circle takes a penalty to SPD and REF equal to 1 plus 1 for every 2 points of STA spent beyond the first, up to a maximum penalty of 4. The penalty lasts until they exit the circle. Any incorporeal creatures that enter the circle become corporeal."
+    },
+    "Zephyr": {
+      "name": "Zephyr",
+      "source": "Core",
+      "range": "2m Radius",
+      "duration": "Immediate",
+      "defence": "None",
+      "effect": "Zephyr allows you to shoot out a burst of wind that blasts anyone within 2m of you back 6m. This attack does only 1d6 damage, but if your opponent hits something they suffer ramming damage."
+    }
+  }
+}

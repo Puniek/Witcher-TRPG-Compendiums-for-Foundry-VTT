@@ -1,0 +1,4852 @@
+{
+  "label": "Inventory",
+  "mapping": {
+    "source": "system.sourcebook",
+    "duration": "system.time",
+    "effect": "system.effect",
+    "description": "system.description",
+    "forageLocation": "system.location",
+    "forageQuantity": "system.quantityObtainable",
+    "craftinTime": "system.craftingTime",
+    "mutagenSource": "system.source",
+    "minorMutation": "system.minorMutation",
+    "range": "system.range"
+  },
+  "folders": {
+    "Aether": "Aether",
+    "Alchemical Items": "Alchemical Items",
+    "Alchemical Treatments": "Alchemical Treatments",
+    "Ammunition": "Ammunition",
+    "Ammunition Diagrams": "Ammunition Diagrams",
+    "Armor": "Armor",
+    "Armor Diagrams": "Armor Diagrams",
+    "Armor Enhancements": "Armor Enhancements",
+    "Axes": "Axes",
+    "Blade Oil Formulae": "Blade Oil Formulae",
+    "Blade Oils": "Blade Oils",
+    "Bludgeons": "Bludgeons",
+    "Bomb Diagrams": "Bomb Diagrams",
+    "Bombs": "Bombs",
+    "Bows": "Bows",
+    "Caelum": "Caelum",
+    "Clothing": "Clothing",
+    "Components": "Components",
+    "Containers": "Containers",
+    "Crafting Materials": "Crafting Materials",
+    "Crossbow": "Crossbow",
+    "Crossbow Enhancements": "Crossbow Enhancements",
+    "Crossbows": "Crossbows",
+    "Currency": "Currency",
+    "Diagrams & Formulae": "Diagrams & Formulae",
+    "Elderfolk": "Elderfolk",
+    "Enhancement Diagrams": "Enhancement Diagrams",
+    "Enhancements": "Enhancements",
+    "Food": "Food",
+    "Formulae": "Formulae",
+    "Fulgur": "Fulgur",
+    "Gear": "Gear",
+    "Grand Master Diagrams": "Grand Master Diagrams",
+    "Heavy Armor": "Heavy Armor",
+    "Hides & Animal Parts": "Hides & Animal Parts",
+    "Human": "Human",
+    "Hydragenum": "Hydragenum",
+    "Ingots & Minerals": "Ingots & Minerals",
+    "Ingredient Diagrams": "Ingredient Diagrams",
+    "Journeyman Diagrams": "Journeyman Diagrams",
+    "Journeyman Formulae": "Journeyman Formulae",
+    "Light Armor": "Light Armor",
+    "Magic Items": "Magic Items",
+    "Master Diagrams": "Master Diagrams",
+    "Master Formulae": "Master Formulae",
+    "Medium Armor": "Medium Armor",
+    "Miscellaneous": "Miscellaneous",
+    "Miscellaneous Diagrams": "Miscellaneous Diagrams",
+    "Mounts & Vehicles": "Mounts & Vehicles",
+    "Mutagens": "Mutagens",
+    "Novice Diagrams": "Novice Diagrams",
+    "Novice Formulae": "Novice Formulae",
+    "Polearms": "Polearms",
+    "Potions": "Potions",
+    "Quebrith": "Quebrith",
+    "Random Possessions": "Random Possessions",
+    "Rebis": "Rebis",
+    "Relic Armor Sets": "Relic Armor Sets",
+    "Relic Weapons": "Relic Weapons",
+    "Runes & Glyphs": "Runes & Glyphs",
+    "Runewords & Glyphwords": "Runewords & Glyphwords",
+    "Small Blades": "Small Blades",
+    "Sol": "Sol",
+    "Staves": "Staves",
+    "Substances": "Substances",
+    "Swords": "Swords",
+    "Thrown Weapons": "Thrown Weapons",
+    "Tool Kits": "Tool Kits",
+    "Trap Diagrams": "Trap Diagrams",
+    "Traps": "Traps",
+    "Vermillion": "Vermillion",
+    "Vitriol": "Vitriol",
+    "Weapon Diagrams": "Weapon Diagrams",
+    "Weapons": "Weapons",
+    "Witcher": "Witcher",
+    "Witcher Armor Diagrams": "Witcher Armor Diagrams",
+    "Witcher Decoction Formulae": "Witcher Decoction Formulae",
+    "Witcher Decoctions": "Witcher Decoctions",
+    "Witcher Potion Formulae": "Witcher Potion Formulae",
+    "Witcher Potions": "Witcher Potions",
+    "Witcher Weapon Diagrams": "Witcher Weapon Diagrams"
+  },
+  "entries": {
+    "A Chronicle": {
+      "name": "A Chronicle"
+    },
+    "Abomination Lymph": {
+      "name": "Abomination Lymph",
+      "forageLocation": "Bruxa, Garkains",
+      "forageQuantity": "N/A"
+    },
+    "Acid Solution": {
+      "name": "Acid Solution",
+      "source": "Core",
+      "duration": "N/A",
+      "effect": "2d6 damage to any living creature it is thrown on and does 1d6/2 ablation damage to weapons and armor.\n\nThrowing it is an Athletics attack with a range equal to your BODYx2m, and the acid splatters in a 2m cone directly away from where it lands."
+    },
+    "Adda’s Tomb": {
+      "name": "Adda’s Tomb",
+      "source": "Core",
+      "duration": "1d10 days",
+      "effect": "Treated perishables will not begin to rot or spoil for 1d10 days. Preserving a human-sized body requires 2 doses."
+    },
+    "Adrenal Elixir": {
+      "name": "Adrenal Elixir",
+      "source": "UNKNOWN",
+      "duration": "3 rounds",
+      "effect": "Lowers the DC to stabilize the imbiber in Death State by 5 and bolsters their chances of survival. For the next 3 Rounds, the target automatically succeeds at Death Saves, though their Death Save penalty continues to rise.\n\nIf imbibed while not in Death State, the Adrenal Elixir allows the imbiber to ignore the penalties of being below their Wound Threshold for three rounds."
+    },
+    "Aedirnian Gambeson": {
+      "name": "Aedirnian Gambeson",
+      "forageLocation": "Torso"
+    },
+    "Alchemical Adhesive": {
+      "name": "Alchemical Adhesive",
+      "source": "Core",
+      "duration": "N/A",
+      "effect": "After 2 rounds the solution will harden, permanently sticking objects together, and sticking people to one another or to objects. The objects must be pried apart with a DC:16 Physique check.\n\nThrowing it is an Athletics attack with a range equal to your BODYx2m."
+    },
+    "Alchemy Set": {
+      "name": "Alchemy Set",
+      "description": "Allows you to craft alchemical items"
+    },
+    "Alcohest": {
+      "name": "Alcohest",
+      "description": "If you drink a bottle of alcohest it will poison you and intoxicate you. Once poisoned it takes a DC:16 Endurance check to shake off the poisoning. Even afterwards you will \nstill be intoxicated for a number of hours equal to 12 inus your Body. Intoxication can be treated with wives’ ears potion."
+    },
+    "Allspice Root": {
+      "name": "Allspice Root",
+      "forageLocation": "Fields",
+      "forageQuantity": "1d6"
+    },
+    "Alp": {
+      "name": "Alp",
+      "effect": "+1 WILL",
+      "mutagenSource": "Alp",
+      "minorMutation": "a patchwork of dark red veins   under your skin"
+    },
+    "Alp Saliva": {
+      "name": "Alp Saliva",
+      "forageLocation": "Alps",
+      "forageQuantity": "N/A"
+    },
+    "Amulet, Gemstone": {
+      "name": "Amulet, Gemstone",
+      "description": "Focus (3)"
+    },
+    "Amulet, Ornate": {
+      "name": "Amulet, Ornate",
+      "description": "Focus (2)"
+    },
+    "Amulet, Simple": {
+      "name": "Amulet, Simple",
+      "description": "Focus (1)"
+    },
+    "Anabolic Steroids": {
+      "name": "Anabolic Steroids",
+      "source": "Tome",
+      "duration": "10 minutes",
+      "effect": "Drinking Anabolic Steroids gives a character +10 maximum Hit Points, and +2 to Endurance and Physique for 10 minutes. On the other hand, it makes the drinker incredibly aggressive towards everyone for 1 hour."
+    },
+    "Arachas": {
+      "name": "Arachas",
+      "effect": "+5 HP",
+      "mutagenSource": "Arachas",
+      "minorMutation": "Green bodily fluids"
+    },
+    "Arachas Decoction": {
+      "name": "Arachas Decoction",
+      "source": "Core",
+      "duration": "30 minutes",
+      "effect": "For every 10 points of ENC you have free you gain +2 SP to all locations."
+    },
+    "Arachas Eyes": {
+      "name": "Arachas Eyes",
+      "forageLocation": "Arachasae",
+      "forageQuantity": "N/A"
+    },
+    "Arachas Venom": {
+      "name": "Arachas Venom",
+      "forageLocation": "Arachasae",
+      "forageQuantity": "N/A"
+    },
+    "Archer's Gambeson": {
+      "name": "Archer's Gambeson",
+      "forageLocation": "Torso"
+    },
+    "Archespore Juice": {
+      "name": "Archespore Juice",
+      "forageLocation": "Archespores",
+      "forageQuantity": "N/A"
+    },
+    "Archespore Tendrils": {
+      "name": "Archespore Tendrils",
+      "forageLocation": "Archespores",
+      "forageQuantity": "N/A"
+    },
+    "Arming Sword": {
+      "name": "Arming Sword"
+    },
+    "Armor of Undvik": {
+      "name": "Armor of Undvik",
+      "forageLocation": "Torso"
+    },
+    "Armored Hood": {
+      "name": "Armored Hood",
+      "forageLocation": "Head"
+    },
+    "Armored Pants": {
+      "name": "Armored Pants",
+      "forageLocation": "Leg"
+    },
+    "Armored Trousers": {
+      "name": "Armored Trousers",
+      "forageLocation": "Leg"
+    },
+    "Arrowhead": {
+      "name": "Arrowhead"
+    },
+    "Ashen Ointment": {
+      "name": "Ashen Ointment",
+      "source": "UNKNOWN",
+      "duration": "1 hour",
+      "effect": "Spread across a character’s whole body, Ashen Ointment renders the character immune to the Fire Condition for 1 hour."
+    },
+    "Ashes": {
+      "name": "Ashes",
+      "forageLocation": "Fires & Burned items",
+      "forageQuantity": "1d10"
+    },
+    "Bag of Marbles": {
+      "name": "Bag of Marbles",
+      "description": "Covers a 2m area. Anyone passing through it must beat a DC:14 Athletics check or be knocked prone. Quadrupedal creatures must only beat a DC:12 Athletics and creatures without legs are unaffected."
+    },
+    "Bag of theet": {
+      "name": "Bag of theet"
+    },
+    "Balisse Fruit": {
+      "name": "Balisse Fruit",
+      "forageLocation": "Fields",
+      "forageQuantity": "1d10"
+    },
+    "Balisse Leaves": {
+      "name": "Balisse Leaves",
+      "forageLocation": "Fields",
+      "forageQuantity": "1d10"
+    },
+    "Ball of clay": {
+      "name": "Ball of clay"
+    },
+    "Bandolier": {
+      "name": "Bandolier",
+      "description": "25kg of tiny items, or larger items hooked onto it"
+    },
+    "Barbegazi Fur": {
+      "name": "Barbegazi Fur",
+      "forageLocation": "Barbegazi",
+      "forageQuantity": "N/A"
+    },
+    "Barghest Essence": {
+      "name": "Barghest Essence",
+      "forageLocation": "Barghest",
+      "forageQuantity": "N/A"
+    },
+    "Barley": {
+      "name": "Barley",
+      "forageLocation": "Fields",
+      "forageQuantity": "1d10"
+    },
+    "Base Powder": {
+      "name": "Base Powder",
+      "source": "Core",
+      "duration": "N/A",
+      "effect": "Counteracts the effects of acid, negating one dose of acid solution per dose of base powder used. Base powder can also negate damage from a torn stomach critical wound."
+    },
+    "Basic Clothing": {
+      "name": "Basic Clothing"
+    },
+    "Basket": {
+      "name": "Basket",
+      "description": "15kg of small items"
+    },
+    "Battle Axe": {
+      "name": "Battle Axe"
+    },
+    "Battle Axe, Large": {
+      "name": "Battle Axe, Large"
+    },
+    "Battle Mage's Robe": {
+      "name": "Battle Mage's Robe",
+      "forageLocation": "FullCover"
+    },
+    "Battle Tropy": {
+      "name": "Battle Tropy"
+    },
+    "Bear": {
+      "name": "Bear",
+      "effect": "+10 HP",
+      "mutagenSource": "Bear",
+      "minorMutation": "Prolific fur growth"
+    },
+    "Bear Fat": {
+      "name": "Bear Fat",
+      "forageLocation": "Bears",
+      "forageQuantity": "1d6"
+    },
+    "Bear Hide": {
+      "name": "Bear Hide",
+      "forageLocation": "Bears",
+      "forageQuantity": "N/A"
+    },
+    "Beast Bones": {
+      "name": "Beast Bones",
+      "forageLocation": "monsters & beasts",
+      "forageQuantity": "Variable"
+    },
+    "Beast Oil": {
+      "name": "Beast Oil",
+      "source": "Core",
+      "duration": "30 minutes",
+      "effect": "+5 damage against beasts"
+    },
+    "Bedroll": {
+      "name": "Bedroll"
+    },
+    "Beer": {
+      "name": "Beer"
+    },
+    "Belt Pouch": {
+      "name": "Belt Pouch",
+      "description": "5kg of tiny items"
+    },
+    "Berbercane Fruit": {
+      "name": "Berbercane Fruit",
+      "forageLocation": "Mountains & swamps",
+      "forageQuantity": "1d10"
+    },
+    "Berserker’s Axe": {
+      "name": "Berserker’s Axe"
+    },
+    "Berserker’s Brew": {
+      "name": "Berserker’s Brew",
+      "source": "UNKNOWN",
+      "duration": "1d10 rounds",
+      "effect": "When consumed, a target must make an Endurance check at DC:16. If they fail, they must use their turn to attack the closest person. Each round at the beginning of their turn, the target can attempt another Endurance check DC:16. If they succeed, the frenzy subsides until their next turn, at which point they must make the Endurance check again or fall back into the frenzy. Berseker’s Brew lasts 1d10 rounds."
+    },
+    "Bes Horn": {
+      "name": "Bes Horn",
+      "forageLocation": "Bes",
+      "forageQuantity": "1d6/3"
+    },
+    "Biter Trap": {
+      "name": "Biter Trap",
+      "range": "4m"
+    },
+    "Bizant": {
+      "name": "Bizant",
+      "description": "= 4 Redanian Crowns\nUsed in Kovir & Poviss"
+    },
+    "Black Blood": {
+      "name": "Black Blood",
+      "source": "Core",
+      "duration": "20 rounds",
+      "effect": "The witcher’s blood poisons any creature that drinks it, doing 3 points of damage per round until an Endurance check, DC:20 is made. The creature is also forced to recoil 2m."
+    },
+    "Black Magic Doll": {
+      "name": "Black Magic Doll",
+      "description": "A doll infused with dark magic to replicate a specific Low Danger Hex. A character holding a Black Magic Doll, can take a full round action to cut their hand (dealing 10 points of damage to themselves), bleed onto the doll, and roll a Curse Weaving check against the Resist Magic check of a target they truly hate. If the character succeeds, they inflict the Hex associated with the doll on the target.\n\n\nEducation DC:14 to determine nature."
+    },
+    "Black Venom": {
+      "name": "Black Venom",
+      "source": "Core",
+      "duration": "N/A",
+      "effect": "Poisons a target if it gets into their bloodstream or is ingested. A DC:16 Endurance check ends the effect, but the target can become poisoned again if they consume more black venom or are cut by a poisoned weapon.\n\nTo coat a blade with black venom requires a full round and the weapon remains poisoned for 1d10 rounds. In drinks, it takes a DC:16 Awareness check to realize the drink is poisoned."
+    },
+    "Black magic doll (Memento)": {
+      "name": "Black magic doll (Memento)"
+    },
+    "Black magic ring": {
+      "name": "Black magic ring"
+    },
+    "Blackmail material": {
+      "name": "Blackmail material"
+    },
+    "Blinders": {
+      "name": "Blinders",
+      "description": "+1 to calm your mount"
+    },
+    "Blizzard": {
+      "name": "Blizzard",
+      "source": "Core",
+      "duration": "10 rounds",
+      "effect": "+4 Reflex after killing an enemy. Further kills do not add to the bonus, which lasts until the potion duration ends."
+    },
+    "Bloodstone Dagger": {
+      "name": "Bloodstone Dagger"
+    },
+    "Bloody hand": {
+      "name": "Bloody hand"
+    },
+    "Blunt": {
+      "name": "Blunt"
+    },
+    "Blunted Lance": {
+      "name": "Blunted Lance",
+      "range": "2m"
+    },
+    "Boar Pelt": {
+      "name": "Boar Pelt",
+      "forageLocation": "Boars",
+      "forageQuantity": "N/A"
+    },
+    "Boar Tusks": {
+      "name": "Boar Tusks",
+      "forageLocation": "Boars",
+      "forageQuantity": "N/A"
+    },
+    "Bodkin": {
+      "name": "Bodkin"
+    },
+    "Bohun Upas Poison": {
+      "name": "Bohun Upas Poison",
+      "forageLocation": "Manticores",
+      "forageQuantity": "N/A"
+    },
+    "Bonding Pair": {
+      "name": "Bonding Pair",
+      "description": "This item always comes in a set of 2 rings. When a wearer turns the ring in a specific sequence around their ring finger, they can speak a few words, roughly twenty, to be carried on the wind to the wearer of the other ring. The message always reaches its destination in less than a day, but the exact amount of time depends on distance and is left to the Game Master.\n\nAdditionally, the rings vibrate when one of the wearers is in mortal danger regardless of the distance between the two.\n\nEducation DC:16 to determine nature."
+    },
+    "Book bound in skin": {
+      "name": "Book bound in skin"
+    },
+    "Book of Tales": {
+      "name": "Book of Tales",
+      "description": "A book of folk tales and legends which automatically eveals the Commoner Superstition of any monster when referenced. Additionally, it grants a +1 to any Monster Lore checks made while referencing the book."
+    },
+    "Botchling": {
+      "name": "Botchling",
+      "effect": "+2 Melee Damage",
+      "mutagenSource": "Botchling",
+      "minorMutation": "Cleft palate & Reddedned sclera"
+    },
+    "Botchling Blood": {
+      "name": "Botchling Blood",
+      "forageLocation": "Botchlings",
+      "forageQuantity": "N/A"
+    },
+    "Botchling Bones": {
+      "name": "Botchling Bones",
+      "forageLocation": "Botchlings",
+      "forageQuantity": "N/A"
+    },
+    "Botchling Brain": {
+      "name": "Botchling Brain",
+      "forageLocation": "Botchlings",
+      "forageQuantity": "N/A"
+    },
+    "Botchling Ear": {
+      "name": "Botchling Ear",
+      "forageLocation": "Botchlings",
+      "forageQuantity": "N/A"
+    },
+    "Bottle": {
+      "name": "Bottle"
+    },
+    "Brass Knuckles": {
+      "name": "Brass Knuckles"
+    },
+    "Bredan’s Fury": {
+      "name": "Bredan’s Fury",
+      "source": "Core",
+      "duration": "N/A",
+      "effect": "Explodes when exposed to air, doing 2d6 damage to every body location of any creature within 2m. Throwing it is a an Athletics attack with a range equal to your BODYx2m."
+    },
+    "Brigandine": {
+      "name": "Brigandine",
+      "forageLocation": "Torso"
+    },
+    "Broadhead": {
+      "name": "Broadhead"
+    },
+    "Bruxa": {
+      "name": "Bruxa",
+      "effect": "+1 WILL",
+      "mutagenSource": "Bruxa",
+      "minorMutation": "semi-translucent skin & a hissing voice"
+    },
+    "Bruxa Blood": {
+      "name": "Bruxa Blood",
+      "forageLocation": "Bruxa",
+      "forageQuantity": "N/A"
+    },
+    "Bryonia": {
+      "name": "Bryonia",
+      "forageLocation": "Mountains & Cities",
+      "forageQuantity": "1d10"
+    },
+    "Bullvore": {
+      "name": "Bullvore",
+      "effect": "+10 HP",
+      "mutagenSource": "Bullvore",
+      "minorMutation": "Hard growths all over the body"
+    },
+    "Bullvore Blood": {
+      "name": "Bullvore Blood",
+      "forageLocation": "Bullvores",
+      "forageQuantity": "N/A"
+    },
+    "Bullvore Brain": {
+      "name": "Bullvore Brain",
+      "forageLocation": "Bullvores",
+      "forageQuantity": "N/A"
+    },
+    "Bullvore Eyes": {
+      "name": "Bullvore Eyes",
+      "forageLocation": "Bullvores",
+      "forageQuantity": "N/A"
+    },
+    "Burdok Root": {
+      "name": "Burdok Root",
+      "forageLocation": "Fields and Forest",
+      "forageQuantity": "N/A"
+    },
+    "Business Ledger": {
+      "name": "Business Ledger"
+    },
+    "Cadaverine Solution": {
+      "name": "Cadaverine Solution",
+      "source": "UNKNOWN",
+      "duration": "N/A",
+      "effect": "A slashing or piercing weapon coated in Cadaverine inflicts both the poisoned and nauseated conditions on a target on a successfully damaging attack. Two separate (DC:16) Endurance checks must be made to end  both conditions."
+    },
+    "Calcium Equum": {
+      "name": "Calcium Equum",
+      "forageLocation": "Mountains & undergrounds",
+      "forageQuantity": "1d10"
+    },
+    "Camouflage Cloak": {
+      "name": "Camouflage Cloak",
+      "description": "By taking a minute, a character can gather foliage from the local environment to weave through the loops on the cloak. While the cloak is fitted this way, the character wearing it gains a +1 to Stealth checks in that wilderness."
+    },
+    "Candle": {
+      "name": "Candle",
+      "description": "Raises light levels by 1 for 2m all around. High wind blows it out."
+    },
+    "Caroline (Long Sword, Education DC: 20)": {
+      "name": "Caroline (Long Sword, Education DC: 20)"
+    },
+    "Carriage": {
+      "name": "Carriage"
+    },
+    "Cart": {
+      "name": "Cart"
+    },
+    "Cat": {
+      "name": "Cat",
+      "source": "Core",
+      "duration": "2 hours",
+      "effect": "No penalties for darkness or dim light. You also cannot be hypnotised, and gain a +2 to see through illusions."
+    },
+    "Cavalry Saddle": {
+      "name": "Cavalry Saddle",
+      "description": "+1 to Control checks for attacking\nBuilt-in sheath for a weapon"
+    },
+    "Cavalry Trousers": {
+      "name": "Cavalry Trousers",
+      "forageLocation": "Leg"
+    },
+    "Celandine": {
+      "name": "Celandine",
+      "forageLocation": "Fields & Forest",
+      "forageQuantity": "1d10"
+    },
+    "Celestine": {
+      "name": "Celestine",
+      "source": "UNKNOWN",
+      "duration": "N/A",
+      "effect": "Consuming a dose of Celestine causes the target to hallucinate colorful lights and pleasant sounds. This makes focusing difficult and imposes a -2 penalty to Awareness and any other task that requires focus. This condition ends in 2d10 minutes but a DC:14 Endurance check ends the condition early."
+    },
+    "Censer full of caked blood": {
+      "name": "Censer full of caked blood"
+    },
+    "Centerpiece": {
+      "name": "Centerpiece",
+      "description": "An entirely unique item crafted for the purposes of protecting a person from a casglydd. This item can take many forms and you will never see the same item more than once. This item must be crafted by a skilled artisan and must be incredibly complex. This complexity can come in the form of intricate carvings or embroidery, strange shapes and angles, puzzle elements, hidden compartments, or the like. This item must be wrapped up and presented to the casglydd when they are summoned. Upon giving the Centerpiece to the casglydd the demon shifts its fascination from you to the Centerpiece. The casglydd will not attach to you and reoccur even if you sign a contract with it."
+    },
+    "Cerebral Elixir": {
+      "name": "Cerebral Elixir",
+      "source": "Tome",
+      "duration": "24 hours",
+      "effect": "An elixir composed of hallucinogen infused with mandrake root, hellebore petals, crow’s eye, wolfsbane, and feline brain matter macerated in alcohest. The concoction must be filtered through han fiber and mixed with silver shavings. The elixir must be consumed at the beginning of the summoning ritual. The Elixir lasts for 24 hours and while under its effects if you cannot be possessed by a bes. If you manage to drink this Elixir while possessed by a bes, the bes is immediately forced out of your body.",
+      "description": "An elixir composed of hallucinogen infused with mandrake root, hellebore petals, crow’s eye, wolfsbane, and feline brain matter macerated in alcohest. The concoction must be filtered through han fiber and mixed with silver shavings. The elixir must be consumed at the beginning of the summoning ritual. The Elixir lasts for 24 hours and while under its effects if you cannot be possessed by a bes. If you manage to drink this Elixir while possessed by a bes, the bes is immediately forced out of your body."
+    },
+    "Chain Barding": {
+      "name": "Chain Barding",
+      "description": "SP: 15 to your whole mount\n-1 to Control checks for Riding"
+    },
+    "Chain Coif": {
+      "name": "Chain Coif",
+      "forageLocation": "Head"
+    },
+    "Chain Mail enhancement": {
+      "name": "Chain Mail enhancement"
+    },
+    "Chalk": {
+      "name": "Chalk"
+    },
+    "Cheap Wine": {
+      "name": "Cheap Wine"
+    },
+    "Chemobog": {
+      "name": "Chemobog"
+    },
+    "Chitin": {
+      "name": "Chitin",
+      "forageLocation": "arachasae & endrega",
+      "forageQuantity": "N/A"
+    },
+    "Chloroform": {
+      "name": "Chloroform",
+      "source": "Core",
+      "duration": "N/A",
+      "effect": "Forces anyone who breathes it to make a Stun save at -2 or be knocked unconcious until they do make the save. Using it usually requires a Melee attack with a cloth soaked in the chloroform. It can also be poured into a vessel. Each bottle contains 25 doses."
+    },
+    "Choke Collar": {
+      "name": "Choke Collar"
+    },
+    "Clawer Trap": {
+      "name": "Clawer Trap",
+      "range": "4m"
+    },
+    "Cleaver Hood (Long Sword, Education DC: 16)": {
+      "name": "Cleaver Hood (Long Sword, Education DC: 16)"
+    },
+    "Clotting Powder": {
+      "name": "Clotting Powder",
+      "source": "Core",
+      "duration": "2d10 rounds",
+      "effect": "Stops the bleeding effect for 2d10 rounds. After the rounds elapse the wound begins bleeding again. You can then apply  another dose."
+    },
+    "Coal": {
+      "name": "Coal",
+      "forageLocation": "Fires, mountains or undergrounds",
+      "forageQuantity": "1d10"
+    },
+    "Cockatrice": {
+      "name": "Cockatrice",
+      "effect": "+2 Melee Damage",
+      "mutagenSource": "Cockatrice",
+      "minorMutation": "Patches of green feathers"
+    },
+    "Cockatrice Carapace": {
+      "name": "Cockatrice Carapace",
+      "forageLocation": "Cockatrice",
+      "forageQuantity": "N/A"
+    },
+    "Cockatrice Stomach": {
+      "name": "Cockatrice Stomach",
+      "forageLocation": "Cockatrice",
+      "forageQuantity": "N/A"
+    },
+    "Cockatrice Tail Feathers": {
+      "name": "Cockatrice Tail Feathers",
+      "forageLocation": "Cockatrice",
+      "forageQuantity": "N/A"
+    },
+    "Coin Splitter": {
+      "name": "Coin Splitter",
+      "description": "A tool which can be used to split a coin in half and restamp the blank side. By taking 30 minutes, a character with Coin Splitter can take up to 100 crowns and split them, creating double the number of coins. These coins are thinner but this can only be determined with a DC 18 Perception check. If a character has a set of Merchant’s Tools they can use the included scale to automatically know the coins have been split."
+    },
+    "Cold Weather Clothing": {
+      "name": "Cold Weather Clothing",
+      "description": "+5 Endurance against cold conditions"
+    },
+    "Commando Bow": {
+      "name": "Commando Bow",
+      "range": "250m"
+    },
+    "Compass": {
+      "name": "Compass",
+      "description": "+3 to Wilderness Survival when Navigating"
+    },
+    "Concealed Chest": {
+      "name": "Concealed Chest",
+      "description": "A wooden chest concealed in another object such a statue or a piece of furniture. The chest can carry up to 30kg of Tiny or Small items and any observer must make a DC:18 Perception check to realize that the object has a compartment."
+    },
+    "Conflagration Trap": {
+      "name": "Conflagration Trap",
+      "range": "4m"
+    },
+    "Cooking Tools": {
+      "name": "Cooking Tools",
+      "description": "Allows you to cook"
+    },
+    "Cortinarius": {
+      "name": "Cortinarius",
+      "forageLocation": "Forest",
+      "forageQuantity": "1d6"
+    },
+    "Cotton": {
+      "name": "Cotton",
+      "forageLocation": "Fields & plantations",
+      "forageQuantity": "1d10"
+    },
+    "Cover: Camouflage": {
+      "name": "Cover: Camouflage",
+      "description": "By taking an action, a character can unroll a woven mat of foliage and fake plant life over the Wagon. In a wilderness environment, as long as the wagon is detached from its animals and not moving, a character must make a DC:16 Awareness check to spot the wagon from a distance using sight."
+    },
+    "Cover: Cover Railing": {
+      "name": "Cover: Cover Railing",
+      "description": "Allows the cover of the wagon to be raised and lowered as an action."
+    },
+    "Cover: Steel Top": {
+      "name": "Cover: Steel Top",
+      "description": "Provides total cover to anyone inside the Wagon. This cover has 20 SP but does not increase the SP of the vehicle itself."
+    },
+    "Cow Hide": {
+      "name": "Cow Hide",
+      "forageLocation": "Bought",
+      "forageQuantity": "N/A"
+    },
+    "Crafting Tools": {
+      "name": "Crafting Tools",
+      "description": "Allows you to craft weapons & armor"
+    },
+    "Crossbow": {
+      "name": "Crossbow",
+      "range": "100m"
+    },
+    "Crow's Eye": {
+      "name": "Crow's Eye",
+      "forageLocation": "Field & Forest",
+      "forageQuantity": "1d6"
+    },
+    "Crystal Skull": {
+      "name": "Crystal Skull",
+      "description": "A crystallized animal skull, permeated with magic which can transform into a physical animal. Upon speaking an activation word, the skull transforms into the animal it came from (cat, dog, bird, or serpent). The animal responds to your mental commands as long as you are within 50m, and will act like a regular animal of its kind should you give it no commands. Upon death, the animal reverts to an inert crystal skull. The Crystal Skull can be recharged by performing the Create Crystal Skull ritual (see pg.102) using only 2 units of Fifth Essence and the inactive skull. The animal summoned from a skull is always the same animal.\n\nEducation DC:16 to determine nature."
+    },
+    "Crystal Staff": {
+      "name": "Crystal Staff",
+      "range": "2m"
+    },
+    "Crystallized Essence": {
+      "name": "Crystallized Essence",
+      "forageLocation": "Hyms, Pesta, Vendigos, Leshen, Cyclops",
+      "forageQuantity": "N/A"
+    },
+    "Cuirass": {
+      "name": "Cuirass",
+      "forageLocation": "Torso"
+    },
+    "Cursed Oil": {
+      "name": "Cursed Oil",
+      "source": "Core",
+      "duration": "30 minutes",
+      "effect": "+5 damage against cursed ones"
+    },
+    "Cutter": {
+      "name": "Cutter"
+    },
+    "Cyclops' Bone": {
+      "name": "Cyclops' Bone",
+      "forageLocation": "Cyclops",
+      "forageQuantity": "N/A"
+    },
+    "Cyclops' Brain": {
+      "name": "Cyclops' Brain",
+      "forageLocation": "Cyclops",
+      "forageQuantity": "N/A"
+    },
+    "Cyclops' Eye": {
+      "name": "Cyclops' Eye",
+      "forageLocation": "Cyclops",
+      "forageQuantity": "N/A"
+    },
+    "Cyclops' Tongue": {
+      "name": "Cyclops' Tongue",
+      "forageLocation": "Cyclops",
+      "forageQuantity": "N/A"
+    },
+    "Dagger": {
+      "name": "Dagger"
+    },
+    "Dancing Star Bomb": {
+      "name": "Dancing Star Bomb",
+      "range": "Body*4m"
+    },
+    "Dark Essence": {
+      "name": "Dark Essence",
+      "forageLocation": "Amaroks, Nightwraiths and others",
+      "forageQuantity": "N/A"
+    },
+    "Dark Iron": {
+      "name": "Dark Iron",
+      "forageLocation": "Mountains & undergrounds",
+      "forageQuantity": "1d6"
+    },
+    "Dark Steel": {
+      "name": "Dark Steel",
+      "forageLocation": "Bought or crafted",
+      "forageQuantity": "N/A"
+    },
+    "Darkening Oil": {
+      "name": "Darkening Oil",
+      "forageLocation": "Forest",
+      "forageQuantity": "1d6"
+    },
+    "Dazhbog": {
+      "name": "Dazhbog"
+    },
+    "Dead bird": {
+      "name": "Dead bird"
+    },
+    "Decapitator (Axe, Education DC: 14)": {
+      "name": "Decapitator (Axe, Education DC: 14)"
+    },
+    "Devanna": {
+      "name": "Devanna"
+    },
+    "Devil’s Puffball Bomb": {
+      "name": "Devil’s Puffball Bomb",
+      "range": "Body*4m"
+    },
+    "Devine (Long Sword, Education DC: 18)": {
+      "name": "Devine (Long Sword, Education DC: 18)"
+    },
+    "Diagram: Aedirnian Gambeson": {
+      "name": "Diagram: Aedirnian Gambeson",
+      "craftinTime": "6 Hours"
+    },
+    "Diagram: Arming Sword": {
+      "name": "Diagram: Arming Sword",
+      "craftinTime": "7 Hours"
+    },
+    "Diagram: Armored Hood": {
+      "name": "Diagram: Armored Hood",
+      "craftinTime": "5 Hours"
+    },
+    "Diagram: Armored Trousers": {
+      "name": "Diagram: Armored Trousers",
+      "craftinTime": "8 Hours"
+    },
+    "Diagram: Basic Prosthetic": {
+      "name": "Diagram: Basic Prosthetic",
+      "craftinTime": "5 Hours"
+    },
+    "Diagram: Basic Wheelchair": {
+      "name": "Diagram: Basic Wheelchair",
+      "craftinTime": "5 Hours"
+    },
+    "Diagram: Battle Axe": {
+      "name": "Diagram: Battle Axe",
+      "craftinTime": "9 Hours"
+    },
+    "Diagram: Berserker’s Axe": {
+      "name": "Diagram: Berserker’s Axe",
+      "craftinTime": "13 Hours"
+    },
+    "Diagram: Biter Trap": {
+      "name": "Diagram: Biter Trap",
+      "craftinTime": "1/2 Hour"
+    },
+    "Diagram: Bloodstone Dagger": {
+      "name": "Diagram: Bloodstone Dagger",
+      "craftinTime": "4 Hours"
+    },
+    "Diagram: Blunt (x5)": {
+      "name": "Diagram: Blunt (x5)",
+      "craftinTime": "1 Hour"
+    },
+    "Diagram: Blunted Lance": {
+      "name": "Diagram: Blunted Lance",
+      "craftinTime": "6 Hours"
+    },
+    "Diagram: Bodkin (x10)": {
+      "name": "Diagram: Bodkin (x10)",
+      "craftinTime": "1 Hour"
+    },
+    "Diagram: Brass Knuckles": {
+      "name": "Diagram: Brass Knuckles",
+      "craftinTime": "2 Hours"
+    },
+    "Diagram: Brigandine": {
+      "name": "Diagram: Brigandine",
+      "craftinTime": "8 Hours"
+    },
+    "Diagram: Broadhead (x10)": {
+      "name": "Diagram: Broadhead (x10)",
+      "craftinTime": "1 Hour"
+    },
+    "Diagram: Cavalry Trousers": {
+      "name": "Diagram: Cavalry Trousers",
+      "craftinTime": "7 Hours"
+    },
+    "Diagram: Centerpiece": {
+      "name": "Diagram: Centerpiece",
+      "description": "<p>To create a Centerpiece, you must use the Fine Arts skill to create an entirely unique item of great complexity. The Centerpiece must include at least 3 different materials and the total investment cost must be at least 700 Crowns. Each summoning must have a different Centerpiece.</p>",
+      "craftinTime": "10 Hours"
+    },
+    "Diagram: Cerebral Elixir": {
+      "name": "Diagram: Cerebral Elixir",
+      "craftinTime": "10 Hours"
+    },
+    "Diagram: Chain Coif": {
+      "name": "Diagram: Chain Coif",
+      "craftinTime": "4 Hours"
+    },
+    "Diagram: Chain Mail enhancement": {
+      "name": "Diagram: Chain Mail enhancement",
+      "craftinTime": "5 Hours"
+    },
+    "Diagram: Clawer Trap": {
+      "name": "Diagram: Clawer Trap",
+      "craftinTime": "1/2 Hour"
+    },
+    "Diagram: Conduit Prosthetic": {
+      "name": "Diagram: Conduit Prosthetic",
+      "craftinTime": "10 Hours"
+    },
+    "Diagram: Conflagration Trap": {
+      "name": "Diagram: Conflagration Trap",
+      "craftinTime": "1/2 Hour"
+    },
+    "Diagram: Crossbow": {
+      "name": "Diagram: Crossbow",
+      "craftinTime": "9 Hours"
+    },
+    "Diagram: Crystal Staff": {
+      "name": "Diagram: Crystal Staff",
+      "craftinTime": "13 Hours"
+    },
+    "Diagram: Dagger": {
+      "name": "Diagram: Dagger",
+      "craftinTime": "2 Hours"
+    },
+    "Diagram: Dancing Star Bomb": {
+      "name": "Diagram: Dancing Star Bomb",
+      "craftinTime": "1/2 Hour"
+    },
+    "Diagram: Dark Steel": {
+      "name": "Diagram: Dark Steel",
+      "craftinTime": "1 Hour"
+    },
+    "Diagram: Devil’s Puffball Bomb": {
+      "name": "Diagram: Devil’s Puffball Bomb",
+      "craftinTime": "1/2 Hour"
+    },
+    "Diagram: Dimeritium": {
+      "name": "Diagram: Dimeritium",
+      "craftinTime": "1 Stunde"
+    },
+    "Diagram: Dimeritium Bomb": {
+      "name": "Diagram: Dimeritium Bomb",
+      "craftinTime": "1/2 Hour"
+    },
+    "Diagram: Double Woven Gambeson": {
+      "name": "Diagram: Double Woven Gambeson",
+      "craftinTime": "8 Hours"
+    },
+    "Diagram: Double Woven Hood": {
+      "name": "Diagram: Double Woven Hood",
+      "craftinTime": "4 Hours"
+    },
+    "Diagram: Double Woven Linen": {
+      "name": "Diagram: Double Woven Linen",
+      "craftinTime": "1/2 Hour"
+    },
+    "Diagram: Double Woven Trousers": {
+      "name": "Diagram: Double Woven Trousers",
+      "craftinTime": "8 Hours"
+    },
+    "Diagram: Draconid Leather": {
+      "name": "Diagram: Draconid Leather",
+      "craftinTime": "1 Hour"
+    },
+    "Diagram: Dragon’s Dream Bomb": {
+      "name": "Diagram: Dragon’s Dream Bomb",
+      "craftinTime": "1/2 Hour"
+    },
+    "Diagram: Druid’s Sickle": {
+      "name": "Diagram: Druid’s Sickle",
+      "craftinTime": "5 Hours"
+    },
+    "Diagram: Ducal Sword": {
+      "name": "Diagram: Ducal Sword",
+      "craftinTime": "12 Hours"
+    },
+    "Diagram: Dwarven Axe": {
+      "name": "Diagram: Dwarven Axe",
+      "craftinTime": "12 Hours"
+    },
+    "Diagram: Dwarven Cleaver": {
+      "name": "Diagram: Dwarven Cleaver",
+      "craftinTime": "10 Hours"
+    },
+    "Diagram: Dwarven Cloak": {
+      "name": "Diagram: Dwarven Cloak",
+      "craftinTime": "9 Hours"
+    },
+    "Diagram: Dwarven Heavy Crossbow": {
+      "name": "Diagram: Dwarven Heavy Crossbow",
+      "craftinTime": "12 Hours"
+    },
+    "Diagram: Dwarven Impact (x5)": {
+      "name": "Diagram: Dwarven Impact (x5)",
+      "craftinTime": "1/2 Hour"
+    },
+    "Diagram: Dwarven Pole Hammer": {
+      "name": "Diagram: Dwarven Pole Hammer",
+      "craftinTime": "13 Hours"
+    },
+    "Diagram: Dwarven enhancement": {
+      "name": "Diagram: Dwarven enhancement",
+      "craftinTime": "6 Hours"
+    },
+    "Diagram: Earthly Ribbons": {
+      "name": "Diagram: Earthly Ribbons",
+      "craftinTime": "10 Hours"
+    },
+    "Diagram: Elven Burrower (x5)": {
+      "name": "Diagram: Elven Burrower (x5)",
+      "craftinTime": "1/2 Hour"
+    },
+    "Diagram: Elven Glaive": {
+      "name": "Diagram: Elven Glaive",
+      "craftinTime": "10 Hours"
+    },
+    "Diagram: Elven Messer": {
+      "name": "Diagram: Elven Messer",
+      "craftinTime": "10 Hours"
+    },
+    "Diagram: Elven Shield": {
+      "name": "Diagram: Elven Shield",
+      "craftinTime": "5 Hours"
+    },
+    "Diagram: Elven Travel Bow": {
+      "name": "Diagram: Elven Travel Bow",
+      "craftinTime": "11 Hours"
+    },
+    "Diagram: Elven Walking Staff": {
+      "name": "Diagram: Elven Walking Staff",
+      "craftinTime": "13 Hours"
+    },
+    "Diagram: Elven Zefhar": {
+      "name": "Diagram: Elven Zefhar",
+      "craftinTime": "13 Hours"
+    },
+    "Diagram: Elven enhancement": {
+      "name": "Diagram: Elven enhancement",
+      "craftinTime": "6 Hours"
+    },
+    "Diagram: Esboda": {
+      "name": "Diagram: Esboda",
+      "craftinTime": "9 Hours"
+    },
+    "Diagram: Explosive (x5)": {
+      "name": "Diagram: Explosive (x5)",
+      "craftinTime": "1/2 Hour"
+    },
+    "Diagram: Feline Armor": {
+      "name": "Diagram: Feline Armor",
+      "craftinTime": "18 Hours"
+    },
+    "Diagram: Feline Crossbow": {
+      "name": "Diagram: Feline Crossbow",
+      "craftinTime": "8 Hours"
+    },
+    "Diagram: Feline Silver Sword": {
+      "name": "Diagram: Feline Silver Sword",
+      "craftinTime": "10 Hours"
+    },
+    "Diagram: Feline Steel Sword": {
+      "name": "Diagram: Feline Steel Sword",
+      "craftinTime": "9 Hours"
+    },
+    "Diagram: Fiber enhancement": {
+      "name": "Diagram: Fiber enhancement",
+      "craftinTime": "3 Hours"
+    },
+    "Diagram: Field Doctor’s Syringe": {
+      "name": "Diagram: Field Doctor’s Syringe",
+      "craftinTime": "6 Hours"
+    },
+    "Diagram: Flail": {
+      "name": "Diagram: Flail",
+      "craftinTime": "8 Hours"
+    },
+    "Diagram: Flamberge": {
+      "name": "Diagram: Flamberge",
+      "craftinTime": "13 Hours"
+    },
+    "Diagram: Fury Trap": {
+      "name": "Diagram: Fury Trap",
+      "craftinTime": "1/2 Hour"
+    },
+    "Diagram: Gambeson": {
+      "name": "Diagram: Gambeson",
+      "craftinTime": "5 Hours"
+    },
+    "Diagram: Gastropod Armor": {
+      "name": "Diagram: Gastropod Armor",
+      "craftinTime": "24 Hours"
+    },
+    "Diagram: Gastropod Silver Sword": {
+      "name": "Diagram: Gastropod Silver Sword",
+      "craftinTime": "15 Hours"
+    },
+    "Diagram: Gastropod Steel Sword": {
+      "name": "Diagram: Gastropod Steel Sword",
+      "craftinTime": "13 Hours"
+    },
+    "Diagram: Gleddyf": {
+      "name": "Diagram: Gleddyf",
+      "craftinTime": "7 Hours"
+    },
+    "Diagram: Gnomish Black Axe": {
+      "name": "Diagram: Gnomish Black Axe",
+      "craftinTime": "13 Hours"
+    },
+    "Diagram: Gnomish Buckler": {
+      "name": "Diagram: Gnomish Buckler",
+      "craftinTime": "6 Hours"
+    },
+    "Diagram: Gnomish Chain": {
+      "name": "Diagram: Gnomish Chain",
+      "craftinTime": "24 Hours"
+    },
+    "Diagram: Gnomish Dragoon Armor": {
+      "name": "Diagram: Gnomish Dragoon Armor",
+      "craftinTime": "25 Hours"
+    },
+    "Diagram: Gnomish Gwyhyr": {
+      "name": "Diagram: Gnomish Gwyhyr",
+      "craftinTime": "13 Hours"
+    },
+    "Diagram: Gnomish Hand Crossbow": {
+      "name": "Diagram: Gnomish Hand Crossbow",
+      "craftinTime": "13 Hours"
+    },
+    "Diagram: Gnomish Staff": {
+      "name": "Diagram: Gnomish Staff",
+      "craftinTime": "11 Hours"
+    },
+    "Diagram: Grapeshot Bomb": {
+      "name": "Diagram: Grapeshot Bomb",
+      "craftinTime": "1/2 Hour"
+    },
+    "Diagram: Great Helm": {
+      "name": "Diagram: Great Helm",
+      "craftinTime": "5 Hours"
+    },
+    "Diagram: Griffin Armor": {
+      "name": "Diagram: Griffin Armor",
+      "craftinTime": "24 Hours"
+    },
+    "Diagram: Griffin Crossbow": {
+      "name": "Diagram: Griffin Crossbow",
+      "craftinTime": "8 Hours"
+    },
+    "Diagram: Griffin Silver Sword": {
+      "name": "Diagram: Griffin Silver Sword",
+      "craftinTime": "10 Hours"
+    },
+    "Diagram: Griffin Steel Sword": {
+      "name": "Diagram: Griffin Steel Sword",
+      "craftinTime": "9 Hours"
+    },
+    "Diagram: Halfling Protective Doublet": {
+      "name": "Diagram: Halfling Protective Doublet",
+      "craftinTime": "9 Hours"
+    },
+    "Diagram: Halfling Rondel": {
+      "name": "Diagram: Halfling Rondel",
+      "craftinTime": "10 Hours"
+    },
+    "Diagram: Hand Axe": {
+      "name": "Diagram: Hand Axe",
+      "craftinTime": "3 Hours"
+    },
+    "Diagram: Hand Crossbow": {
+      "name": "Diagram: Hand Crossbow",
+      "craftinTime": "8 Hours"
+    },
+    "Diagram: Hardened Leather": {
+      "name": "Diagram: Hardened Leather",
+      "craftinTime": "1/2 Hour"
+    },
+    "Diagram: Hardened Leather enhancement": {
+      "name": "Diagram: Hardened Leather enhancement",
+      "craftinTime": "4 Hours"
+    },
+    "Diagram: Hardened Timber": {
+      "name": "Diagram: Hardened Timber",
+      "craftinTime": "1/2 Hour"
+    },
+    "Diagram: High Tension String": {
+      "name": "Diagram: High Tension String",
+      "craftinTime": "4 Hours"
+    },
+    "Diagram: Highland Mauler": {
+      "name": "Diagram: Highland Mauler",
+      "craftinTime": "13 Hours"
+    },
+    "Diagram: Hindarsfjall Heavy Armor": {
+      "name": "Diagram: Hindarsfjall Heavy Armor",
+      "craftinTime": "11 Hours"
+    },
+    "Diagram: Hindarsfjall Heavy Chausses": {
+      "name": "Diagram: Hindarsfjall Heavy Chausses",
+      "craftinTime": "11 Hours"
+    },
+    "Diagram: Hooked Staff": {
+      "name": "Diagram: Hooked Staff",
+      "craftinTime": "9 Hours"
+    },
+    "Diagram: Horseman’s Hammer": {
+      "name": "Diagram: Horseman’s Hammer",
+      "craftinTime": "9 Hours"
+    },
+    "Diagram: Hunter’s Falchion": {
+      "name": "Diagram: Hunter’s Falchion",
+      "craftinTime": "7 Hours"
+    },
+    "Diagram: Huntsman’s Crossbow": {
+      "name": "Diagram: Huntsman’s Crossbow",
+      "craftinTime": "9 Hours"
+    },
+    "Diagram: Improved Windlass": {
+      "name": "Diagram: Improved Windlass",
+      "craftinTime": "10 Hours"
+    },
+    "Diagram: Iron Long Sword": {
+      "name": "Diagram: Iron Long Sword",
+      "craftinTime": "5 Hours"
+    },
+    "Diagram: Iron Staff": {
+      "name": "Diagram: Iron Staff",
+      "craftinTime": "10 Hours"
+    },
+    "Diagram: Jambiya": {
+      "name": "Diagram: Jambiya",
+      "craftinTime": "5 Hours"
+    },
+    "Diagram: Kaedweni Shield": {
+      "name": "Diagram: Kaedweni Shield",
+      "craftinTime": "5 Hours"
+    },
+    "Diagram: Kord": {
+      "name": "Diagram: Kord",
+      "craftinTime": "11 Hours"
+    },
+    "Diagram: Krigsverd": {
+      "name": "Diagram: Krigsverd",
+      "craftinTime": "8 Hours"
+    },
+    "Diagram: Lamia": {
+      "name": "Diagram: Lamia",
+      "craftinTime": "12 Hours"
+    },
+    "Diagram: Leather": {
+      "name": "Diagram: Leather",
+      "craftinTime": "1 Hour"
+    },
+    "Diagram: Leather Shield": {
+      "name": "Diagram: Leather Shield",
+      "craftinTime": "3 Hours"
+    },
+    "Diagram: Linen": {
+      "name": "Diagram: Linen",
+      "craftinTime": "15 Minutes"
+    },
+    "Diagram: Long Bow": {
+      "name": "Diagram: Long Bow",
+      "craftinTime": "8 Hours"
+    },
+    "Diagram: Lyrian Leather": {
+      "name": "Diagram: Lyrian Leather",
+      "craftinTime": "1 Hour"
+    },
+    "Diagram: Lyrian Leather Jacket": {
+      "name": "Diagram: Lyrian Leather Jacket",
+      "craftinTime": "9 Hours"
+    },
+    "Diagram: Lyrian Leather Trousers": {
+      "name": "Diagram: Lyrian Leather Trousers",
+      "craftinTime": "9 Hours"
+    },
+    "Diagram: Mace": {
+      "name": "Diagram: Mace",
+      "craftinTime": "8 Hours"
+    },
+    "Diagram: Magical Prosthetic": {
+      "name": "Diagram: Magical Prosthetic",
+      "craftinTime": "8 Hours"
+    },
+    "Diagram: Mahakaman Dimeritium": {
+      "name": "Diagram: Mahakaman Dimeritium",
+      "craftinTime": "1 Hour"
+    },
+    "Diagram: Mahakaman Martell": {
+      "name": "Diagram: Mahakaman Martell",
+      "craftinTime": "11 Hours"
+    },
+    "Diagram: Mahakaman Pavise": {
+      "name": "Diagram: Mahakaman Pavise",
+      "craftinTime": "7 Hours"
+    },
+    "Diagram: Mahakaman Plate Armor": {
+      "name": "Diagram: Mahakaman Plate Armor",
+      "craftinTime": "28 Hours"
+    },
+    "Diagram: Mancatcher": {
+      "name": "Diagram: Mancatcher",
+      "craftinTime": "8 Hours"
+    },
+    "Diagram: Manticore Armor": {
+      "name": "Diagram: Manticore Armor",
+      "craftinTime": "22 Hours"
+    },
+    "Diagram: Manticore Shield": {
+      "name": "Diagram: Manticore Shield",
+      "craftinTime": "8 Hours"
+    },
+    "Diagram: Manticore Silver Sword": {
+      "name": "Diagram: Manticore Silver Sword",
+      "craftinTime": "10 Hours"
+    },
+    "Diagram: Manticore Steel Sword": {
+      "name": "Diagram: Manticore Steel Sword",
+      "craftinTime": "9 Hours"
+    },
+    "Diagram: Marker Trap": {
+      "name": "Diagram: Marker Trap",
+      "craftinTime": "1/2 Hour"
+    },
+    "Diagram: Meteorite Chain Mace": {
+      "name": "Diagram: Meteorite Chain Mace",
+      "craftinTime": "13 Hours"
+    },
+    "Diagram: Meteorite Sword": {
+      "name": "Diagram: Meteorite Sword",
+      "craftinTime": "10 Hours"
+    },
+    "Diagram: Monster Catcher’s Net": {
+      "name": "Diagram: Monster Catcher’s Net",
+      "craftinTime": "6 Hours"
+    },
+    "Diagram: Monster Hunter’s Crossbow": {
+      "name": "Diagram: Monster Hunter’s Crossbow",
+      "craftinTime": "12 Hours"
+    },
+    "Diagram: Moon Dust Bomb": {
+      "name": "Diagram: Moon Dust Bomb",
+      "craftinTime": "1/2 Hour"
+    },
+    "Diagram: Nilfgaardian Greaves": {
+      "name": "Diagram: Nilfgaardian Greaves",
+      "craftinTime": "12 Hours"
+    },
+    "Diagram: Nilfgaardian Helm": {
+      "name": "Diagram: Nilfgaardian Helm",
+      "craftinTime": "6 Hours"
+    },
+    "Diagram: Nilfgaardian Pavise": {
+      "name": "Diagram: Nilfgaardian Pavise",
+      "craftinTime": "6 Hours"
+    },
+    "Diagram: Nilfgaardian Plate Armor": {
+      "name": "Diagram: Nilfgaardian Plate Armor",
+      "craftinTime": "12 Hours"
+    },
+    "Diagram: Nilfgaardian Sights": {
+      "name": "Diagram: Nilfgaardian Sights",
+      "craftinTime": "4 Hours"
+    },
+    "Diagram: Northern Wind Bomb": {
+      "name": "Diagram: Northern Wind Bomb",
+      "craftinTime": "1/2 Hour"
+    },
+    "Diagram: Orions (x3)": {
+      "name": "Diagram: Orions (x3)",
+      "craftinTime": "1 Hour"
+    },
+    "Diagram: Padded Trousers": {
+      "name": "Diagram: Padded Trousers",
+      "craftinTime": "7 Hours"
+    },
+    "Diagram: Parrying Dagger": {
+      "name": "Diagram: Parrying Dagger",
+      "craftinTime": "4 Hours"
+    },
+    "Diagram: Partisan": {
+      "name": "Diagram: Partisan",
+      "craftinTime": "8 Hours"
+    },
+    "Diagram: Pavise": {
+      "name": "Diagram: Pavise",
+      "craftinTime": "5 Hours"
+    },
+    "Diagram: Peasant’s Maul": {
+      "name": "Diagram: Peasant’s Maul",
+      "craftinTime": "3 Hours"
+    },
+    "Diagram: Plate Armor": {
+      "name": "Diagram: Plate Armor",
+      "craftinTime": "10 Hours"
+    },
+    "Diagram: Plate Greaves": {
+      "name": "Diagram: Plate Greaves",
+      "craftinTime": "10 Hours"
+    },
+    "Diagram: Poisoned Harpy Claw": {
+      "name": "Diagram: Poisoned Harpy Claw",
+      "craftinTime": "5 Hours"
+    },
+    "Diagram: Pole Axe": {
+      "name": "Diagram: Pole Axe",
+      "craftinTime": "8 Hours"
+    },
+    "Diagram: Poniard": {
+      "name": "Diagram: Poniard",
+      "craftinTime": "4 Hours"
+    },
+    "Diagram: Quality Wheelchair": {
+      "name": "Diagram: Quality Wheelchair",
+      "craftinTime": "8 Hours"
+    },
+    "Diagram: Red Halberd": {
+      "name": "Diagram: Red Halberd",
+      "craftinTime": "11 Hours"
+    },
+    "Diagram: Redanian Greaves": {
+      "name": "Diagram: Redanian Greaves",
+      "craftinTime": "9 Hours"
+    },
+    "Diagram: Redanian Halberdier’s Armor": {
+      "name": "Diagram: Redanian Halberdier’s Armor",
+      "craftinTime": "9 Hours"
+    },
+    "Diagram: Samum Bomb": {
+      "name": "Diagram: Samum Bomb",
+      "craftinTime": "1/2 Hour"
+    },
+    "Diagram: Scoia’tael Armor": {
+      "name": "Diagram: Scoia’tael Armor",
+      "craftinTime": "20 Hours"
+    },
+    "Diagram: Scorpio": {
+      "name": "Diagram: Scorpio",
+      "craftinTime": "24 Hours"
+    },
+    "Diagram: Scorpio Breaker Bolt (x5)": {
+      "name": "Diagram: Scorpio Breaker Bolt (x5)",
+      "craftinTime": "3 Hours"
+    },
+    "Diagram: Scorpio Piercing Bolt (x5)": {
+      "name": "Diagram: Scorpio Piercing Bolt (x5)",
+      "craftinTime": "3 Hours"
+    },
+    "Diagram: Scorpio Standard Bolt (x5)": {
+      "name": "Diagram: Scorpio Standard Bolt (x5)",
+      "craftinTime": "3 Hours"
+    },
+    "Diagram: Serpentine Armor": {
+      "name": "Diagram: Serpentine Armor",
+      "craftinTime": "20 Hours"
+    },
+    "Diagram: Serpentine Silver Sword": {
+      "name": "Diagram: Serpentine Silver Sword",
+      "craftinTime": "10 Hours"
+    },
+    "Diagram: Serpentine Steel Sword": {
+      "name": "Diagram: Serpentine Steel Sword",
+      "craftinTime": "9 Hours"
+    },
+    "Diagram: Short Bow": {
+      "name": "Diagram: Short Bow",
+      "craftinTime": "Short Bow"
+    },
+    "Diagram: Skellige Helm": {
+      "name": "Diagram: Skellige Helm",
+      "craftinTime": "6 Hours"
+    },
+    "Diagram: Skellige Raider Shield": {
+      "name": "Diagram: Skellige Raider Shield",
+      "craftinTime": "5 Hours"
+    },
+    "Diagram: Skelliger Brace": {
+      "name": "Diagram: Skelliger Brace",
+      "craftinTime": "1 Hour"
+    },
+    "Diagram: Spear": {
+      "name": "Diagram: Spear",
+      "craftinTime": "6 Hours"
+    },
+    "Diagram: Spectacled Helm": {
+      "name": "Diagram: Spectacled Helm",
+      "craftinTime": "4 Hours"
+    },
+    "Diagram: Split (x5)": {
+      "name": "Diagram: Split (x5)",
+      "craftinTime": "1/2 Hour"
+    },
+    "Diagram: Stabilizing Brace": {
+      "name": "Diagram: Stabilizing Brace",
+      "craftinTime": "2 Hours"
+    },
+    "Diagram: Staff": {
+      "name": "Diagram: Staff",
+      "craftinTime": "9 Hours"
+    },
+    "Diagram: Staff of Binding": {
+      "name": "Diagram: Staff of Binding",
+      "craftinTime": "12 Hours"
+    },
+    "Diagram: Standard (x30)": {
+      "name": "Diagram: Standard (x30)",
+      "craftinTime": "2 Hours"
+    },
+    "Diagram: Steel": {
+      "name": "Diagram: Steel",
+      "craftinTime": "1 Hour"
+    },
+    "Diagram: Steel Buckler": {
+      "name": "Diagram: Steel Buckler",
+      "craftinTime": "4 Hours"
+    },
+    "Diagram: Steel Kite Shield": {
+      "name": "Diagram: Steel Kite Shield",
+      "craftinTime": "5 Hours"
+    },
+    "Diagram: Steel enhancement": {
+      "name": "Diagram: Steel enhancement",
+      "craftinTime": "5 Hours"
+    },
+    "Diagram: Stiletto": {
+      "name": "Diagram: Stiletto",
+      "craftinTime": "4 Hours"
+    },
+    "Diagram: Studded Leather enhancement": {
+      "name": "Diagram: Studded Leather enhancement",
+      "craftinTime": "3 Hours"
+    },
+    "Diagram: Sword Catcher": {
+      "name": "Diagram: Sword Catcher",
+      "craftinTime": "6 Hours"
+    },
+    "Diagram: Talgar Winter Trap": {
+      "name": "Diagram: Talgar Winter Trap",
+      "craftinTime": "1/2 Hour"
+    },
+    "Diagram: Temerian Armet": {
+      "name": "Diagram: Temerian Armet",
+      "craftinTime": "5 Hours"
+    },
+    "Diagram: Temerian Shield": {
+      "name": "Diagram: Temerian Shield",
+      "craftinTime": "4 Hours"
+    },
+    "Diagram: Thread": {
+      "name": "Diagram: Thread",
+      "craftinTime": "15 Minutes"
+    },
+    "Diagram: Throwing Axes (x3)": {
+      "name": "Diagram: Throwing Axes (x3)",
+      "craftinTime": "1 Hour"
+    },
+    "Diagram: Throwing Knives (x3)": {
+      "name": "Diagram: Throwing Knives (x3)",
+      "craftinTime": "1 Hour"
+    },
+    "Diagram: Tir Tochair Blade": {
+      "name": "Diagram: Tir Tochair Blade",
+      "craftinTime": "13 Hours"
+    },
+    "Diagram: Torrwr": {
+      "name": "Diagram: Torrwr",
+      "craftinTime": "13 Hours"
+    },
+    "Diagram: Tracking (x5)": {
+      "name": "Diagram: Tracking (x5)",
+      "craftinTime": "1/2 Hour"
+    },
+    "Diagram: Tretogor Steel": {
+      "name": "Diagram: Tretogor Steel",
+      "craftinTime": "1 Hour"
+    },
+    "Diagram: True Staff of Binding": {
+      "name": "Diagram: True Staff of Binding",
+      "description": "<p>Alternative Receipe: Staff of Binding, Meteorite (x3), Optima Matter (x2)</p>",
+      "craftinTime": "12 Hours"
+    },
+    "Diagram: Ursine Armor": {
+      "name": "Diagram: Ursine Armor",
+      "craftinTime": "25 Hours"
+    },
+    "Diagram: Ursine Crossbow": {
+      "name": "Diagram: Ursine Crossbow",
+      "craftinTime": "8 Hours"
+    },
+    "Diagram: Ursine Silver Sword": {
+      "name": "Diagram: Ursine Silver Sword",
+      "craftinTime": "10 Hours"
+    },
+    "Diagram: Ursine Steel Sword": {
+      "name": "Diagram: Ursine Steel Sword",
+      "craftinTime": "9 Hours"
+    },
+    "Diagram: Verden Archer’s Hood": {
+      "name": "Diagram: Verden Archer’s Hood",
+      "craftinTime": "3 Hours"
+    },
+    "Diagram: Vicovarian Blade": {
+      "name": "Diagram: Vicovarian Blade",
+      "craftinTime": "12 Hours"
+    },
+    "Diagram: Viper’s Fang": {
+      "name": "Diagram: Viper’s Fang",
+      "craftinTime": "4 Hours"
+    },
+    "Diagram: Viroledan Blade": {
+      "name": "Diagram: Viroledan Blade",
+      "craftinTime": "12 Hours"
+    },
+    "Diagram: Vrihedd Cavalry Sword": {
+      "name": "Diagram: Vrihedd Cavalry Sword",
+      "craftinTime": "12 Hours"
+    },
+    "Diagram: Wand of Banishment": {
+      "name": "Diagram: Wand of Banishment",
+      "craftinTime": "9 Hours"
+    },
+    "Diagram: War Bow": {
+      "name": "Diagram: War Bow",
+      "craftinTime": "11 Hours"
+    },
+    "Diagram: War Lance": {
+      "name": "Diagram: War Lance",
+      "craftinTime": "6 Hours"
+    },
+    "Diagram: Weighted Net": {
+      "name": "Diagram: Weighted Net",
+      "craftinTime": "3 Hours"
+    },
+    "Diagram: Whip": {
+      "name": "Diagram: Whip",
+      "craftinTime": "2 Hours"
+    },
+    "Diagram: Witcher Prosthetic": {
+      "name": "Diagram: Witcher Prosthetic",
+      "craftinTime": "9 Hours"
+    },
+    "Diagram: Witcher’s Medallion": {
+      "name": "Diagram: Witcher’s Medallion",
+      "description": "<p>Witcher Medallions must be made in a specific way by a mage. A mage can craft a medallion with a unit of silver but afterward they must take it to a Place of Power to absorb magic. After being left &nbsp;at that Place of Power for an hour it will function as a witcher medallion. No other benefits can be gained from the Place of Power while priming.</p>",
+      "craftinTime": "4 Hours"
+    },
+    "Diagram: Witcher’s Silver Sword": {
+      "name": "Diagram: Witcher’s Silver Sword",
+      "craftinTime": "10 Hours"
+    },
+    "Diagram: Witcher’s Steel Sword": {
+      "name": "Diagram: Witcher’s Steel Sword",
+      "craftinTime": "9 Hours"
+    },
+    "Diagram: Wolven Armor": {
+      "name": "Diagram: Wolven Armor",
+      "craftinTime": "23 Hours"
+    },
+    "Diagram: Wolven Silver Sword": {
+      "name": "Diagram: Wolven Silver Sword",
+      "craftinTime": "10 Hours"
+    },
+    "Diagram: Wolven Steel Sword": {
+      "name": "Diagram: Wolven Steel Sword",
+      "craftinTime": "9 Hours"
+    },
+    "Diagram: Wyvern Scale Shield": {
+      "name": "Diagram: Wyvern Scale Shield",
+      "craftinTime": "5 Hours"
+    },
+    "Diagram: Zerrikanian Sun": {
+      "name": "Diagram: Zerrikanian Sun",
+      "craftinTime": "1/2 Hour"
+    },
+    "Diagramm: Mahkaman Steel": {
+      "name": "Diagramm: Mahkaman Steel",
+      "craftinTime": "1 Hour"
+    },
+    "Dice": {
+      "name": "Dice"
+    },
+    "Dice Poker Board": {
+      "name": "Dice Poker Board"
+    },
+    "Dimeritium": {
+      "name": "Dimeritium",
+      "forageLocation": "Bought or crafted",
+      "forageQuantity": "N/A"
+    },
+    "Dimeritium Bomb": {
+      "name": "Dimeritium Bomb",
+      "range": "Body*4m"
+    },
+    "Disguise Kit": {
+      "name": "Disguise Kit",
+      "description": "+2 Disguise"
+    },
+    "Distillation Chamber": {
+      "name": "Distillation Chamber",
+      "description": "A complex set of tubes and chambers which can be used with any alchemical ingredient to increase its potency. By taking 1 hour, the user can place up to 10 units of an alchemical ingredient into the Distillation Chamber and make a DC:14 Alchemy check. If successful, the Distillation Chamber transforms the ingredients into an equal number of units of the pure substance."
+    },
+    "Dog Tallow": {
+      "name": "Dog Tallow",
+      "forageLocation": "Dogs and wolves",
+      "forageQuantity": "N/A"
+    },
+    "Dol Blathanna Armor": {
+      "name": "Dol Blathanna Armor",
+      "forageLocation": "FullCover"
+    },
+    "Dol Blathanna Sword": {
+      "name": "Dol Blathanna Sword"
+    },
+    "Double Woven Gambeson": {
+      "name": "Double Woven Gambeson",
+      "forageLocation": "Torso"
+    },
+    "Double Woven Hood": {
+      "name": "Double Woven Hood",
+      "forageLocation": "Head"
+    },
+    "Double Woven Linen": {
+      "name": "Double Woven Linen",
+      "forageLocation": "Bought or crafted",
+      "forageQuantity": "N/A"
+    },
+    "Double Woven Trousers": {
+      "name": "Double Woven Trousers",
+      "forageLocation": "Leg"
+    },
+    "Draconid Leather": {
+      "name": "Draconid Leather",
+      "forageLocation": "bought or crafted",
+      "forageQuantity": "N/A"
+    },
+    "Draconid Oil": {
+      "name": "Draconid Oil",
+      "source": "Core",
+      "duration": "30 minutes",
+      "effect": "+5 damage against draconids"
+    },
+    "Draconid Scales": {
+      "name": "Draconid Scales",
+      "forageLocation": "Wyverns",
+      "forageQuantity": "1d6"
+    },
+    "Dragon Blood": {
+      "name": "Dragon Blood",
+      "forageLocation": "True Dragons",
+      "forageQuantity": "N/A"
+    },
+    "Dragon Tail": {
+      "name": "Dragon Tail",
+      "forageLocation": "True Dragons",
+      "forageQuantity": "N/A"
+    },
+    "Dragon Tears": {
+      "name": "Dragon Tears",
+      "forageLocation": "True Dragons",
+      "forageQuantity": "N/A"
+    },
+    "Dragon Teeth": {
+      "name": "Dragon Teeth",
+      "forageLocation": "True Dragons",
+      "forageQuantity": "N/A"
+    },
+    "Dragon’s Dream Bomb": {
+      "name": "Dragon’s Dream Bomb",
+      "range": "Body*4m"
+    },
+    "Drake Oil": {
+      "name": "Drake Oil",
+      "forageLocation": "River and Coasts",
+      "forageQuantity": "1d6"
+    },
+    "Draug Armor (Heavy Armor, Education DC: 18)": {
+      "name": "Draug Armor (Heavy Armor, Education DC: 18)",
+      "forageLocation": "FullCover"
+    },
+    "Dried meat or Salted Fish": {
+      "name": "Dried meat or Salted Fish"
+    },
+    "Drowner Brain": {
+      "name": "Drowner Brain",
+      "forageLocation": "Drowners",
+      "forageQuantity": "N/A"
+    },
+    "Drowner Tongue": {
+      "name": "Drowner Tongue",
+      "forageLocation": "Drowners",
+      "forageQuantity": "N/A"
+    },
+    "Druid’s Sickle": {
+      "name": "Druid’s Sickle",
+      "range": "0"
+    },
+    "Ducal Sword": {
+      "name": "Ducal Sword"
+    },
+    "Ducal Water": {
+      "name": "Ducal Water",
+      "forageLocation": "Mountains & ndergrounds",
+      "forageQuantity": "1d10"
+    },
+    "Ducats": {
+      "name": "Ducats",
+      "description": "= 1/3 Redanian Crown\nUsed in Kaedwen"
+    },
+    "Dwarven Axe": {
+      "name": "Dwarven Axe"
+    },
+    "Dwarven Cleaver": {
+      "name": "Dwarven Cleaver"
+    },
+    "Dwarven Cloak": {
+      "name": "Dwarven Cloak",
+      "forageLocation": "FullCover"
+    },
+    "Dwarven Heavy Crossbow": {
+      "name": "Dwarven Heavy Crossbow",
+      "range": "300m"
+    },
+    "Dwarven Immortelle": {
+      "name": "Dwarven Immortelle",
+      "forageLocation": "Undergrounds",
+      "forageQuantity": "1d6/2"
+    },
+    "Dwarven Impact": {
+      "name": "Dwarven Impact"
+    },
+    "Dwarven Pole Hammer": {
+      "name": "Dwarven Pole Hammer",
+      "range": "2m"
+    },
+    "Dwarven Whetstone": {
+      "name": "Dwarven Whetstone",
+      "description": "By taking half an hour, the user can grant one Slashing or Piercing weapon (or 10 arrows/bolts) the Armor Piercing Effect for the next combat. A Dwarven Whetstone can be applied 3 times before being consumed."
+    },
+    "Dwarven enhancement": {
+      "name": "Dwarven enhancement"
+    },
+    "Earthly Ribbons": {
+      "name": "Earthly Ribbons",
+      "description": "A length of beautiful silk ribbon, embroidered with runes made from thread infused with fifth essence. When a goetic practitioner summons a mari lwyd they can present these ribbons among the gifts to the demon. The mari lwyd will happily accept the gorgeous gift and allow the practitioner to tie the ribbons around them. Once bound by Earthly Ribbons a mari lwyd is incapable of taking other forms. Once tied, the Earthly Ribbons remain active for 1 year. After this year, the ribbons lose their magic. Before that year ends however, the ribbons can be removed by anyone other than the mari lwyd."
+    },
+    "Elemental": {
+      "name": "Elemental",
+      "effect": "+3 Vigor Threshold",
+      "mutagenSource": "Elemental",
+      "minorMutation": "Earth: Rocky growths on body, Fire: Small spouts of fire from your mouth, Ice: Cold to the touch"
+    },
+    "Elemental Oil": {
+      "name": "Elemental Oil",
+      "source": "Core",
+      "duration": "30 minutes",
+      "effect": "+5 damage against elementa"
+    },
+    "Elemental Stone": {
+      "name": "Elemental Stone",
+      "forageLocation": "All Elementals",
+      "forageQuantity": "N/A"
+    },
+    "Elf ear": {
+      "name": "Elf ear"
+    },
+    "Elven Burrower": {
+      "name": "Elven Burrower"
+    },
+    "Elven Dagger": {
+      "name": "Elven Dagger"
+    },
+    "Elven Gedwch": {
+      "name": "Elven Gedwch",
+      "description": "Made popular by the Dyn Marv caravan, these intricate wagons of elven make are often lavishly decorated. Their construction makes them sturdy enough to withstand the rough byroads of the Continent and there’s room inside for a double bed and a small table. Occupancy: 3; IS: 5"
+    },
+    "Elven Glaive": {
+      "name": "Elven Glaive",
+      "range": "2m"
+    },
+    "Elven Instrument": {
+      "name": "Elven Instrument",
+      "description": "Made with ancient elven crafting techniques, this Lyre, lute, or Flute carries a small amount of magic in it. When the user plays this instrument, the user can make a performance check against the Resist Magic check of a target who can hear their performance to enthrall them. If they succeed, the target can only focus on the user and takes a -2 to any action that would draw their attention away from them. Each round, the user must use an action to continue playing and the target can use their action to attempt another Resist Magic roll to end the effect. If they leave the area of the performance the effect ends immediately."
+    },
+    "Elven Messer": {
+      "name": "Elven Messer"
+    },
+    "Elven Shield": {
+      "name": "Elven Shield",
+      "forageLocation": "Shield"
+    },
+    "Elven Travel Bow": {
+      "name": "Elven Travel Bow",
+      "range": "200m"
+    },
+    "Elven Walking Staff": {
+      "name": "Elven Walking Staff",
+      "range": "2m"
+    },
+    "Elven Zefhar": {
+      "name": "Elven Zefhar",
+      "range": "350m"
+    },
+    "Elven enhancement": {
+      "name": "Elven enhancement"
+    },
+    "Emerald Dust": {
+      "name": "Emerald Dust",
+      "forageLocation": "Mountains & underground",
+      "forageQuantity": "1d6/2 Units"
+    },
+    "Empty vial": {
+      "name": "Empty vial"
+    },
+    "Enchanted Amulet": {
+      "name": "Enchanted Amulet",
+      "description": "Counts as a Focus (2) item. In addition, the creator of an enchanted amulet may imbue it with the power to cast 1 to 4 spells. The magic inside the amulet draws on the wearer’s stamina to activate the spells and the wearer must have a Vigor Threshold high enough to cast a spell from the amulet. When casting the spells from an enchanted amulet, the wearer cannot make use of any focus other than the amulet to lower the stamina cost. Additionally, an enchanted amulet can allow priests & druids to cast spells as if they were a mage.\n\nOnce more than one spell has been imbued in the amulet, the creator must also choose a drawback from the following list. These drawbacks remain as long as the enchanted amulet is worn, and for 24-hours afterward.\nThe drawbacks can be:\n◆ The wearer’s maximum Hit Points are reduced by 5.\n◆ The wearer experiences a constant headache giving them a -1 to INT, WILL, and REF.\n◆ The wearer fatigues more easily and reduces their maximum Stamina by 10.\n\nEducation DC:14 to determine nature."
+    },
+    "Endrega Embryo": {
+      "name": "Endrega Embryo",
+      "forageLocation": "Endrega nests",
+      "forageQuantity": "1d6"
+    },
+    "Endrega Saliva": {
+      "name": "Endrega Saliva",
+      "forageLocation": "Endrega",
+      "forageQuantity": "1d6"
+    },
+    "Endurance Potion": {
+      "name": "Endurance Potion",
+      "source": "UNKNOWN",
+      "duration": "1/2 Hour",
+      "effect": "Regain 3d6 Stamina. The Toxicity of the endurance potion lasts until its duration  elapses regardless of whether the Stamina is used."
+    },
+    "Esboda": {
+      "name": "Esboda"
+    },
+    "Essence of Death": {
+      "name": "Essence of Death",
+      "forageLocation": "Found on some monsters",
+      "forageQuantity": "N/A"
+    },
+    "Essence of Fire": {
+      "name": "Essence of Fire",
+      "forageLocation": "Phoenix, Fire elementals",
+      "forageQuantity": "N/A"
+    },
+    "Essence of Water": {
+      "name": "Essence of Water",
+      "forageLocation": "Drowners & Sirens",
+      "forageQuantity": "N/A"
+    },
+    "Essence of Wraith": {
+      "name": "Essence of Wraith",
+      "forageLocation": "Wraiths",
+      "forageQuantity": "N/A"
+    },
+    "Ester Grease": {
+      "name": "Ester Grease",
+      "forageLocation": "Forest & fields",
+      "forageQuantity": "1d10"
+    },
+    "Etching Acid": {
+      "name": "Etching Acid",
+      "forageLocation": "Caves & mountains",
+      "forageQuantity": "1d10"
+    },
+    "Explosive": {
+      "name": "Explosive"
+    },
+    "Extra Enhancement Slot": {
+      "name": "Extra Enhancement Slot",
+      "description": "<p>A craftsman can add an empty enhancement slot to a weapon or piece of armor. The item in question must be at its full Reliability or Stopping Power value, the craftsman must have a set of Crafting Tools and the Enhancement Slot Diagram. With these prerequisites met, the craftsman can spend 4 hours to roll a Crafting check to attempt to add an enhancement slot to the item. This new enhancement slot can only hold runes or glyphs, and an item can only have a maximum of 3 enhancement slots.</p>",
+      "craftinTime": "4 hours"
+    },
+    "Extremely mouldy bread": {
+      "name": "Extremely mouldy bread"
+    },
+    "Eye of Nehaleni": {
+      "name": "Eye of Nehaleni",
+      "description": "Eyes of Nehaleni are rare magical objects that have begun to resurface in the last decade. These round stone tablets have inscriptions of a complex variation of the symbol of Nehaleni, the Nordling goddess of fate & illusion. Holding the tablet aloft and calling to the goddess allows a person to attempt to dispel illusions.\n\nBy taking an action you can make a Spell Casting check with a +4 bonus against the original check made to create the illusion or a DC set by the GM. If you succeed, the illusion ends. The Eye of Nehaleni does not require you to spend any Stamina to dispel an illusion.\n\nEducation DC:16 to determine nature."
+    },
+    "False Coins": {
+      "name": "False Coins",
+      "description": "Requires a DC:15 Awareness/Business check to spot they are fake"
+    },
+    "Fashionable Clothing": {
+      "name": "Fashionable Clothing"
+    },
+    "Fate (Silver Long Sword, Education DC: 19)": {
+      "name": "Fate (Silver Long Sword, Education DC: 19)"
+    },
+    "Feast": {
+      "name": "Feast"
+    },
+    "Feathers": {
+      "name": "Feathers",
+      "forageLocation": "Birds",
+      "forageQuantity": "1d6"
+    },
+    "Feline Armor": {
+      "name": "Feline Armor",
+      "forageLocation": "FullCover"
+    },
+    "Feline Crossbow": {
+      "name": "Feline Crossbow",
+      "range": "50m"
+    },
+    "Feline Silver Sword": {
+      "name": "Feline Silver Sword"
+    },
+    "Feline Steel Sword": {
+      "name": "Feline Steel Sword"
+    },
+    "Feverish sketches": {
+      "name": "Feverish sketches"
+    },
+    "Fiber enhancement": {
+      "name": "Fiber enhancement"
+    },
+    "Field  Doctor’s Syringe": {
+      "name": "Field  Doctor’s Syringe"
+    },
+    "Fiend": {
+      "name": "Fiend",
+      "effect": "+1 BODY",
+      "mutagenSource": "Fiend",
+      "minorMutation": "Small antlers"
+    },
+    "Fiend Decoction": {
+      "name": "Fiend Decoction",
+      "source": "Core",
+      "duration": "30 minutes",
+      "effect": "Your ENC is doubled."
+    },
+    "Fiend Dung": {
+      "name": "Fiend Dung",
+      "forageLocation": "Fiends Territory",
+      "forageQuantity": "1d6/2"
+    },
+    "Fiend's Eye": {
+      "name": "Fiend's Eye",
+      "forageLocation": "Fiends",
+      "forageQuantity": "N/A"
+    },
+    "Fifth essence": {
+      "name": "Fifth essence",
+      "forageLocation": "Places of Power, mages & fiends",
+      "forageQuantity": "Variable"
+    },
+    "Fine Art Tools": {
+      "name": "Fine Art Tools",
+      "description": "Allows you to create a form of art (Painting, Jewelry, sculpture, etc.)"
+    },
+    "Fingernail Shaving": {
+      "name": "Fingernail Shaving"
+    },
+    "Fish Bones": {
+      "name": "Fish Bones"
+    },
+    "Fishing Gear": {
+      "name": "Fishing Gear",
+      "description": "+2 Wilderness Survival for fishing"
+    },
+    "Fisstech": {
+      "name": "Fisstech",
+      "source": "Core",
+      "duration": "1/2 hour",
+      "effect": "Sends those who snort it or rub it on their gums into a euphoric trance-like state. It is often used as an anesthetic, as it numbs pain. It is highly addictive.\n\nAfter each use, make an Endurance check at DC:18. If you fail, you become addicted. See pg.32 for addiction rules. A user must make a DC:16 Endurance check or be stunned for up to half an hour. Users can attempt another check each round, but a roll below 10 on any check causes unconciousness for 5 rounds."
+    },
+    "Five iron nails": {
+      "name": "Five iron nails"
+    },
+    "Flail": {
+      "name": "Flail"
+    },
+    "Flamberge": {
+      "name": "Flamberge",
+      "range": "2m"
+    },
+    "Flask of spirits": {
+      "name": "Flask of spirits"
+    },
+    "Flint & Steel": {
+      "name": "Flint & Steel"
+    },
+    "Foglet": {
+      "name": "Foglet",
+      "effect": "+2 Vigor Threshold",
+      "mutagenSource": "Foglet",
+      "minorMutation": "A weak internal glow & gaunt features"
+    },
+    "Foglet Essence": {
+      "name": "Foglet Essence",
+      "forageLocation": "Foglets",
+      "forageQuantity": "N/A"
+    },
+    "Foglet Teeth": {
+      "name": "Foglet Teeth",
+      "forageLocation": "Foglets",
+      "forageQuantity": "N/A"
+    },
+    "Folk remedy for something": {
+      "name": "Folk remedy for something"
+    },
+    "Fool's Parsley": {
+      "name": "Fool's Parsley",
+      "forageLocation": "Fields",
+      "forageQuantity": "2d6"
+    },
+    "Forgar’s Guide": {
+      "name": "Forgar’s Guide",
+      "description": "A pocket-sized leather journal with information about the plants and minerals of the Continent. When referenced while foraging for an ingredient, the Forager’s Guide lowers the DC to forage by 2 and increases the number of units found by the foraging check by 2."
+    },
+    "Forgery Kit": {
+      "name": "Forgery Kit",
+      "description": "Allows you to make false coins & false documents"
+    },
+    "Formula: Acid Solution": {
+      "name": "Formula: Acid Solution",
+      "craftinTime": "15 Minutes"
+    },
+    "Formula: Adda’s Tomb": {
+      "name": "Formula: Adda’s Tomb",
+      "craftinTime": "5 Rounds"
+    },
+    "Formula: Adrenal Elixir": {
+      "name": "Formula: Adrenal Elixir",
+      "craftinTime": "1/2 Hour"
+    },
+    "Formula: Alchemical Adhesive": {
+      "name": "Formula: Alchemical Adhesive",
+      "craftinTime": "10 Minutes"
+    },
+    "Formula: Anabolic Steroids": {
+      "name": "Formula: Anabolic Steroids",
+      "craftinTime": "1/2 Hours"
+    },
+    "Formula: Arachas Decoction": {
+      "name": "Formula: Arachas Decoction",
+      "description": "<p>When creating a decoction, you must mix all of the ingredients listed below with 1 unit of mutagen from the appropriate monster and 1 bottle of spirits.</p>",
+      "craftinTime": "1/2 Hour"
+    },
+    "Formula: Ashen Ointment": {
+      "name": "Formula: Ashen Ointment",
+      "craftinTime": "15 Minutes"
+    },
+    "Formula: Base Powder": {
+      "name": "Formula: Base Powder",
+      "craftinTime": "5 Rounds"
+    },
+    "Formula: Beast Oil": {
+      "name": "Formula: Beast Oil",
+      "craftinTime": "15 Minutes"
+    },
+    "Formula: Berserker’s Brew": {
+      "name": "Formula: Berserker’s Brew",
+      "craftinTime": "1/2 Hour"
+    },
+    "Formula: Black Blood": {
+      "name": "Formula: Black Blood",
+      "craftinTime": "1/2 Hour"
+    },
+    "Formula: Black Venom": {
+      "name": "Formula: Black Venom",
+      "craftinTime": "10 Minutes"
+    },
+    "Formula: Blizzard": {
+      "name": "Formula: Blizzard",
+      "craftinTime": "1/2 Hour"
+    },
+    "Formula: Bredan’s Fury": {
+      "name": "Formula: Bredan’s Fury",
+      "craftinTime": "1/2 Hour"
+    },
+    "Formula: Cadaverine Solution": {
+      "name": "Formula: Cadaverine Solution",
+      "craftinTime": "15 Minutes"
+    },
+    "Formula: Cat": {
+      "name": "Formula: Cat",
+      "craftinTime": "1/2 Hour"
+    },
+    "Formula: Celestine": {
+      "name": "Formula: Celestine",
+      "craftinTime": "15 Minutes"
+    },
+    "Formula: Chloroform": {
+      "name": "Formula: Chloroform",
+      "craftinTime": "15 Minutes"
+    },
+    "Formula: Clotting Powder": {
+      "name": "Formula: Clotting Powder",
+      "craftinTime": "5 Rounds"
+    },
+    "Formula: Cursed Oil": {
+      "name": "Formula: Cursed Oil",
+      "craftinTime": "15 Minutes"
+    },
+    "Formula: Draconid Oil": {
+      "name": "Formula: Draconid Oil",
+      "craftinTime": "15 Minutes"
+    },
+    "Formula: Elementa Oil": {
+      "name": "Formula: Elementa Oil",
+      "craftinTime": "15 Minutes"
+    },
+    "Formula: Endurance Potion": {
+      "name": "Formula: Endurance Potion",
+      "craftinTime": "1/2 Hour"
+    },
+    "Formula: Fiend Decoction": {
+      "name": "Formula: Fiend Decoction",
+      "description": "<p>When creating a decoction, you must mix all of the ingredients listed below with 1 unit of mutagen from the appropriate monster and 1 bottle of spirits.</p>",
+      "craftinTime": "1/2 Hour"
+    },
+    "Formula: Fisstech": {
+      "name": "Formula: Fisstech",
+      "craftinTime": "1/2 Hour"
+    },
+    "Formula: Full Moon": {
+      "name": "Formula: Full Moon",
+      "craftinTime": "1/2 Hour"
+    },
+    "Formula: Golden Oriole": {
+      "name": "Formula: Golden Oriole",
+      "craftinTime": "1/2 Hour"
+    },
+    "Formula: Grave Hag Decoction": {
+      "name": "Formula: Grave Hag Decoction",
+      "description": "<p>When creating a decoction, you must mix all of the ingredients listed below with 1 unit of mutagen from the appropriate monster and 1 bottle of spirits.</p>",
+      "craftinTime": "1/2 Hour"
+    },
+    "Formula: Griffin Decoction": {
+      "name": "Formula: Griffin Decoction",
+      "description": "<p>When creating a decoction, you must mix all of the ingredients listed below with 1 unit of mutagen from the appropriate monster and 1 bottle of spirits.</p>",
+      "craftinTime": "1/2 Hour"
+    },
+    "Formula: Hallucinogen": {
+      "name": "Formula: Hallucinogen",
+      "craftinTime": "5 Rounds"
+    },
+    "Formula: Hanged Man’s Venom": {
+      "name": "Formula: Hanged Man’s Venom",
+      "craftinTime": "15 Minutes"
+    },
+    "Formula: Hybrid Oil": {
+      "name": "Formula: Hybrid Oil",
+      "craftinTime": "15 Minutes"
+    },
+    "Formula: Insectoid Oil": {
+      "name": "Formula: Insectoid Oil",
+      "craftinTime": "15 Minutes"
+    },
+    "Formula: Investigator’s Helper": {
+      "name": "Formula: Investigator’s Helper",
+      "craftinTime": "10 Minutes"
+    },
+    "Formula: Invisible Ink": {
+      "name": "Formula: Invisible Ink",
+      "craftinTime": "5 Rounds"
+    },
+    "Formula: Katakan Decoction": {
+      "name": "Formula: Katakan Decoction",
+      "description": "<p>When creating a decoction, you must mix all of the ingredients listed below with 1 unit of mutagen from the appropriate monster and 1 bottle of spirits.</p>",
+      "craftinTime": "1/2 Hour"
+    },
+    "Formula: Killer Whale": {
+      "name": "Formula: Killer Whale",
+      "craftinTime": "1/2 Hour"
+    },
+    "Formula: Last Hope": {
+      "name": "Formula: Last Hope",
+      "craftinTime": "1 Hour"
+    },
+    "Formula: Lightning": {
+      "name": "Formula: Lightning",
+      "craftinTime": "15 Minutes"
+    },
+    "Formula: Maribor Forest": {
+      "name": "Formula: Maribor Forest",
+      "craftinTime": "1/2 Hour"
+    },
+    "Formula: Mongoose": {
+      "name": "Formula: Mongoose",
+      "craftinTime": "15 Minutes"
+    },
+    "Formula: Monkshood Poison": {
+      "name": "Formula: Monkshood Poison",
+      "craftinTime": "1/2 Hour"
+    },
+    "Formula: Necrophage Oil": {
+      "name": "Formula: Necrophage Oil",
+      "craftinTime": "15 Minutes"
+    },
+    "Formula: Nekker Decoction": {
+      "name": "Formula: Nekker Decoction",
+      "description": "<p>When creating a decoction, you must mix all of the ingredients listed below with 1 unit of mutagen from the appropriate monster and 1 bottle of spirits.</p>",
+      "craftinTime": "1/2 Hour"
+    },
+    "Formula: Noon Wraith Decoction": {
+      "name": "Formula: Noon Wraith Decoction",
+      "description": "<p>When creating a decoction, you must mix all of the ingredients listed below with 1 unit of mutagen from the appropriate monster and 1 bottle of spirits.</p>",
+      "craftinTime": "1/2 Hour"
+    },
+    "Formula: Numbing Herbs": {
+      "name": "Formula: Numbing Herbs",
+      "craftinTime": "5 Rounds"
+    },
+    "Formula: Ogroid Oil": {
+      "name": "Formula: Ogroid Oil",
+      "craftinTime": "15 Minutes"
+    },
+    "Formula: Pantagran’s Elixir": {
+      "name": "Formula: Pantagran’s Elixir",
+      "craftinTime": "15 Minutes"
+    },
+    "Formula: Perfume Potion": {
+      "name": "Formula: Perfume Potion",
+      "craftinTime": "1/2 Hour"
+    },
+    "Formula: Petri’s Filter": {
+      "name": "Formula: Petri’s Filter",
+      "craftinTime": "1/2 Hour"
+    },
+    "Formula: Poisoner’s Friend": {
+      "name": "Formula: Poisoner’s Friend",
+      "craftinTime": "10 Minutes"
+    },
+    "Formula: Poisonous Lipcoloring": {
+      "name": "Formula: Poisonous Lipcoloring",
+      "craftinTime": "15 Minutes"
+    },
+    "Formula: Quick Fire": {
+      "name": "Formula: Quick Fire",
+      "craftinTime": "15 Minutes"
+    },
+    "Formula: Relict Oil": {
+      "name": "Formula: Relict Oil",
+      "craftinTime": "15 Minutes"
+    },
+    "Formula: Smelling Salts": {
+      "name": "Formula: Smelling Salts",
+      "craftinTime": "10 Minutes"
+    },
+    "Formula: Specter Oil": {
+      "name": "Formula: Specter Oil",
+      "craftinTime": "15 Minutes"
+    },
+    "Formula: Sterilizing Fluid": {
+      "name": "Formula: Sterilizing Fluid",
+      "craftinTime": "5 Rounds"
+    },
+    "Formula: Strider": {
+      "name": "Formula: Strider",
+      "craftinTime": "15 Minutes"
+    },
+    "Formula: Succubus’ Breath": {
+      "name": "Formula: Succubus’ Breath",
+      "craftinTime": "10 Minutes"
+    },
+    "Formula: Summer Ointment": {
+      "name": "Formula: Summer Ointment",
+      "craftinTime": "5 Rounds"
+    },
+    "Formula: Swallow": {
+      "name": "Formula: Swallow",
+      "craftinTime": "1/2 Hour"
+    },
+    "Formula: Talgar’s Tears": {
+      "name": "Formula: Talgar’s Tears",
+      "craftinTime": "1/2 Hour"
+    },
+    "Formula: Tawny Owl": {
+      "name": "Formula: Tawny Owl",
+      "craftinTime": "1/2 Hour"
+    },
+    "Formula: Tempest": {
+      "name": "Formula: Tempest",
+      "craftinTime": "15 Minutes"
+    },
+    "Formula: Thunderbolt": {
+      "name": "Formula: Thunderbolt",
+      "craftinTime": "1/2 Hour"
+    },
+    "Formula: Troll Decoction": {
+      "name": "Formula: Troll Decoction",
+      "description": "<p>When creating a decoction, you must mix all of the ingredients listed below with 1 unit of mutagen from the appropriate monster and 1 bottle of spirits.</p>",
+      "craftinTime": "1/2 Hour"
+    },
+    "Formula: Vampire Oil": {
+      "name": "Formula: Vampire Oil",
+      "craftinTime": "15 Minutes"
+    },
+    "Formula: Vitality Potion": {
+      "name": "Formula: Vitality Potion",
+      "craftinTime": "1/2 Hour"
+    },
+    "Formula: Werewolf Decoction": {
+      "name": "Formula: Werewolf Decoction",
+      "description": "<p>When creating a decoction, you must mix all of the ingredients listed below with 1 unit of mutagen from the appropriate monster and 1 bottle of spirits.</p>",
+      "craftinTime": "1/2 Hour"
+    },
+    "Formula: White Honey": {
+      "name": "Formula: White Honey",
+      "craftinTime": "1/2 Hour"
+    },
+    "Formula: White Raffard’s Decoction": {
+      "name": "Formula: White Raffard’s Decoction",
+      "craftinTime": "1/2 Hour"
+    },
+    "Formula: Wives’ Tears Potion": {
+      "name": "Formula: Wives’ Tears Potion",
+      "craftinTime": "10 Minutes"
+    },
+    "Formula: Wyvern Decoction": {
+      "name": "Formula: Wyvern Decoction",
+      "description": "<p>When creating a decoction, you must mix all of the ingredients listed below with 1 unit of mutagen from the appropriate monster and 1 bottle of spirits.</p>",
+      "craftinTime": "1/2 Hour"
+    },
+    "Formula: Zerrikanian Fire": {
+      "name": "Formula: Zerrikanian Fire",
+      "craftinTime": "15 Minutes"
+    },
+    "Four-Leaf Clover": {
+      "name": "Four-Leaf Clover",
+      "description": "A four-leaf clover grants a temporary +1 to your Luck. Without taking an action, you can expend this FourLeaf Clover to gain a +1 to your next check. Once this point has been used, the clover disintegrates.\n\nEducation DC:10 to determine nature."
+    },
+    "Fragment of stone": {
+      "name": "Fragment of stone"
+    },
+    "Frightener": {
+      "name": "Frightener",
+      "effect": "+1 BODY",
+      "mutagenSource": "Frightener",
+      "minorMutation": "Multi-faceted eyes & patches of chitin"
+    },
+    "Frightener Claws": {
+      "name": "Frightener Claws",
+      "forageLocation": "Frighteners",
+      "forageQuantity": "N/A"
+    },
+    "Frightener Eye": {
+      "name": "Frightener Eye",
+      "forageLocation": "Frighteners",
+      "forageQuantity": "N/A"
+    },
+    "Full Moon": {
+      "name": "Full Moon",
+      "source": "Core",
+      "duration": "1/2 hours",
+      "effect": "Grants you +30 temporary Health Points until the end of the duration. Full Moon potions do not stack with one another."
+    },
+    "Fury Trap": {
+      "name": "Fury Trap",
+      "range": "8m"
+    },
+    "Gambeson": {
+      "name": "Gambeson",
+      "forageLocation": "Torso"
+    },
+    "Garkain": {
+      "name": "Garkain",
+      "effect": "+10 HP",
+      "mutagenSource": "Garkain",
+      "minorMutation": "Fleshy growths on the head"
+    },
+    "Garkain Saliva": {
+      "name": "Garkain Saliva",
+      "forageLocation": "Garkains",
+      "forageQuantity": "N/A"
+    },
+    "Gastropod  Armor": {
+      "name": "Gastropod  Armor",
+      "forageLocation": "FullCover"
+    },
+    "Gastropod Silver Sword": {
+      "name": "Gastropod Silver Sword"
+    },
+    "Gastropod Steel Sword": {
+      "name": "Gastropod Steel Sword"
+    },
+    "Gemstone": {
+      "name": "Gemstone",
+      "forageLocation": "Mountain & undergrounds",
+      "forageQuantity": "1d6/2"
+    },
+    "Ghoul  Claw": {
+      "name": "Ghoul  Claw",
+      "forageLocation": "Ghouls",
+      "forageQuantity": "N/A"
+    },
+    "Ghoul Marrow": {
+      "name": "Ghoul Marrow",
+      "forageLocation": "Ghouls",
+      "forageQuantity": "N/A"
+    },
+    "Giant Centipede Discharge": {
+      "name": "Giant Centipede Discharge",
+      "forageLocation": "Giant Centipedes",
+      "forageQuantity": "N/A"
+    },
+    "Giant Centipede Mandibles": {
+      "name": "Giant Centipede Mandibles",
+      "forageLocation": "Giant Centipede",
+      "forageQuantity": "N/A"
+    },
+    "Gilding": {
+      "name": "Gilding",
+      "description": "Grants a +1 Reputation bonus. A character can only benefit from one such bonus at a time."
+    },
+    "Ginatia Petals": {
+      "name": "Ginatia Petals",
+      "forageLocation": "Fields",
+      "forageQuantity": "1d6"
+    },
+    "Glass": {
+      "name": "Glass",
+      "forageLocation": "Bought",
+      "forageQuantity": "N/A"
+    },
+    "Gleddyf": {
+      "name": "Gleddyf"
+    },
+    "Glowing Ore": {
+      "name": "Glowing Ore",
+      "forageLocation": "Mountain & undergrounds",
+      "forageQuantity": "1d6/2"
+    },
+    "Glustyworp": {
+      "name": "Glustyworp",
+      "effect": "+10 HP",
+      "mutagenSource": "Glustyworp",
+      "minorMutation": "Small patches of chitin"
+    },
+    "Glustyworp Stomach": {
+      "name": "Glustyworp Stomach",
+      "forageLocation": "Glustyworps",
+      "forageQuantity": "N/A"
+    },
+    "Glyph of Air": {
+      "name": "Glyph of Air"
+    },
+    "Glyph of Binding": {
+      "name": "Glyph of Binding"
+    },
+    "Glyph of Earth": {
+      "name": "Glyph of Earth"
+    },
+    "Glyph of Fire": {
+      "name": "Glyph of Fire"
+    },
+    "Glyph of Magic": {
+      "name": "Glyph of Magic"
+    },
+    "Glyph of Mending": {
+      "name": "Glyph of Mending"
+    },
+    "Glyph of Reinforcement": {
+      "name": "Glyph of Reinforcement"
+    },
+    "Glyph of Warding": {
+      "name": "Glyph of Warding"
+    },
+    "Glyph of Water": {
+      "name": "Glyph of Water"
+    },
+    "Glyphword Balance": {
+      "name": "Glyphword Balance"
+    },
+    "Glyphword Beguilement": {
+      "name": "Glyphword Beguilement"
+    },
+    "Glyphword Heft": {
+      "name": "Glyphword Heft"
+    },
+    "Glyphword Protection": {
+      "name": "Glyphword Protection"
+    },
+    "Glyphword Retribution": {
+      "name": "Glyphword Retribution"
+    },
+    "Glyphword Rotation": {
+      "name": "Glyphword Rotation"
+    },
+    "Glyphword Shining": {
+      "name": "Glyphword Shining"
+    },
+    "Glyphword: Balance": {
+      "name": "Glyphword: Balance",
+      "craftinTime": "1 Hour"
+    },
+    "Glyphword: Beguilement": {
+      "name": "Glyphword: Beguilement",
+      "craftinTime": "1 Hour"
+    },
+    "Glyphword: Heft": {
+      "name": "Glyphword: Heft",
+      "craftinTime": "1 Hour"
+    },
+    "Glyphword: Protection": {
+      "name": "Glyphword: Protection",
+      "craftinTime": "1 Hour"
+    },
+    "Glyphword: Retribution": {
+      "name": "Glyphword: Retribution",
+      "craftinTime": "1 Hour"
+    },
+    "Glyphword: Rotation": {
+      "name": "Glyphword: Rotation",
+      "craftinTime": "1 Hour"
+    },
+    "Glyphword: Shining": {
+      "name": "Glyphword: Shining",
+      "craftinTime": "1 Hour"
+    },
+    "Gnomish Black Axe": {
+      "name": "Gnomish Black Axe"
+    },
+    "Gnomish Buckler": {
+      "name": "Gnomish Buckler",
+      "forageLocation": "Shield"
+    },
+    "Gnomish Chain": {
+      "name": "Gnomish Chain",
+      "forageLocation": "FullCover"
+    },
+    "Gnomish Dragoon Armor": {
+      "name": "Gnomish Dragoon Armor",
+      "forageLocation": "FullCover"
+    },
+    "Gnomish Gwyhyr": {
+      "name": "Gnomish Gwyhyr"
+    },
+    "Gnomish Hand Crossbow": {
+      "name": "Gnomish Hand Crossbow",
+      "range": "100m"
+    },
+    "Gnomish Staff": {
+      "name": "Gnomish Staff",
+      "range": "2m"
+    },
+    "Goat Skin Mantle": {
+      "name": "Goat Skin Mantle",
+      "description": "A treated goat skin mantle that hangs around the shoulders and clasps at the front with bone toggles. Goat Skin Mantles have several unique effects when summoning various forms of demons and are used as a first line of defense by goetic practitioners. The only person who benefits from the effects of a Goat Skin Mantle is the person wearing it.\n\nBes: Unless the summoner is wearing a Goat Skin Mantle, the bes will immediately try to possess them upon its summoning. This happens before anyone can take an action.\n\nCasglydd: Unless the summoner is wearing a Goat Skin Mantle, the casglydd will immediately try to use its Claw attack to drag them into the shadows where it will negotiate on its terms. This happens before anyone can take an action.\n\nMari Lwyd: Unless the summoner is wearing a Goat Skin Mantle, the mari lwyd will assume that everything present in the building where the summoning takes place is part of the summoner’s offering.\n\n\nEducation DC:18 to determine nature."
+    },
+    "Godling Eyes": {
+      "name": "Godling Eyes",
+      "forageLocation": "Godlings",
+      "forageQuantity": "N/A"
+    },
+    "Gold": {
+      "name": "Gold",
+      "forageLocation": "Mountain & undergrounds",
+      "forageQuantity": "1d6/2"
+    },
+    "Golden Oriole": {
+      "name": "Golden Oriole",
+      "source": "Core",
+      "duration": "1/2 hours",
+      "effect": "Grants immunity to poisons and neutralizes any poisons in your system."
+    },
+    "Golem": {
+      "name": "Golem",
+      "effect": "+2 Vigor threshold",
+      "mutagenSource": "Golem",
+      "minorMutation": "Hard Protrusions"
+    },
+    "Golem Heart": {
+      "name": "Golem Heart",
+      "forageLocation": "Golems",
+      "forageQuantity": "N/A"
+    },
+    "Grapeshot Bomb": {
+      "name": "Grapeshot Bomb",
+      "range": "Body*4m"
+    },
+    "Grappling Hook": {
+      "name": "Grappling Hook",
+      "description": "+2 Climbing"
+    },
+    "Grave Hag": {
+      "name": "Grave Hag",
+      "effect": "+5 HP",
+      "mutagenSource": "Grave Hag",
+      "minorMutation": "Long grey tongue"
+    },
+    "Grave Hag Decoction": {
+      "name": "Grave Hag Decoction",
+      "source": "Core",
+      "duration": "30 minutes",
+      "effect": "+2 HP regeneration for every enemy slain during combat. This health bonus lasts until the end of the combat."
+    },
+    "Grave Hag Ear": {
+      "name": "Grave Hag Ear",
+      "forageLocation": "Grave Hags",
+      "forageQuantity": "N/A"
+    },
+    "Grave Hag Tongue": {
+      "name": "Grave Hag Tongue",
+      "forageLocation": "Grave Hags",
+      "forageQuantity": "N/A"
+    },
+    "Great Helm": {
+      "name": "Great Helm",
+      "forageLocation": "Head"
+    },
+    "Green Mold": {
+      "name": "Green Mold",
+      "forageLocation": "Caves",
+      "forageQuantity": "1d10"
+    },
+    "Griffin": {
+      "name": "Griffin",
+      "effect": "+ 2 melee dmg",
+      "mutagenSource": "Griffin",
+      "minorMutation": "Feather growth"
+    },
+    "Griffin Armor": {
+      "name": "Griffin Armor",
+      "forageLocation": "FullCover"
+    },
+    "Griffin Crossbow": {
+      "name": "Griffin Crossbow",
+      "range": "50m"
+    },
+    "Griffin Decoction": {
+      "name": "Griffin Decoction",
+      "source": "Core",
+      "duration": "30 minutes",
+      "effect": "Every time you take more than 5 points of damage you gain +2 SP. This SP applies to all locations and stacks with itself."
+    },
+    "Griffin Egg": {
+      "name": "Griffin Egg",
+      "forageLocation": "Griffin",
+      "forageQuantity": "N/A"
+    },
+    "Griffin Feather": {
+      "name": "Griffin Feather",
+      "forageLocation": "Griffins",
+      "forageQuantity": "N/A"
+    },
+    "Griffin Silver Sword": {
+      "name": "Griffin Silver Sword"
+    },
+    "Griffin Steel Sword": {
+      "name": "Griffin Steel Sword"
+    },
+    "Guild Badge": {
+      "name": "Guild Badge"
+    },
+    "Gwent Deck": {
+      "name": "Gwent Deck"
+    },
+    "Hag Teeth": {
+      "name": "Hag Teeth",
+      "forageLocation": "Grave Hags",
+      "forageQuantity": "N/A"
+    },
+    "Halfling Protective Doublet": {
+      "name": "Halfling Protective Doublet",
+      "forageLocation": "Torso"
+    },
+    "Halfling Rondel": {
+      "name": "Halfling Rondel"
+    },
+    "Hallucinogen": {
+      "name": "Hallucinogen",
+      "source": "Core",
+      "duration": "1d10 rounds",
+      "effect": "Can be thrown on a target within 3m or slipped into a drink. If the target fails a DC:15 Endurance check, they start hallucinating. These hallucinations last for 1d10 rounds.\n\n\nThrowing it is an Athletics attack with a range equal to your BODYx2m, and the acid splatters in a 2m cone directly away from where it lands."
+    },
+    "Hallucinogenic fungus": {
+      "name": "Hallucinogenic fungus"
+    },
+    "Han Fiber": {
+      "name": "Han Fiber",
+      "forageLocation": "Fields",
+      "forageQuantity": "1d6"
+    },
+    "Hand Axe": {
+      "name": "Hand Axe"
+    },
+    "Hand Crossbow": {
+      "name": "Hand Crossbow",
+      "range": "50m"
+    },
+    "Hand Mirror": {
+      "name": "Hand Mirror"
+    },
+    "Hanged Man’s Venom": {
+      "name": "Hanged Man’s Venom",
+      "source": "Core",
+      "duration": "30 minutes",
+      "effect": "+5 damage against humanoids"
+    },
+    "Hardened Leather": {
+      "name": "Hardened Leather"
+    },
+    "Hardened Timber": {
+      "name": "Hardened Timber",
+      "forageLocation": "Bought & crafted",
+      "forageQuantity": "N/A"
+    },
+    "Harpy Eggs": {
+      "name": "Harpy Eggs",
+      "forageLocation": "Harpy Nest",
+      "forageQuantity": "N/A"
+    },
+    "Harpy Feathers": {
+      "name": "Harpy Feathers",
+      "forageLocation": "Harpies",
+      "forageQuantity": "N/A"
+    },
+    "Harpy Talons": {
+      "name": "Harpy Talons",
+      "forageLocation": "Harpies",
+      "forageQuantity": "N/A"
+    },
+    "Hellebore Petals": {
+      "name": "Hellebore Petals",
+      "forageLocation": "Forest",
+      "forageQuantity": "1d6"
+    },
+    "High Tension String": {
+      "name": "High Tension String",
+      "description": "Adds +1d6 to the damage of the crossbow."
+    },
+    "Higher Vampire Fangs": {
+      "name": "Higher Vampire Fangs",
+      "forageLocation": "Higher vampire",
+      "forageQuantity": "N/A"
+    },
+    "Highland Mauler": {
+      "name": "Highland Mauler"
+    },
+    "Hindarsfjall Heavy  Chausses": {
+      "name": "Hindarsfjall Heavy  Chausses",
+      "forageLocation": "Leg"
+    },
+    "Hindarsfjall Heavy Armor": {
+      "name": "Hindarsfjall Heavy Armor",
+      "forageLocation": "Torso"
+    },
+    "Holy Symbol": {
+      "name": "Holy Symbol",
+      "description": "+2 Charisma with followers of a certain faitch."
+    },
+    "Holy Text": {
+      "name": "Holy Text"
+    },
+    "Honeysuckle": {
+      "name": "Honeysuckle",
+      "forageLocation": "Fields",
+      "forageQuantity": "1d10"
+    },
+    "Hooked Staff": {
+      "name": "Hooked Staff",
+      "range": "2m"
+    },
+    "Horse": {
+      "name": "Horse"
+    },
+    "Horseman’s  Hammer": {
+      "name": "Horseman’s  Hammer"
+    },
+    "Hourglass": {
+      "name": "Hourglass"
+    },
+    "Hourglass, Minute": {
+      "name": "Hourglass, Minute"
+    },
+    "Human skull": {
+      "name": "Human skull"
+    },
+    "Hunter’s Falchion": {
+      "name": "Hunter’s Falchion"
+    },
+    "Huntsman’s Crossbow": {
+      "name": "Huntsman’s Crossbow",
+      "range": "150"
+    },
+    "Hybrid Oil": {
+      "name": "Hybrid Oil",
+      "source": "Core",
+      "duration": "30 minutes",
+      "effect": "+5 damage against hybrids"
+    },
+    "Ice Skates": {
+      "name": "Ice Skates",
+      "description": "While ice skating, you ignore the effects of Snow and Ice \nconditions. Treat ice skating as being mounted on a horse with a +2 Control Modifier and a SPD of 12 that is incapable of charging or ramming."
+    },
+    "Illegible scroll": {
+      "name": "Illegible scroll"
+    },
+    "Improved Windlass": {
+      "name": "Improved Windlass",
+      "description": "Allows you to spend either an Action or a Movement Action to reload the crossbow."
+    },
+    "Infused Dust": {
+      "name": "Infused Dust",
+      "forageLocation": "Wraiths, Griffin and Golems",
+      "forageQuantity": "N/A"
+    },
+    "Insane notes": {
+      "name": "Insane notes"
+    },
+    "Insectoid Oil": {
+      "name": "Insectoid Oil",
+      "source": "Core",
+      "duration": "30 minutes",
+      "effect": "+5 damage against insectoids"
+    },
+    "Instruction for a trade": {
+      "name": "Instruction for a trade"
+    },
+    "Instrument": {
+      "name": "Instrument"
+    },
+    "Interior: Secure Storage": {
+      "name": "Interior: Secure Storage",
+      "description": "A locked compartment in the floor of the wagon can hold up to 80kg worth of items. The compartment comes with a Standard Lock and key."
+    },
+    "Interior: Sleeping  Upgrade": {
+      "name": "Interior: Sleeping  Upgrade",
+      "description": "+1 Occupancy"
+    },
+    "Interior: Workshop": {
+      "name": "Interior: Workshop",
+      "description": "This section of the wagon is set up to aid in the use of a single Crafting Skill. Pick one of the following: Alchemy, Crafting, Disguise, First Aid, or Forgery. This workshop is considered to have all the tools required for that Skill and grants a +2 Bonus to Skill checks of that type."
+    },
+    "Investigator’s Helper": {
+      "name": "Investigator’s Helper",
+      "source": "UNKNOWN",
+      "duration": "N/A",
+      "effect": "When sprayed on an area where blood was present, the fluid turns black, revealing the presence of blood. A container of Investigator’s Helper can be applied 10 times before being consumed."
+    },
+    "Invisible Ink": {
+      "name": "Invisible Ink",
+      "source": "Core",
+      "duration": "N/A",
+      "effect": "Allows you to write messages that can only be read when exposed to heat for 1 turn."
+    },
+    "Iron": {
+      "name": "Iron",
+      "forageLocation": "Mountain & undergrounds",
+      "forageQuantity": "1d6"
+    },
+    "Iron Long Sword": {
+      "name": "Iron Long Sword"
+    },
+    "Iron Staff": {
+      "name": "Iron Staff",
+      "range": "2m"
+    },
+    "Iron shoes": {
+      "name": "Iron shoes"
+    },
+    "Jambiya": {
+      "name": "Jambiya"
+    },
+    "Jar of Leeches": {
+      "name": "Jar of Leeches",
+      "effect": "Leeches grant a +3 bonus to Endurance for removing the Poisoned condition.",
+      "description": "+3 bonus to Endurance for removing the Poisoned condition"
+    },
+    "Jewelry": {
+      "name": "Jewelry"
+    },
+    "Journal/Ledger": {
+      "name": "Journal/Ledger"
+    },
+    "Kaedweni Shield": {
+      "name": "Kaedweni Shield",
+      "forageLocation": "Shield"
+    },
+    "Katakan": {
+      "name": "Katakan",
+      "effect": "+ 1 REF",
+      "mutagenSource": "Katakan",
+      "minorMutation": "Gangly proportions"
+    },
+    "Katakan Decoction": {
+      "name": "Katakan Decoction",
+      "source": "Core",
+      "duration": "30 minutes",
+      "effect": "You gain a +3 to your roll when determining the location of a critical wound."
+    },
+    "Kettle Helmet": {
+      "name": "Kettle Helmet",
+      "forageLocation": "Head"
+    },
+    "Killer Whale": {
+      "name": "Killer Whale",
+      "source": "Core",
+      "duration": "1/2 hours",
+      "effect": "Grants immunity to poisons and neutralizes any poisons in your system."
+    },
+    "Knocker Hair": {
+      "name": "Knocker Hair",
+      "forageLocation": "Knockers",
+      "forageQuantity": "N/A"
+    },
+    "Knocker Teeth": {
+      "name": "Knocker Teeth",
+      "forageLocation": "Knockers",
+      "forageQuantity": "N/A"
+    },
+    "Knocker Toes": {
+      "name": "Knocker Toes",
+      "forageLocation": "Knockers",
+      "forageQuantity": "N/A"
+    },
+    "Kord": {
+      "name": "Kord"
+    },
+    "Krigsverd": {
+      "name": "Krigsverd"
+    },
+    "Ladies' Underwear": {
+      "name": "Ladies' Underwear"
+    },
+    "Lamellar Armor": {
+      "name": "Lamellar Armor",
+      "forageLocation": "Torso"
+    },
+    "Lamia": {
+      "name": "Lamia",
+      "range": "2m"
+    },
+    "Lantern": {
+      "name": "Lantern",
+      "description": "Raises light levels by 2 for 3m all around"
+    },
+    "Lantern, Bullseye": {
+      "name": "Lantern, Bullseye",
+      "description": "Raises light levels by 3 within a 5m cone"
+    },
+    "Last Hope": {
+      "name": "Last Hope",
+      "source": "Tome",
+      "duration": "N/A",
+      "effect": "Last Hope can repair the most grievous wounds at a cost. Drinking it treats 1 critical wound the drinker has but that critical wound will not heal unless a Doctor makes a DC:24 Healing Hands check to reapply the critical wound and then treats it again with Healing Hands."
+    },
+    "Leather": {
+      "name": "Leather",
+      "forageLocation": "Bought or crafted",
+      "forageQuantity": "N/A"
+    },
+    "Leather Barding": {
+      "name": "Leather Barding",
+      "description": "SP: 10 to your whole mount"
+    },
+    "Leather Shield": {
+      "name": "Leather Shield",
+      "forageLocation": "Shield"
+    },
+    "Leshen": {
+      "name": "Leshen",
+      "effect": "+1 Will",
+      "mutagenSource": "Leshen",
+      "minorMutation": "Plants growth on the body"
+    },
+    "Leshen Bone": {
+      "name": "Leshen Bone",
+      "forageLocation": "Leshen",
+      "forageQuantity": "N/A"
+    },
+    "Leshen Fiber": {
+      "name": "Leshen Fiber",
+      "forageLocation": "Leshen",
+      "forageQuantity": "N/A"
+    },
+    "Leshen Resin": {
+      "name": "Leshen Resin",
+      "forageLocation": "Leshen",
+      "forageQuantity": "N/A"
+    },
+    "Light Essence": {
+      "name": "Light Essence",
+      "forageLocation": "Noon wraith",
+      "forageQuantity": "N/A"
+    },
+    "Lightning": {
+      "name": "Lightning",
+      "source": "Tome",
+      "duration": "N/A",
+      "effect": "Grants the drinker a +3 damage on your next physical attack."
+    },
+    "Linen": {
+      "name": "Linen",
+      "forageLocation": "Bought or crafted",
+      "forageQuantity": "N/A"
+    },
+    "Lintar": {
+      "name": "Lintar",
+      "description": "= 2 Redanian Crowns\nUsed in The Hengfors League"
+    },
+    "List of people": {
+      "name": "List of people"
+    },
+    "Loaded Dice": {
+      "name": "Loaded Dice",
+      "description": "+3 Gambling, DC:16 Awareness to notice"
+    },
+    "Lock": {
+      "name": "Lock",
+      "description": "DC:15 Pick Lock"
+    },
+    "Lock of Hair": {
+      "name": "Lock of Hair"
+    },
+    "Lock, Strong": {
+      "name": "Lock, Strong",
+      "description": "DC:18 Pick Lock"
+    },
+    "Lock, Trapped": {
+      "name": "Lock, Trapped",
+      "description": "A complex, mechanical lock fitted with a needle which the user can load with a vial of poison. Picking the lock requires a DC:17 Pick Lock check. If the character fails to pick the lock, the needle in the lock juts out, stabbing into the hand of the thief, inflicting the effects of the poison loaded into the lock. Once sprung a Trapped Lock must be reloaded with a new vial of poison."
+    },
+    "Locket": {
+      "name": "Locket"
+    },
+    "Long Bow": {
+      "name": "Long Bow",
+      "range": "200m"
+    },
+    "Lucky Charm": {
+      "name": "Lucky Charm"
+    },
+    "Lunar Shards": {
+      "name": "Lunar Shards",
+      "forageLocation": "Mountain & undergrounds",
+      "forageQuantity": "1d6/2"
+    },
+    "Lyrian Leather": {
+      "name": "Lyrian Leather",
+      "forageLocation": "Bought or crafted",
+      "forageQuantity": "N/A"
+    },
+    "Lyrian Leather Jacket": {
+      "name": "Lyrian Leather Jacket",
+      "forageLocation": "Torso"
+    },
+    "Lyrian Leather Trousers": {
+      "name": "Lyrian Leather Trousers",
+      "forageLocation": "Leg"
+    },
+    "Mace": {
+      "name": "Mace"
+    },
+    "Magic Compass": {
+      "name": "Magic Compass",
+      "description": "An enchanted compass which can point the user towards an object they have a clear and accurate mental image of. By taking an action, a character holding a Magic Compass can make a Resist Coercion check at a DC set by the Game Master to clear their mind of any distractions and visualize an object they have seen before. If the character succeeds, the compass points in the direction of the item they were thinking of. If they fail it points in the direction of some other thing the holder desires.\n\n\nEducation DC:12 to determine nature."
+    },
+    "Magical Elven Rope": {
+      "name": "Magical Elven Rope",
+      "description": "The rope can twist and cling to people reaching out for it, tie itself around objects that it is laid on, and retract back to the holder. While the rope is capable of tying itself around people, it never does this fast enough to grapple a resisting creature. When climbing with this rope, you gain a +5 bonus to Athletics checks made to climb. Finally, the rope, despite is delicate nature, is nigh unbreakable, able to support 300kg of weight and take 50 points of damage.\n\nEducation DC:18 to determine nature."
+    },
+    "Mahakaman Dimeritium": {
+      "name": "Mahakaman Dimeritium",
+      "forageLocation": "Bought or crafted",
+      "forageQuantity": "N/A"
+    },
+    "Mahakaman Martell": {
+      "name": "Mahakaman Martell"
+    },
+    "Mahakaman Pavise": {
+      "name": "Mahakaman Pavise",
+      "forageLocation": "Shield"
+    },
+    "Mahakaman Plate Armor": {
+      "name": "Mahakaman Plate Armor",
+      "forageLocation": "FullCover"
+    },
+    "Mahakaman Steel": {
+      "name": "Mahakaman Steel",
+      "forageLocation": "Bought or crafted",
+      "forageQuantity": "N/A"
+    },
+    "Makeup Kit": {
+      "name": "Makeup Kit",
+      "description": "+2 Seduction & Charisma"
+    },
+    "Manacles": {
+      "name": "Manacles",
+      "description": "Escaping manacles requires a DC:16 Pick Locks check, and escaping shackles takes a DC:20 Pick Locks check. If you want to break your way out of manacles or shackles, you’ll have to make a Physique check. The DC for breaking manacles is 18, while the DC for breaking shackles is 22."
+    },
+    "Mancatcher": {
+      "name": "Mancatcher",
+      "range": "2m"
+    },
+    "Mandrake Root": {
+      "name": "Mandrake Root",
+      "forageLocation": "Fields & Forest",
+      "forageQuantity": "1d6/2"
+    },
+    "Manticore": {
+      "name": "Manticore",
+      "effect": "+1 REF",
+      "mutagenSource": "Manticore",
+      "minorMutation": "Small horns & feline features"
+    },
+    "Manticore  Armor": {
+      "name": "Manticore  Armor",
+      "forageLocation": "FullCover"
+    },
+    "Manticore  Shield": {
+      "name": "Manticore  Shield",
+      "forageLocation": "Shield"
+    },
+    "Manticore Fangs": {
+      "name": "Manticore Fangs",
+      "forageLocation": "Maticores",
+      "forageQuantity": "N/A"
+    },
+    "Manticore Horn": {
+      "name": "Manticore Horn",
+      "forageLocation": "Maticores",
+      "forageQuantity": "N/A"
+    },
+    "Manticore Silver Sword": {
+      "name": "Manticore Silver Sword"
+    },
+    "Manticore Steel Sword": {
+      "name": "Manticore Steel Sword"
+    },
+    "Manticore Stomach": {
+      "name": "Manticore Stomach",
+      "forageLocation": "Maticores",
+      "forageQuantity": "N/A"
+    },
+    "Manticore Wing Membranes": {
+      "name": "Manticore Wing Membranes",
+      "forageLocation": "Maticores",
+      "forageQuantity": "N/A"
+    },
+    "Map of the Area": {
+      "name": "Map of the Area"
+    },
+    "Map of the Continent": {
+      "name": "Map of the Continent",
+      "description": "+3 Navigating"
+    },
+    "Map to an unknown place": {
+      "name": "Map to an unknown place"
+    },
+    "Mari Lwyd Skull": {
+      "name": "Mari Lwyd Skull",
+      "forageLocation": "Mari Lwyd",
+      "forageQuantity": "1"
+    },
+    "Maribor Forest": {
+      "name": "Maribor Forest",
+      "source": "Core",
+      "duration": "15 rounds",
+      "effect": "Each time you gain an adrenaline die, add a second one."
+    },
+    "Marital aids": {
+      "name": "Marital aids"
+    },
+    "Marker Trap": {
+      "name": "Marker Trap",
+      "range": "8m"
+    },
+    "Masquerade Mask": {
+      "name": "Masquerade Mask"
+    },
+    "Maugrim (Silver Long Sword, Education DC: 22)": {
+      "name": "Maugrim (Silver Long Sword, Education DC: 22)"
+    },
+    "Meal, Good": {
+      "name": "Meal, Good"
+    },
+    "Meal, Simple": {
+      "name": "Meal, Simple"
+    },
+    "Mechanical piece": {
+      "name": "Mechanical piece"
+    },
+    "Medical Censer": {
+      "name": "Medical Censer",
+      "description": "A covered metal brazier on a chain which disperses smoke across an area. A Medical Censer can be loaded with single type of Alchemical Item and lit to spread their effects through infused smoke or steam. The effects of an Alchemical Item placed into a Medical Censer affect every creature within 6m of the Censer including the person holding the censer. The Alchemical Item burns for 1 round for each unit placed in the censer. The Alchemical Items that can be used with an Alchemical Censer are: Adda’s Tomb, Base Powder, Chloroform, Clotting Powder, Hallucinogen, Numbing Herbs, Pantagran’s Elixir, Perfume Potion, Sterilizing Fluid, Succubus’ Breath, and Wives’ Tears Potion."
+    },
+    "Megascope": {
+      "name": "Megascope",
+      "description": "A Megascope must be arranged in a wide circle on a flat surface and activated by a person with a Vigor Threshold of at least 1. No special ritual is required to activate a Megascope. Once activated the Megascope can be used in one of two ways. Firstly, the Megascope can be used to contact another person with a Megascope or Telecommunicator. There is no earthly limit to the distance of communication, but a Megascope cannot facilitate communication with things beyond the dimension in which it is used. The recipient of the communication can choose to answer the communication; in which case the Megascope creates a spectral form of the recipient within the circle, allowing communication as if the participants were in the same room. Secondly, a Megascope can, with a DC:16 Spell Casting check, be used to view a person the user has a strong emotional connection to. If the person being viewed is a mage they can sense the augury if they roll a Magic Training check that beats your initial Spell Casting check, but they cannot see who is spying on them. This remote viewing can be maintained for up to 10 minutes before the connection fades and the user must keep all of their focus on the megascope.\n\nAdditionally, once a connection has been established, a Megascope can act as a channel for teleportation. While your Megascope is connected to or remotely viewing a person, you can cast the Teleportation or Standing Portal spells to transport yourself to that location. If using teleportation, there is no Spell Casting check required to teleport. Unfortunately, the complex nature of the Megascope means that it must be in perfect working order for it to be safely utilized. If one of the Gemstones in a Megascope is damaged in even the slightest way the Megascope becomes unstable. A gemstone can be damaged by being struck, knocked out of the Megascope, scratched, or anything else that might mar its perfect surface. Additionally, due to the highly magical nature of a Megascope, bringing any amount of Dimeritium within 3m of a Megascope will damage all the Gemstones at a nearly imperceptible level.\n\nIf this happens while you are communicating with someone or you attempt to activate the Megascope with a damaged or imperfect gemstone, the image just become a bit shakier than usual requiring a DC:20 Awareness check to notice. However, the real danger comes when trying to remotely view a target or teleport through a damaged Megascope. If you attempt to remotely view a target through a damaged Megascope the DC raises to 25 and if you fail to beat this check any damaged gemstones in the Megascope explode, dealing 1d6 damage to every location on the body of anyone within 4m. This renders the Megascope useless until the Perfect Gemstones can be replaced. If you attempt to teleport through a damaged Megascope far worse things happen. If you cast the Standing Portal Spell with a damaged Megascope, the spell automatically fails as though you had rolled a fumble with a value of 10 and all 3 Gemstones in the Megascope will explode, dealing 3d6 damage to every location on the body of anyone within 6m. If you attempt to cast the Teleportation spell within a damaged Megascope the magic begins to rend you apart violently. Anyone within the range of their SPD Statistic has one chance to make a DC:14 Athletics check to remove the damaged crystal before your body is torn apart and the individual pieces lie scattered across the Continent. If they succeed, the Megascope powers down and you are unharmed. If they fail, you die a messy death.\n\nEducation DC:14 to determine nature."
+    },
+    "Merchant Wagon": {
+      "name": "Merchant Wagon",
+      "description": "Sometimes called Ofieri wagons, from the birthplace of this wagon’s design, these vehicles are among the most common sight in Nilfgaard and the North. They’re often driven by sturdy oxen rather than horses and serve as a home away from home for many a merchant. Occupancy: 1; IS: 3"
+    },
+    "Merchant’s Tools": {
+      "name": "Merchant’s Tools",
+      "description": "+2 Business for appraising goods"
+    },
+    "Meteorite": {
+      "name": "Meteorite",
+      "forageLocation": "above grounds",
+      "forageQuantity": "1d6/2"
+    },
+    "Meteorite Chain Mace": {
+      "name": "Meteorite Chain Mace"
+    },
+    "Meteorite Sword": {
+      "name": "Meteorite Sword"
+    },
+    "Military Saddlebags": {
+      "name": "Military Saddlebags",
+      "description": "Rugged saddlebags that have enough room to carry 50kg of small or medium items in each of the two bags, with straps for up to 6 large items on the outside."
+    },
+    "Miniature War Table": {
+      "name": "Miniature War Table",
+      "description": "A wooden box containing a set of iron markers, reference texts, maps, and historical records which help a character to predict the flow of a battle. By taking 10 minutes, a character can lay out the battle ahead to the best of their knowledge and make a Tactics check at a DC set by the Game Master. If they succeed they can ask the Game Master three of the following questions about the upcoming battle and they must answer truthfully:\n\n• What will the enemies first move be?\n• What is our best approach to this battle? \n• Is there an element of the environment we can use to our benefit?\n• How will our enemy likely react to a certain plan?\n• Are there any aspects of the environment that our enemy might use against us? \n• Is the enemy likely to have set up traps?"
+    },
+    "Mistletoe": {
+      "name": "Mistletoe",
+      "forageLocation": "Fields & Forest",
+      "forageQuantity": "1d6"
+    },
+    "Mongoose": {
+      "name": "Mongoose",
+      "source": "Tome",
+      "duration": "30 minutes",
+      "effect": "Renders the drinker immune to the poisoned condition for 30 minutes."
+    },
+    "Monkshood Poison": {
+      "name": "Monkshood Poison",
+      "source": "UNKNOWN",
+      "duration": "N/A",
+      "effect": "Can be slipped into food and drink. Monkshood Poison immediately causes the target to suffer the Suffocating Condition as they suffer tremendous respiratory issues.\n\nTo end the Suffocating condition, the target must make a DC:20 Endurance check or someone must make a DC:20 First Aid Check. It takes a DC:16 Awareness check to realize the food is poisoned."
+    },
+    "Monster Catcher’s Net": {
+      "name": "Monster Catcher’s Net",
+      "range": "4m"
+    },
+    "Monster Hunter’s Crossbow": {
+      "name": "Monster Hunter’s Crossbow",
+      "range": "200m"
+    },
+    "Monster skull": {
+      "name": "Monster skull"
+    },
+    "Moon Blade (Silver Long Sword, Education DC: 18)": {
+      "name": "Moon Blade (Silver Long Sword, Education DC: 18)"
+    },
+    "Moon Dust Bomb": {
+      "name": "Moon Dust Bomb",
+      "range": "Body*4m"
+    },
+    "Morana": {
+      "name": "Morana"
+    },
+    "Mountain Folk Armor (Medium Armor, Education DC: 16)": {
+      "name": "Mountain Folk Armor (Medium Armor, Education DC: 16)",
+      "forageLocation": "FullCover"
+    },
+    "Mula Blood": {
+      "name": "Mula Blood",
+      "forageLocation": "Mulas",
+      "forageQuantity": "N/A"
+    },
+    "Mule": {
+      "name": "Mule"
+    },
+    "Mundane Item": {
+      "name": "Mundane Item"
+    },
+    "Muzzle": {
+      "name": "Muzzle",
+      "effect": "Make a Melee attack to disarm a creature’s Bite attack until it takes an action and removes the muzzle with a DC:16 Sleight of Hand/Physique check",
+      "description": "Make a Melee attack to disarm a creature’s Bite attack until it takes an action and removes the muzzle with a DC:16 Sleight of Hand/Physique check."
+    },
+    "Naezan Salts": {
+      "name": "Naezan Salts",
+      "forageLocation": "Bruxa",
+      "forageQuantity": "N/A"
+    },
+    "Necrophage Oil": {
+      "name": "Necrophage Oil",
+      "source": "Core",
+      "duration": "30 minutes",
+      "effect": "+5 damage against necrophages"
+    },
+    "Nekker": {
+      "name": "Nekker",
+      "effect": "+2 melee dmg",
+      "mutagenSource": "Nekker",
+      "minorMutation": "Baldness & grey skin"
+    },
+    "Nekker Claw": {
+      "name": "Nekker Claw",
+      "forageLocation": "Nekkers",
+      "forageQuantity": "N/A"
+    },
+    "Nekker Decoction": {
+      "name": "Nekker Decoction",
+      "source": "Core",
+      "duration": "30 minutes",
+      "effect": "Your mount never panics and you gain a +3 to all Ride and Athletics checks."
+    },
+    "Nekker Heart": {
+      "name": "Nekker Heart",
+      "forageLocation": "Nekkers",
+      "forageQuantity": "N/A"
+    },
+    "Nekker Teeth": {
+      "name": "Nekker Teeth",
+      "forageLocation": "Nekkers",
+      "forageQuantity": "N/A"
+    },
+    "Nilfgaardian Floren": {
+      "name": "Nilfgaardian Floren",
+      "description": "= 3 Redanian Crowns\nUsed in Nilfgaard and Nilfgaardian Provinces"
+    },
+    "Nilfgaardian Greaves": {
+      "name": "Nilfgaardian Greaves",
+      "forageLocation": "Leg"
+    },
+    "Nilfgaardian Helm": {
+      "name": "Nilfgaardian Helm",
+      "forageLocation": "Head"
+    },
+    "Nilfgaardian Pavise": {
+      "name": "Nilfgaardian Pavise",
+      "forageLocation": "Shield"
+    },
+    "Nilfgaardian Plate Armor": {
+      "name": "Nilfgaardian Plate Armor",
+      "forageLocation": "Torso"
+    },
+    "Nilfgaardian Sights": {
+      "name": "Nilfgaardian Sights",
+      "description": "Adds +1 to the crossbow’s Weapon Accuracy."
+    },
+    "Noon Wraith": {
+      "name": "Noon Wraith",
+      "effect": "+10 HP",
+      "mutagenSource": "Noon Wraith",
+      "minorMutation": "Dry, taut skin"
+    },
+    "Noon Wraith Decoction": {
+      "name": "Noon Wraith Decoction",
+      "source": "Core",
+      "duration": "30 minutes",
+      "effect": "You gain immunity to Stun & Blindness and cannot be knocked prone."
+    },
+    "Northern Wind Bomb": {
+      "name": "Northern Wind Bomb",
+      "range": "Body*4m"
+    },
+    "Note with one number": {
+      "name": "Note with one number"
+    },
+    "Notes about the players": {
+      "name": "Notes about the players"
+    },
+    "Numbing Herbs": {
+      "name": "Numbing Herbs",
+      "source": "Core",
+      "duration": "2s10 rounds",
+      "effect": "Placed in a wound relieve pain, lowering negatives from critical wounds by 2. Numbing herbs also lessen penalties from being near death by 2. Numbing herbs work for 2d10 rounds, and then you can apply another dose."
+    },
+    "Odd dream journal": {
+      "name": "Odd dream journal"
+    },
+    "Ogh’r (Warhammer, Education DC: 17)": {
+      "name": "Ogh’r (Warhammer, Education DC: 17)"
+    },
+    "Ogre Wax": {
+      "name": "Ogre Wax",
+      "forageLocation": "Caves",
+      "forageQuantity": "1d10"
+    },
+    "Ogroid Oil": {
+      "name": "Ogroid Oil",
+      "source": "Core",
+      "duration": "30 minutes",
+      "effect": "+5 damage against ogroids"
+    },
+    "Oil": {
+      "name": "Oil",
+      "forageLocation": "Bought or crafted",
+      "forageQuantity": "N/A"
+    },
+    "Optima Mater": {
+      "name": "Optima Mater",
+      "forageLocation": "Mountains & undergrounds",
+      "forageQuantity": "1d6/2"
+    },
+    "Orion": {
+      "name": "Orion",
+      "range": "Body x4m"
+    },
+    "Ox": {
+      "name": "Ox"
+    },
+    "Padded Trousers": {
+      "name": "Padded Trousers",
+      "forageLocation": "Leg"
+    },
+    "Pair of Braces": {
+      "name": "Pair of Braces",
+      "description": "A pair of sturdy wooden and metal braces that can be applied to a piece of cover by taking a full round action. Once applied, the braces grant an additional 3 points of SP to the Cover. The braces can be removed by taking another full round action. The bracers are destroyed if the cover is destroyed. Only one pair of braces can be added to a piece of cover at a time."
+    },
+    "Pantagran’s Elixir": {
+      "name": "Pantagran’s Elixir",
+      "source": "Core",
+      "duration": "1d6/2 hours",
+      "effect": "Brings delirious happiness. This effect lasts for 1d6/2 hours and leaves the imbiber incredibly suceptible to Persuasion, Charisma, and Seduction, giving them a -2 to Resist Coercion."
+    },
+    "Panther Hide": {
+      "name": "Panther Hide",
+      "forageLocation": "Panthers",
+      "forageQuantity": "N/A"
+    },
+    "Paper with lipstick marks": {
+      "name": "Paper with lipstick marks"
+    },
+    "Parrying Dagger": {
+      "name": "Parrying Dagger"
+    },
+    "Partially used Journal": {
+      "name": "Partially used Journal"
+    },
+    "Partisan": {
+      "name": "Partisan",
+      "range": "2m"
+    },
+    "Pavise": {
+      "name": "Pavise",
+      "forageLocation": "Shield"
+    },
+    "Peasant’s Maul": {
+      "name": "Peasant’s Maul"
+    },
+    "Pelt of some kind": {
+      "name": "Pelt of some kind"
+    },
+    "Penitent": {
+      "name": "Penitent",
+      "effect": "+2 Vigor threshold",
+      "mutagenSource": "Penitent",
+      "minorMutation": "Glowing White Markings"
+    },
+    "Peral": {
+      "name": "Peral",
+      "forageLocation": "Ocean & shore",
+      "forageQuantity": "1d6/3"
+    },
+    "Perfume Potion": {
+      "name": "Perfume Potion",
+      "source": "Core",
+      "duration": "1d10 hours",
+      "effect": "Imbiber must make a DC:16 Endurance check. Failure causes intoxication for 1d10 Hours. This intoxication can only be undone by magic or wives’ tears potion."
+    },
+    "Perfume/Cologne": {
+      "name": "Perfume/Cologne"
+    },
+    "Perun": {
+      "name": "Perun"
+    },
+    "Pesta": {
+      "name": "Pesta",
+      "effect": "+2 Vigor Threshold",
+      "mutagenSource": "Pesta",
+      "minorMutation": "Sickly, pale skin & gaunt features"
+    },
+    "Petri’s Filter": {
+      "name": "Petri’s Filter",
+      "source": "Core",
+      "duration": "15 rounds",
+      "effect": "+2 point in Spellcasting, Hex Weaving, and Ritual Crafting"
+    },
+    "Phoenix": {
+      "name": "Phoenix",
+      "effect": "+3 Melee Damage",
+      "mutagenSource": "Phoenix",
+      "minorMutation": "Patches of grey feathers & an internal glow"
+    },
+    "Phoenix Ash": {
+      "name": "Phoenix Ash",
+      "forageLocation": "Phoenixes",
+      "forageQuantity": "N/A"
+    },
+    "Phoenix Feathers": {
+      "name": "Phoenix Feathers",
+      "forageLocation": "Phoenixes",
+      "forageQuantity": "N/A"
+    },
+    "Phosphorus": {
+      "name": "Phosphorus",
+      "forageLocation": "Mountains & undergrounds",
+      "forageQuantity": "1d6"
+    },
+    "Pipe": {
+      "name": "Pipe"
+    },
+    "Pitchfork": {
+      "name": "Pitchfork",
+      "range": "0m"
+    },
+    "Piton": {
+      "name": "Piton",
+      "description": "1d6 DMG Melee weapon"
+    },
+    "Plague Mask": {
+      "name": "Plague Mask",
+      "description": "Grants a +3 bonus to Endurance to resist airborne illness, poison, and nausea when worn."
+    },
+    "Plate Armor": {
+      "name": "Plate Armor",
+      "forageLocation": "Torso"
+    },
+    "Plate Greaves": {
+      "name": "Plate Greaves",
+      "forageLocation": "Leg"
+    },
+    "Plumard Stomach": {
+      "name": "Plumard Stomach",
+      "forageLocation": "Plumards",
+      "forageQuantity": "N/A"
+    },
+    "Pocket full of Gravel": {
+      "name": "Pocket full of Gravel"
+    },
+    "Pocketed Cloak": {
+      "name": "Pocketed Cloak",
+      "effect": "Contains 6 secret pockets placed throughout the cloak.",
+      "description": "Contains 6 secret pockets placed throughout the cloak."
+    },
+    "Poisoned Harpy Claw": {
+      "name": "Poisoned Harpy Claw"
+    },
+    "Poisoner’s Friend": {
+      "name": "Poisoner’s Friend",
+      "source": "Core",
+      "duration": "N/A",
+      "effect": "Poisoner’s friend is a clear liquid that can be poured into food or drink to give it a potent savory or sweet taste. This raises the DC to detect poison to 20."
+    },
+    "Poisonous Lipcoloring": {
+      "name": "Poisonous Lipcoloring",
+      "source": "UNKNOWN",
+      "duration": "1 hour",
+      "effect": "One application of this lipstick stays potent for 1 hour. The next person the user kisses during that time period,  immediately suffers the Poisoned Condition with the following differences: The target is also Intoxicated for the duration of the Poison.\n\nA container of Poisonous Lipcoloring can be applied 3 times before being consumed."
+    },
+    "Pole Axe": {
+      "name": "Pole Axe",
+      "range": "2m"
+    },
+    "Poniard": {
+      "name": "Poniard"
+    },
+    "Pot of Ashes": {
+      "name": "Pot of Ashes"
+    },
+    "Potestaquisitor": {
+      "name": "Potestaquisitor",
+      "description": "A handheld device which can detect magical disturbances within 20m. The Potestaquisitor lets out a hum that escalates into a squeal as  the user gets closer to the disturbance. The Potestaquisitor can detect the presence of Dark Magic including hexes, curses, cursed items, and demons, as well as specters, dimeritium, true dragons, and cats.\n\n\nEducation DC:14 to determine nature."
+    },
+    "Pouch of Spices": {
+      "name": "Pouch of Spices"
+    },
+    "Power Stone Guardian": {
+      "name": "Power Stone Guardian",
+      "description": "These sculpted gems are enchanted to protect an area from intruders. While the power stone itself is a small gemstone, it can be placed in a variety of settings. Power Stone Guardians can take many forms such as doors, statues, or even chandeliers. The consensus seems to be that a power stone guardian must be made from an object sturdy enough to resist accidental destruction. The power stone within this object emits a faint magical aura that becomes stronger the closer it is, meaning that a mage can detect one with Magic Training and a Witcher’s Medallion will vibrate when near one.\n\nA power stone needs to be attuned to someone. The creator of this object can attune it to someone else, who then has the power to attune it to others by placing their hands on the stone. In large cities, you will find that almost all noble houses are guarded by Power Stone Guardians of some form and even some middle class residences may have one guarding their valuables. There are as many types of power stone guardians as there are paranoid mages, but the three presented here are the most common.\n\n◆ Alarm Power Stone: When an unattuned creature moves within 6m of the stone, it sends a telepathic message to those attuned to it. The stone can only alert the attuned creatures that someone has entered the area but cannot tell them who the intruders are. \n◆ Arcing Power Stone: When an unattuned creature comes within 6m of the stone, it immediately rolls an attack at a base 10 to release a small bolt of lightning that deals 2d6 damage. This attack can be dodged or blocked with a shield. After this point the Arcing Power Stone enters the initiative order at the bottom and attacks every round so long as an unattuned person remains in the area. \n◆ Illusion Power Stone: When an unattuned creature comes within 2m of the stone, the magic inside creates an illusory guard who appears to have just come onto the scene within 10m. The guard is dressed and armed in the manner dictated when the power stone is created. The illusion can shout a short phrase and can move about within 10m of the stone. The illusion cannot interact with anything otherwise, nor can it damage anything. The illusion lasts for 8 hours, or until dispelled.\n\nEducation DC:16 to determine nature."
+    },
+    "Preserved organ in a jar": {
+      "name": "Preserved organ in a jar"
+    },
+    "Prosthetic, Basic": {
+      "name": "Prosthetic, Basic",
+      "description": "While wearing a Basic Prosthesis, the limb has a full range of mobility and function, and any reduction to SPD is negated. Due to its lack of fine motor function, all attack and defense checks made with a prosthetic arm are made at a -3. In the case of a Basic Prosthetic Leg, all Dodge/Escape checks are made at a -1. Additionally, a Basic Prosthesis cannot be used to channel Chaos. Any attack made against a prosthetic limb is redirected towards its wearer for gameplay purposes."
+    },
+    "Prosthetic, Conduit": {
+      "name": "Prosthetic, Conduit",
+      "description": "While wearing a Conduit Prosthesis, the limb has a full range of mobility and function, and any reduction to SPD is negated. A Conduit Prosthesis can be used to channel Chaos through magical sigils carved into the length, inlaid with optima matter and fifth essence and acts as a Focus (2) with the Greater Focus effect. Any attack made against a prosthetic limb is redirected towards its wearer for gameplay purposes."
+    },
+    "Prosthetic, Magical": {
+      "name": "Prosthetic, Magical",
+      "description": "While wearing a Magical Prosthesis, the limb has a full range of mobility and function, and any reduction to SPD is negated. Additionally, a Magical Prosthesis cannot be used to channel Chaos. Any attack made against a prosthetic limb is redirected towards its wearer for gameplay purposes."
+    },
+    "Prosthetic, Quality": {
+      "name": "Prosthetic, Quality",
+      "description": "While wearing a Prosthesis, the limb has a full range of mobility and function, and any reduction to SPD is negated. Due to its lack of fine motor function, all attack and defense checks made with a prosthetic arm are made at a -3. In the case of a Prosthetic Leg, all Dodge/Escape checks are made at a -1. Additionally, a Basic Prosthesis cannot be used to channel Chaos. Any attack made against a prosthetic limb is redirected towards its wearer for gameplay purposes."
+    },
+    "Prosthetic, Witcher": {
+      "name": "Prosthetic, Witcher",
+      "description": "While wearing a Witcher Prosthesis, the limb has a full range of mobility and function, and any reduction to SPD is negated. A Witcher Prosthesis can be used to channel Chaos via magical sigils carved into the length, infused fifth essence similar to a magic amulet. Silver knuckles and toe caps add 1d6 silver damage to any punch or kick made with a Witcher Prosthesis. Any attack made against a prosthetic limb is redirected towards its wearer for gameplay purposes."
+    },
+    "Pure Aether": {
+      "name": "Pure Aether",
+      "forageLocation": "Crafted",
+      "forageQuantity": "2"
+    },
+    "Pure Caelum": {
+      "name": "Pure Caelum",
+      "forageLocation": "Crafted",
+      "forageQuantity": "2"
+    },
+    "Pure Fulgur": {
+      "name": "Pure Fulgur",
+      "forageLocation": "Crafted",
+      "forageQuantity": "2"
+    },
+    "Pure Hydragenum": {
+      "name": "Pure Hydragenum",
+      "forageLocation": "Crafted",
+      "forageQuantity": "2"
+    },
+    "Pure Quebrith": {
+      "name": "Pure Quebrith",
+      "forageLocation": "Crafted",
+      "forageQuantity": "2"
+    },
+    "Pure Rebis": {
+      "name": "Pure Rebis",
+      "forageLocation": "Crafted",
+      "forageQuantity": "2"
+    },
+    "Pure Sol": {
+      "name": "Pure Sol",
+      "forageLocation": "Crafted",
+      "forageQuantity": "2"
+    },
+    "Pure Vermilion": {
+      "name": "Pure Vermilion",
+      "forageLocation": "Crafted",
+      "forageQuantity": "2"
+    },
+    "Pure Vitriol": {
+      "name": "Pure Vitriol",
+      "forageLocation": "Crafted",
+      "forageQuantity": "2"
+    },
+    "Quarter Staff": {
+      "name": "Quarter Staff",
+      "range": "2m"
+    },
+    "Quick Fire": {
+      "name": "Quick Fire",
+      "source": "Core",
+      "duration": "N/A",
+      "effect": "Poured on a person, surface, or object, dries quickly. Anything so treated is extremely flammable. There’s a 50% chance it will ignite each time it’s exposed to flame or sparks of any kind."
+    },
+    "Quicksilver Solution": {
+      "name": "Quicksilver Solution",
+      "forageLocation": "Mountainor undergrounds",
+      "forageQuantity": "1d6/2"
+    },
+    "Racing Blinders": {
+      "name": "Racing Blinders",
+      "description": "+2 to calm your mount"
+    },
+    "Racing Saddle": {
+      "name": "Racing Saddle",
+      "description": "+1 to Control checks for Riding\n+1 SPD"
+    },
+    "Random Book": {
+      "name": "Random Book"
+    },
+    "Raven’s Armor (Light Armor, Education DC: 14)": {
+      "name": "Raven’s Armor (Light Armor, Education DC: 14)",
+      "forageLocation": "FullCover"
+    },
+    "Raw Meat": {
+      "name": "Raw Meat"
+    },
+    "Record of black magic": {
+      "name": "Record of black magic"
+    },
+    "Red Death (Crossbow, Education DC: 16)": {
+      "name": "Red Death (Crossbow, Education DC: 16)",
+      "range": "300m"
+    },
+    "Red Halberd": {
+      "name": "Red Halberd",
+      "range": "2m"
+    },
+    "Redanian Crown": {
+      "name": "Redanian Crown",
+      "description": "most merchants recognize and accept the Redanian crown"
+    },
+    "Redanian Greaves": {
+      "name": "Redanian Greaves",
+      "forageLocation": "Leg"
+    },
+    "Redanian Halberdier’s Armor": {
+      "name": "Redanian Halberdier’s Armor",
+      "forageLocation": "Torso"
+    },
+    "Reins": {
+      "name": "Reins"
+    },
+    "Relict Oil": {
+      "name": "Relict Oil",
+      "source": "Core",
+      "duration": "30 minutes",
+      "effect": "+5 damage against relicts"
+    },
+    "Resin": {
+      "name": "Resin",
+      "forageLocation": "forest",
+      "forageQuantity": "1d6"
+    },
+    "Ring of Favor": {
+      "name": "Ring of Favor",
+      "description": "A seemingly magic ring crafted from silver and gold and inlaid with magical sigils. Once per session, a character wearing the Ring of Favor can roll 1d10. On a result of 1, 5, or 10, the character regains all of the Luck Points they’ve expended during this session.\n\n\nEducation DC:14 to determine nature."
+    },
+    "Ritual dagger": {
+      "name": "Ritual dagger"
+    },
+    "River Clay": {
+      "name": "River Clay",
+      "forageLocation": "River & Shores",
+      "forageQuantity": "1d6"
+    },
+    "Rock Troll": {
+      "name": "Rock Troll",
+      "effect": "+10 HP",
+      "mutagenSource": "Rock Troll",
+      "minorMutation": "Hunched posture"
+    },
+    "Rogue's Clothing": {
+      "name": "Rogue's Clothing",
+      "description": "+1 Stealth at night"
+    },
+    "Rope, 20m": {
+      "name": "Rope, 20m"
+    },
+    "Rotfiend Blood": {
+      "name": "Rotfiend Blood",
+      "forageLocation": "Rofiends",
+      "forageQuantity": "N/A"
+    },
+    "Rotfiend Liver": {
+      "name": "Rotfiend Liver",
+      "forageLocation": "Rofiends",
+      "forageQuantity": "N/A"
+    },
+    "Ruby Dust": {
+      "name": "Ruby Dust",
+      "forageLocation": "Mountains & underground",
+      "forageQuantity": "1d6/2 Units"
+    },
+    "Runeword Burning": {
+      "name": "Runeword Burning"
+    },
+    "Runeword Deflection": {
+      "name": "Runeword Deflection"
+    },
+    "Runeword Depletion": {
+      "name": "Runeword Depletion"
+    },
+    "Runeword Placation": {
+      "name": "Runeword Placation"
+    },
+    "Runeword Preservation": {
+      "name": "Runeword Preservation"
+    },
+    "Runeword Prolongation": {
+      "name": "Runeword Prolongation"
+    },
+    "Runeword Rejuvenation": {
+      "name": "Runeword Rejuvenation"
+    },
+    "Runeword Shearing": {
+      "name": "Runeword Shearing"
+    },
+    "Runeword: Burning": {
+      "name": "Runeword: Burning",
+      "craftinTime": "1 Hour"
+    },
+    "Runeword: Deflection": {
+      "name": "Runeword: Deflection",
+      "craftinTime": "1 Hour"
+    },
+    "Runeword: Depletion": {
+      "name": "Runeword: Depletion",
+      "craftinTime": "1 Hour"
+    },
+    "Runeword: Placation": {
+      "name": "Runeword: Placation",
+      "craftinTime": "1 Hour"
+    },
+    "Runeword: Preservation": {
+      "name": "Runeword: Preservation",
+      "craftinTime": "1 Hour"
+    },
+    "Runeword: Prolongation": {
+      "name": "Runeword: Prolongation",
+      "craftinTime": "1 Hour"
+    },
+    "Runeword: Rejuvenation": {
+      "name": "Runeword: Rejuvenation",
+      "craftinTime": "1 Hour"
+    },
+    "Runeword: Shearing": {
+      "name": "Runeword: Shearing",
+      "craftinTime": "1 Hour"
+    },
+    "Runewright’s Tools": {
+      "name": "Runewright’s Tools",
+      "description": "A set of Runewright’s Tools is required to craft runewords and glyphwords. Additionally, taking ½ hour to etch a rune or glyph into an item with a set of Runewright’s Tools grants an additional benefit based on the \nrune or glyph:\n\n◆ Chemobog Rune: Your weapon only takes damage if the value rolled is a 1 or 2.\n◆ Dazhbog Rune: The chance of Fire raises to 40%.\n◆ Devana Rune: The chance of Bleed raises to 40%.\n◆ Morana Rune: The chance of Poison raises to 40%.\n◆ Perun Rune: Each time you use an Adrenaline Die, if the valued rolled is a 1 you keep the die.\n◆ Stribog Rune: The chance of Stagger raises to 40%.\n◆ Svarog Rune: Instead of Armor Piercing, your weapon gains Improved Armor Piercing.\n◆ Triglav Rune: The penalty to Stun raises by 1.\n◆ Veles Rune: The weapon also gains the Focus (1) effect.\n◆ Zoria Rune: The chance of Freeze raises to 40%.\n◆ Glyph of Earth: The bonus to Spell DC raises by 1.\n◆ Glyph of Air: The bonus to Spell DC raises by 1.\n◆ Glyph of Fire: The bonus to Spell DC raises by 1.\n◆ Glyph of Water: The bonus to Spell DC raises by 1.\n◆ Glyph of Magic: The bonus to Spell DC raises by 1.\n◆ Glyph of Mending: The additional Health Points gained raises to 2.\n◆ Glyph of Reinforcement: The additional Stopping Power raises by 1.\n◆ Glyph of Warding: You gain a +1 to Resist Magic while wearing this armor.\n◆ Glyph of Binding: The penalty to the chance of bleeding raises to -40%.\n\nEducation DC:16 to determine nature."
+    },
+    "Sack": {
+      "name": "Sack",
+      "description": "20kg of tiny items"
+    },
+    "Saddle": {
+      "name": "Saddle",
+      "description": "No penalties for Riding"
+    },
+    "Saddlebags": {
+      "name": "Saddlebags",
+      "description": "Saddlebags have enough room to carry 25kg of small or medium items in each of the two bags."
+    },
+    "Sailing Boat": {
+      "name": "Sailing Boat"
+    },
+    "Sailing Ship": {
+      "name": "Sailing Ship"
+    },
+    "Samum Bomb": {
+      "name": "Samum Bomb",
+      "range": "Body*4m"
+    },
+    "Satchel": {
+      "name": "Satchel",
+      "description": "30kg of small items"
+    },
+    "Scleroderm": {
+      "name": "Scleroderm",
+      "forageLocation": "Forest & caves",
+      "forageQuantity": "2d6"
+    },
+    "Scoia’tael Armor": {
+      "name": "Scoia’tael Armor",
+      "forageLocation": "FullCover"
+    },
+    "Scorpio": {
+      "name": "Scorpio",
+      "range": "200m"
+    },
+    "Scorpio Breaker Bolt": {
+      "name": "Scorpio Breaker Bolt"
+    },
+    "Scorpio Piercing Bolt": {
+      "name": "Scorpio Piercing Bolt"
+    },
+    "Scorpio Standard Bolt": {
+      "name": "Scorpio Standard Bolt"
+    },
+    "Scribbled fortunes": {
+      "name": "Scribbled fortunes"
+    },
+    "Scrimshawed bone": {
+      "name": "Scrimshawed bone"
+    },
+    "Scythe": {
+      "name": "Scythe",
+      "range": "2m"
+    },
+    "Secret Pocket": {
+      "name": "Secret Pocket",
+      "description": "5kg of tiny items (DC:16 Awareness to notice)"
+    },
+    "Serpentine  Armor": {
+      "name": "Serpentine  Armor",
+      "forageLocation": "FullCover"
+    },
+    "Serpentine Silver Sword": {
+      "name": "Serpentine Silver Sword"
+    },
+    "Serpentine Steel Sword": {
+      "name": "Serpentine Steel Sword"
+    },
+    "Severed tongue": {
+      "name": "Severed tongue"
+    },
+    "Sewant Mushrooms": {
+      "name": "Sewant Mushrooms",
+      "forageLocation": "Caves",
+      "forageQuantity": "1d6"
+    },
+    "Shackles": {
+      "name": "Shackles",
+      "description": "Escaping manacles requires a DC:16 Pick Locks check, and escaping shackles takes a DC:20 Pick Locks check. If you want to break your way out of manacles or shackles, you’ll have to make a Physique check. The DC for breaking manacles is 18, while the DC for breaking shackles is 22."
+    },
+    "Shaelmaar": {
+      "name": "Shaelmaar",
+      "effect": "+10 HP",
+      "mutagenSource": "Shaelmaar",
+      "minorMutation": "Patches of thick rock textured skin"
+    },
+    "Shaelmaar Dust": {
+      "name": "Shaelmaar Dust",
+      "forageLocation": "Shaelmaars",
+      "forageQuantity": "N/A"
+    },
+    "Shaelmaar Hair": {
+      "name": "Shaelmaar Hair",
+      "forageLocation": "Shaelmaars",
+      "forageQuantity": "N/A"
+    },
+    "Sharpening Grit": {
+      "name": "Sharpening Grit",
+      "forageLocation": "Mountain & caves",
+      "forageQuantity": "1d6"
+    },
+    "Sheath, Bow": {
+      "name": "Sheath, Bow"
+    },
+    "Sheath, Garter": {
+      "name": "Sheath, Garter",
+      "description": "DC:18 Awareness to notice"
+    },
+    "Sheath, Sleeve": {
+      "name": "Sheath, Sleeve",
+      "description": "DC:15 Awareness to notice"
+    },
+    "Shepherd’s Crook": {
+      "name": "Shepherd’s Crook",
+      "range": "0"
+    },
+    "Shepherd’s Hut": {
+      "name": "Shepherd’s Hut",
+      "description": "These wagons originated from Aedirn, where they’re used as temporary homes for shepherds during the raising and lambing of their flocks. They’re solid and can withstand much but their bulk makes them unwieldy and hard to maneuver. Occupancy: 4; IS: 2"
+    },
+    "Shopping list": {
+      "name": "Shopping list"
+    },
+    "Short Bow": {
+      "name": "Short Bow",
+      "range": "100m"
+    },
+    "Shovel": {
+      "name": "Shovel"
+    },
+    "Sickle": {
+      "name": "Sickle",
+      "range": "0"
+    },
+    "Siding: Barbed Siding": {
+      "name": "Siding: Barbed Siding",
+      "description": "A character who attempts to climb onto the wagon must make a DC:16 Athletics check or take 3d6 damage to an appropriate hit location and be forced to let go."
+    },
+    "Siding: Hardened  Siding": {
+      "name": "Siding: Hardened  Siding",
+      "description": "+10 Vehicle SP. This Enhancement does not stack with Iron Siding."
+    },
+    "Siding: Iron Siding": {
+      "name": "Siding: Iron Siding",
+      "description": "+20 Vehicle SP. This Enhancement does not stack with Hardened Siding."
+    },
+    "Signal Horn": {
+      "name": "Signal Horn",
+      "description": "A signal horn can be heard for about a mile away."
+    },
+    "Signal Whistle": {
+      "name": "Signal Whistle",
+      "description": "A signal horn can be heard for about half a mile away."
+    },
+    "Silk": {
+      "name": "Silk",
+      "forageLocation": "Bought",
+      "forageQuantity": "N/A"
+    },
+    "Silver": {
+      "name": "Silver",
+      "forageLocation": "mountains & underground",
+      "forageQuantity": "1d6/2"
+    },
+    "Silver Ring": {
+      "name": "Silver Ring"
+    },
+    "Siren": {
+      "name": "Siren",
+      "effect": "+1 Vigor threshold",
+      "mutagenSource": "Siren",
+      "minorMutation": "Small fins"
+    },
+    "Siren Vocal Cords": {
+      "name": "Siren Vocal Cords",
+      "forageLocation": "Sirens",
+      "forageQuantity": "N/A"
+    },
+    "Skellige Helm": {
+      "name": "Skellige Helm",
+      "forageLocation": "Head"
+    },
+    "Skellige Raider Shield": {
+      "name": "Skellige Raider Shield",
+      "forageLocation": "Shield"
+    },
+    "Skelliger Brace": {
+      "name": "Skelliger Brace",
+      "description": "Raises the crossbow’s Reliability by 5 and allows you to use it as a Bludgeoning Melee Weapon with a damage equivalent to it’s ranged damage and a -1 Weapon Accuracy."
+    },
+    "Sketch of a person": {
+      "name": "Sketch of a person"
+    },
+    "Slyzard Scales": {
+      "name": "Slyzard Scales",
+      "forageLocation": "Slyzards",
+      "forageQuantity": "N/A"
+    },
+    "Slyzard Talons": {
+      "name": "Slyzard Talons",
+      "forageLocation": "Slyzards",
+      "forageQuantity": "N/A"
+    },
+    "Slyzard Vocal Chords": {
+      "name": "Slyzard Vocal Chords",
+      "forageLocation": "Slyzards",
+      "forageQuantity": "N/A"
+    },
+    "Smelling Salts": {
+      "name": "Smelling Salts",
+      "source": "Core",
+      "duration": "N/A",
+      "effect": "Can be placed under an unconcious or stunned person, or creature’s nose to immediately bring them out of their stunned state. Smelling salts can be used 25 times."
+    },
+    "Soap": {
+      "name": "Soap"
+    },
+    "Sound Amplifier": {
+      "name": "Sound Amplifier",
+      "description": "A small metal horn which can be held to a surface such as a wall or a door to amplify any sound coming from the other side. When the user places their ear to the horn, they can hear any sounds coming from the other side of a moderately thick surface as if they were on the other side of the surface."
+    },
+    "Spear": {
+      "name": "Spear",
+      "range": "2m"
+    },
+    "Spectacled Helm": {
+      "name": "Spectacled Helm",
+      "forageLocation": "Head"
+    },
+    "Specter Dust": {
+      "name": "Specter Dust",
+      "forageLocation": "Wraiths",
+      "forageQuantity": "1d6"
+    },
+    "Specter Oil": {
+      "name": "Specter Oil",
+      "source": "Core",
+      "duration": "30 minutes",
+      "effect": "+5 damage against specters"
+    },
+    "Spell Formula": {
+      "name": "Spell Formula",
+      "description": "When using a spell formula, you gain +2 to your skill check to learn a specific spell, invocation, hex, sign, or ritual.\n\nPrice Novice: 100, Journeyman: 200, Master: 300\n\nEducation DC:14 to determine nature."
+    },
+    "Spirits": {
+      "name": "Spirits"
+    },
+    "Split": {
+      "name": "Split"
+    },
+    "Stabilizing Brace": {
+      "name": "Stabilizing Brace",
+      "description": "Grants the crossbow the Balanced Effect."
+    },
+    "Staff": {
+      "name": "Staff",
+      "range": "2m"
+    },
+    "Staff of Binding": {
+      "name": "Staff of Binding",
+      "range": "2m"
+    },
+    "Standard": {
+      "name": "Standard"
+    },
+    "Steel": {
+      "name": "Steel",
+      "forageLocation": "Bought or crafted",
+      "forageQuantity": "N/A"
+    },
+    "Steel Buckler": {
+      "name": "Steel Buckler",
+      "forageLocation": "Shield"
+    },
+    "Steel Kite Shield": {
+      "name": "Steel Kite Shield",
+      "forageLocation": "Shield"
+    },
+    "Steel enhancement": {
+      "name": "Steel enhancement"
+    },
+    "Sterilizing Fluid": {
+      "name": "Sterilizing Fluid",
+      "source": "Core",
+      "duration": "N/A",
+      "effect": "Poured on a wound raises the patient’s natural healing rate by 2 points and lessens the number of days a critical wound takes to heal by 2. Multiple uses of sterilizing fluid don’t stack."
+    },
+    "Stiletto": {
+      "name": "Stiletto"
+    },
+    "Stone": {
+      "name": "Stone",
+      "forageLocation": "Everywhere",
+      "forageQuantity": "2d6"
+    },
+    "Strange Item": {
+      "name": "Strange Item"
+    },
+    "Strange Statuette": {
+      "name": "Strange Statuette"
+    },
+    "Strange Totem": {
+      "name": "Strange Totem"
+    },
+    "Strange circlet": {
+      "name": "Strange circlet"
+    },
+    "Strange jade statuette": {
+      "name": "Strange jade statuette"
+    },
+    "Strange letter": {
+      "name": "Strange letter"
+    },
+    "Strange mask": {
+      "name": "Strange mask"
+    },
+    "Strange poetry": {
+      "name": "Strange poetry"
+    },
+    "Strange sea shells": {
+      "name": "Strange sea shells"
+    },
+    "Strange, empty lamp": {
+      "name": "Strange, empty lamp"
+    },
+    "Stribog": {
+      "name": "Stribog"
+    },
+    "Strider": {
+      "name": "Strider",
+      "source": "Tome",
+      "duration": "24 hours",
+      "effect": "No need to sleep for 24 hours."
+    },
+    "Studded Leather": {
+      "name": "Studded Leather"
+    },
+    "Succubus": {
+      "name": "Succubus",
+      "effect": "+5 HP",
+      "mutagenSource": "Succubus",
+      "minorMutation": "small horns and a tail"
+    },
+    "Succubus Heart": {
+      "name": "Succubus Heart",
+      "forageLocation": "Succubi",
+      "forageQuantity": "N/A"
+    },
+    "Succubus Horn": {
+      "name": "Succubus Horn",
+      "forageLocation": "Succubi",
+      "forageQuantity": "N/A"
+    },
+    "Succubus’ Breath": {
+      "name": "Succubus’ Breath",
+      "source": "Core",
+      "duration": "N/A",
+      "effect": "Can be used to aid seduction. Used on the skin, it gives you a +2 to Seduction. If poured into someone’s drink, it gives them a -5 to Seduction Resistance. It takes a DC:16 Awareness check to realize there is succubus’ breath in a drink."
+    },
+    "Succubus’ Wand (Staff, Education DC: 20)": {
+      "name": "Succubus’ Wand (Staff, Education DC: 20)"
+    },
+    "Sulfur": {
+      "name": "Sulfur",
+      "forageLocation": "Mountains & undergrounds",
+      "forageQuantity": "1d10"
+    },
+    "Summer Ointment": {
+      "name": "Summer Ointment",
+      "source": "UNKNOWN",
+      "duration": "N/A",
+      "effect": "When rubbed on the neck and wrists, Summer Ointment doubles the number of hours you can survive in extreme cold and lowers the penalty to STA from extreme heat to 1/4 your total STA."
+    },
+    "Sun Stone": {
+      "name": "Sun Stone"
+    },
+    "Surgeon’s Kit": {
+      "name": "Surgeon’s Kit",
+      "description": "Allows you to perform surgery"
+    },
+    "Svarog": {
+      "name": "Svarog"
+    },
+    "Swallow": {
+      "name": "Swallow",
+      "source": "Core",
+      "duration": "20 rounds",
+      "effect": "Regenerate 3 points per round. In any round you are struck, you do not regenerate. This healing doesn’t stack with multiple uses."
+    },
+    "Sweets": {
+      "name": "Sweets"
+    },
+    "Sword Catcher": {
+      "name": "Sword Catcher"
+    },
+    "Sylvan Hoof": {
+      "name": "Sylvan Hoof",
+      "forageLocation": "Found on Sylvan",
+      "forageQuantity": "N/A"
+    },
+    "Sylvan Horn": {
+      "name": "Sylvan Horn",
+      "forageLocation": "Found on Sylvan",
+      "forageQuantity": "N/A"
+    },
+    "Symbol written in blood": {
+      "name": "Symbol written in blood"
+    },
+    "Talgar Winter Trap": {
+      "name": "Talgar Winter Trap",
+      "range": "4m"
+    },
+    "Talgar’s Tears": {
+      "name": "Talgar’s Tears",
+      "source": "Core",
+      "duration": "N/A",
+      "effect": "Immediately freezes anything it is thrown on. If used on weapons, armor, or objects, those items take double ablation damage.\n\nThrowing it is an Athletics attack with a range equal to your BODYx2m, and the liquid splatters in a 2m cone directly away from where it lands, freezing anything it hits."
+    },
+    "Tanning Herbs": {
+      "name": "Tanning Herbs",
+      "forageLocation": "fields & forests",
+      "forageQuantity": "1d10"
+    },
+    "Tarp": {
+      "name": "Tarp"
+    },
+    "Tattooed skin": {
+      "name": "Tattooed skin"
+    },
+    "Tawny Owl": {
+      "name": "Tawny Owl",
+      "source": "Core",
+      "duration": "20 rounds",
+      "effect": "Each time you use a Recovery action to gain back STA, add an extra 2 points."
+    },
+    "Taxidermied mouse": {
+      "name": "Taxidermied mouse"
+    },
+    "Telecommunicator": {
+      "name": "Telecommunicator",
+      "description": "Allows you to communicate with the Telecommunication ritual."
+    },
+    "Temerian Armet": {
+      "name": "Temerian Armet",
+      "forageLocation": "Head"
+    },
+    "Temerian Oren": {
+      "name": "Temerian Oren",
+      "description": "= 1 Redanian Crown\nUsed in Temeria, most of the Northern Kingdoms below the Pontar River"
+    },
+    "Temerian Shield": {
+      "name": "Temerian Shield",
+      "forageLocation": "Shield"
+    },
+    "Tempest": {
+      "name": "Tempest",
+      "source": "Tome",
+      "duration": "N/A",
+      "effect": "When making an attack or casting a spell that has a chance of inflicting the Fire, Freeze, or Prone effects, the percentage is increased by 10%."
+    },
+    "Tent": {
+      "name": "Tent"
+    },
+    "Tent, Large": {
+      "name": "Tent, Large"
+    },
+    "The Abyss Guard (Spear, Education DC: 18)": {
+      "name": "The Abyss Guard (Spear, Education DC: 18)",
+      "range": "Body*2m"
+    },
+    "The Moon Bow (Long Bow, Education DC: 17)": {
+      "name": "The Moon Bow (Long Bow, Education DC: 17)",
+      "range": "200m"
+    },
+    "Thieves’ Tools": {
+      "name": "Thieves’ Tools",
+      "description": "Allows you to pick locks"
+    },
+    "Thorn (Dagger, Education DC: 15)": {
+      "name": "Thorn (Dagger, Education DC: 15)",
+      "range": "Body*2m"
+    },
+    "Thread": {
+      "name": "Thread",
+      "forageLocation": "Bought or crafted",
+      "forageQuantity": "N/A"
+    },
+    "Throwing Axe": {
+      "name": "Throwing Axe"
+    },
+    "Throwing Knife": {
+      "name": "Throwing Knife"
+    },
+    "Thunderbolt": {
+      "name": "Thunderbolt",
+      "source": "Core",
+      "duration": "15 rounds",
+      "effect": "+3 damage on physical attacks"
+    },
+    "Tiger Hide": {
+      "name": "Tiger Hide",
+      "forageLocation": "Tigers",
+      "forageQuantity": "N/A"
+    },
+    "Timber": {
+      "name": "Timber",
+      "forageLocation": "Forest",
+      "forageQuantity": "2d6"
+    },
+    "Tinker’s Forge": {
+      "name": "Tinker’s Forge",
+      "description": "Allows you to forge weapons and armor anywhere"
+    },
+    "Tir Tochair Blade": {
+      "name": "Tir Tochair Blade"
+    },
+    "Tobacco": {
+      "name": "Tobacco"
+    },
+    "Tooth": {
+      "name": "Tooth"
+    },
+    "Torch": {
+      "name": "Torch",
+      "description": "Raises light levels by 1 for 5m all around."
+    },
+    "Torrwr": {
+      "name": "Torrwr"
+    },
+    "Tracking": {
+      "name": "Tracking"
+    },
+    "Trail Rations (1 day)": {
+      "name": "Trail Rations (1 day)"
+    },
+    "Tretogor Steel": {
+      "name": "Tretogor Steel",
+      "forageLocation": "Bought or crafted",
+      "forageQuantity": "N/A"
+    },
+    "Triglav": {
+      "name": "Triglav"
+    },
+    "Troll": {
+      "name": "Troll",
+      "effect": "+5 HP",
+      "mutagenSource": "Troll",
+      "minorMutation": "Blue-ish skin leathery skin"
+    },
+    "Troll Decoction": {
+      "name": "Troll Decoction",
+      "source": "Core",
+      "duration": "30 minutes",
+      "effect": "You regenerate 5 Health Points per round."
+    },
+    "Troll Hide": {
+      "name": "Troll Hide",
+      "forageLocation": "Rock Trolls",
+      "forageQuantity": "N/A"
+    },
+    "Troll Liver": {
+      "name": "Troll Liver",
+      "forageLocation": "Trolls",
+      "forageQuantity": "N/A"
+    },
+    "Troll Tongue": {
+      "name": "Troll Tongue",
+      "forageLocation": "Trolls",
+      "forageQuantity": "N/A"
+    },
+    "True Staff of Binding": {
+      "name": "True Staff of Binding",
+      "range": "2m"
+    },
+    "Undercarriage: Deployment  Chute": {
+      "name": "Undercarriage: Deployment  Chute",
+      "description": "This chute can be loaded with up to 1kg of items. As an action, a character inside the wagon can pull a lever, opening the bottom of the chute and causing its contents to spill out behind the wagon."
+    },
+    "Undercarriage: Front Axle  Assembly": {
+      "name": "Undercarriage: Front Axle  Assembly",
+      "description": "+1 to Control Checks"
+    },
+    "Undercarriage: Hidden Compartment": {
+      "name": "Undercarriage: Hidden Compartment",
+      "description": "Adds a space underneath the wagon which can hold up to 80kg worth of items. This compartment remains hidden until a character checks under the wagon and makes a DC:16 Awareness check."
+    },
+    "Unknown key": {
+      "name": "Unknown key"
+    },
+    "Ursine Armor": {
+      "name": "Ursine Armor",
+      "forageLocation": "FullCover"
+    },
+    "Ursine Crossbow": {
+      "name": "Ursine Crossbow",
+      "range": "50m"
+    },
+    "Ursine Silver Sword": {
+      "name": "Ursine Silver Sword"
+    },
+    "Ursine Steel Sword": {
+      "name": "Ursine Steel Sword"
+    },
+    "Vampire Oil": {
+      "name": "Vampire Oil",
+      "source": "Core",
+      "duration": "30 minutes",
+      "effect": "+5 damage against vampires"
+    },
+    "Vampire Saliva": {
+      "name": "Vampire Saliva",
+      "forageLocation": "katakans",
+      "forageQuantity": "N/A"
+    },
+    "Vampire Teeth": {
+      "name": "Vampire Teeth",
+      "forageLocation": "Katakans",
+      "forageQuantity": "N/A"
+    },
+    "Veles": {
+      "name": "Veles"
+    },
+    "Vendigo": {
+      "name": "Vendigo",
+      "effect": "+3 Melee Damage",
+      "mutagenSource": "Vendigo",
+      "minorMutation": "Patchy fur & sickly grey skin"
+    },
+    "Vendigo Fur": {
+      "name": "Vendigo Fur",
+      "forageLocation": "Vendigo",
+      "forageQuantity": "N/A"
+    },
+    "Vendigo Heart": {
+      "name": "Vendigo Heart",
+      "forageLocation": "Vendigo",
+      "forageQuantity": "N/A"
+    },
+    "Venom Extract": {
+      "name": "Venom Extract",
+      "forageLocation": "Ghouls, grave hags, Endrega, arachasae, wyverns",
+      "forageQuantity": "N/A"
+    },
+    "Verbena": {
+      "name": "Verbena",
+      "forageLocation": "Fields",
+      "forageQuantity": "1d6"
+    },
+    "Verden Archer’s Hood": {
+      "name": "Verden Archer’s Hood",
+      "forageLocation": "Head"
+    },
+    "Vial of Gut Worms": {
+      "name": "Vial of Gut Worms",
+      "effect": "After consuming the eggs the target must make a DC:16 Endurance check or be infest-ed by gut worms, which lower their STA by one-quarter and have a 25% chance of causing nausea whenever they eat. The nausea can only be ended by a DC:14 Endurance check. They must be removed with a DC:14 Healing Hands check",
+      "description": "After consuming the eggs the target must make a DC:16 Endurance check or be infested by gut worms, which lower their STA by one-quarter and have a 25% chance of causing nausea whenever they eat. The nausea can only be ended by a DC:14 Endurance check. They must be removed with a DC:14 Healing Hands check."
+    },
+    "Vial of blood": {
+      "name": "Vial of blood"
+    },
+    "Vicovarian Blade": {
+      "name": "Vicovarian Blade"
+    },
+    "Viper’s Fang": {
+      "name": "Viper’s Fang"
+    },
+    "Viroledan Blade": {
+      "name": "Viroledan Blade",
+      "range": "0m"
+    },
+    "Vitality Potion": {
+      "name": "Vitality Potion",
+      "source": "UNKNOWN",
+      "duration": "2d6 Rounds",
+      "effect": "Ignore the penalties of being in the Wound Threshold for the duration of the potion."
+    },
+    "Vrihedd Cavalry Sword": {
+      "name": "Vrihedd Cavalry Sword"
+    },
+    "Wand of Banishment": {
+      "name": "Wand of Banishment",
+      "description": "A hazel wand with a capped by etched dark steel and treated with ogre wax and ester grease. This wand can be used to temporarily banish a pecific \ndemon from existence. The wielder must make a melee weapon attack against the demon which if successful deals no damage but banishes the demon back to its own realm for 24 hours. Each wand can only be used on one specific demon (whose name is carved into the wand) and has a 50% chance of breaking with each banishment. If used against a greater demon, the wand always breaks after the banishment."
+    },
+    "War Bow": {
+      "name": "War Bow",
+      "range": "300m"
+    },
+    "War Horse": {
+      "name": "War Horse"
+    },
+    "War Lance": {
+      "name": "War Lance",
+      "range": "2m"
+    },
+    "War Wagon": {
+      "name": "War Wagon",
+      "description": "If you want a mobile fortress, take a siege engine and gut the inside to create a war wagon. Their poor maneuverability makes them better suited for on-road than off. However, what they lack in speed they more than make up for in durability. They’ll keep going long after other wagons would be burning wrecks littering the road. Occupancy: 0; IS: 4"
+    },
+    "Waterskin": {
+      "name": "Waterskin"
+    },
+    "Wax": {
+      "name": "Wax",
+      "forageLocation": "Forest & fields",
+      "forageQuantity": "1d6"
+    },
+    "Weighted Net": {
+      "name": "Weighted Net",
+      "range": "4m"
+    },
+    "Werecat": {
+      "name": "Werecat",
+      "effect": "+3 melee dmg",
+      "mutagenSource": "Werecat",
+      "minorMutation": "Cat’s eyes and increased hair growth"
+    },
+    "Werecat Teeth": {
+      "name": "Werecat Teeth",
+      "forageLocation": "Werecats",
+      "forageQuantity": "N/A"
+    },
+    "Werewolf": {
+      "name": "Werewolf",
+      "effect": "+3 melee dmg",
+      "mutagenSource": "Werewolf",
+      "minorMutation": "Rapid hair growth"
+    },
+    "Werewolf Decoction": {
+      "name": "Werewolf Decoction",
+      "source": "Core",
+      "duration": "30 minutes",
+      "effect": "Running for long periods of time takes no stamina."
+    },
+    "Werewolf Saliva": {
+      "name": "Werewolf Saliva",
+      "forageLocation": "werewolves",
+      "forageQuantity": "N/A"
+    },
+    "Wheelchair, Basic": {
+      "name": "Wheelchair, Basic",
+      "description": "While using a Basic Wheelchair, any reduction to SPD, Dodge/Escape and Athletics caused by a Critical Wound or pre-existing disability is negated. However, while using a Basic Wheelchair, any check involving swimming or climbing is made at a -3. Any attack made against a person in a wheelchair is directed toward them instead of the chair for gameplay purposes."
+    },
+    "Wheelchair, Quality": {
+      "name": "Wheelchair, Quality",
+      "description": "While using a Quality Wheelchair, any reduction to SPD, Dodge/Escape and Athletics caused by a Critical Wound or pre-existing disability is negated. However, while using a Quality Wheelchair, any check involving swimming or climbing is made at a -1. Any attack made against a person in a wheelchair is directed toward them instead of the chair for gameplay purposes."
+    },
+    "Wheels: Spiked": {
+      "name": "Wheels: Spiked",
+      "description": "While driving the wagon, a character can make an attack check, using their Riding Skill, against a target adjacent to the wagon. This attack deals 4d6 damage."
+    },
+    "Wheels: Steel": {
+      "name": "Wheels: Steel",
+      "description": "+20 Vehicle HP"
+    },
+    "Wheels: Studded": {
+      "name": "Wheels: Studded",
+      "description": "+1 to Control Checks"
+    },
+    "Whip": {
+      "name": "Whip",
+      "range": "2m"
+    },
+    "Whistle": {
+      "name": "Whistle"
+    },
+    "White Honey": {
+      "name": "White Honey",
+      "source": "Core",
+      "duration": "N/A",
+      "effect": "Clears toxicity and removes all potion effects."
+    },
+    "White Myrtle Petals": {
+      "name": "White Myrtle Petals",
+      "forageLocation": "Fields",
+      "forageQuantity": "1d10"
+    },
+    "White Raffard’s Decoction": {
+      "name": "White Raffard’s Decoction",
+      "source": "UNKNOWN",
+      "duration": "4d6 Rounds",
+      "effect": "Regenerate 1 point of Health per round for the duration of the potion."
+    },
+    "Wine": {
+      "name": "Wine"
+    },
+    "Wine Stone": {
+      "name": "Wine Stone",
+      "forageLocation": "Breweries",
+      "forageQuantity": "1d6/2"
+    },
+    "Wing Membrane": {
+      "name": "Wing Membrane",
+      "forageLocation": "Garkains, Plumards",
+      "forageQuantity": "N/A"
+    },
+    "Wishing Mirror": {
+      "name": "Wishing Mirror",
+      "description": "A wishing mirror allows a person to view their deepest desires within. When looking through the mirror, the onlooker sees their ideal self-image in a location they’ve always dreamt of and owning all the property they’ve dreamt of owning. While looking into the mirror, a person falls into a trance of sorts, seeing themselves within the mirror, enjoying the bountiful life just beyond the glass. These visions quickly become addictive and after gazing into the mirror once, a viewer must make a Resist Magic check DC:18. On a failure, the viewer is compelled to look into the mirror for at least 1 hour every day. At the end of each period, the viewer can make a new Resist Magic check. On a failure, the duration increases by 1 hour for the next 24-hour period. On a success, the duration is lessened by 1 hour.\n\nAdditionally, for every day that the viewer succeeds in not looking at the mirror, the duration is lessened by 1 hour. When the duration becomes 0 hours, the viewer is no longer under the magic of the mirror. If the duration ever reaches 24 hours, the viewer can no longer withdraw their gaze from the mirror even for basic needs such as eating and drinking. Without help, they are liable to die.\n\nIf the mirror is destroyed while someone is under its sway, that person becomes sullen and depressive for a month afterwards. They feel as though their life itself has been shattered and nothing brings them even the smallest amount of joy. This imposes a -2 to all actions they attempt.\n\nEducation DC:16 to determine nature."
+    },
+    "Witch Hunter's Armor": {
+      "name": "Witch Hunter's Armor",
+      "forageLocation": "Torso"
+    },
+    "Witcher’s Medallion": {
+      "name": "Witcher’s Medallion",
+      "description": "Detect monsters, curses or spells in 20m radius; vibrates lightly."
+    },
+    "Witcher’s Silver Sword": {
+      "name": "Witcher’s Silver Sword"
+    },
+    "Witcher’s Steel Sword": {
+      "name": "Witcher’s Steel Sword"
+    },
+    "Wives’ Tears Potion": {
+      "name": "Wives’ Tears Potion",
+      "source": "Core",
+      "duration": "N/A",
+      "effect": "Negates the effects of intoxication. Immediately after drinking a dose of wives’ tears potion the imbiber sobers up."
+    },
+    "Wolf (Long Sword, Education DC: 16)": {
+      "name": "Wolf (Long Sword, Education DC: 16)"
+    },
+    "Wolf Hide": {
+      "name": "Wolf Hide",
+      "forageLocation": "Wolves",
+      "forageQuantity": "3"
+    },
+    "Wolf's Aloe Leaves": {
+      "name": "Wolf's Aloe Leaves",
+      "forageLocation": "Blue Mountains",
+      "forageQuantity": "1d6"
+    },
+    "Wolfsbane": {
+      "name": "Wolfsbane",
+      "forageLocation": "Fields, Forest, undergrouds",
+      "forageQuantity": "1d6"
+    },
+    "Wolven Armor": {
+      "name": "Wolven Armor",
+      "forageLocation": "FullCover"
+    },
+    "Wolven Silver Sword": {
+      "name": "Wolven Silver Sword"
+    },
+    "Wolven Steel Sword": {
+      "name": "Wolven Steel Sword"
+    },
+    "Wooden Chest": {
+      "name": "Wooden Chest",
+      "description": "30kg of small items"
+    },
+    "Wooden Chest, Large": {
+      "name": "Wooden Chest, Large",
+      "description": "50kg of large items"
+    },
+    "Wooden stake with runes": {
+      "name": "Wooden stake with runes"
+    },
+    "Worn out shoe": {
+      "name": "Worn out shoe"
+    },
+    "Wrapped turkey leg": {
+      "name": "Wrapped turkey leg"
+    },
+    "Writing Kit": {
+      "name": "Writing Kit",
+      "description": "Allows you to write letters, notes, and such"
+    },
+    "Wyvern": {
+      "name": "Wyvern",
+      "effect": "+3 melee dmg",
+      "mutagenSource": "Wyvern",
+      "minorMutation": "Rough skin"
+    },
+    "Wyvern Decoction": {
+      "name": "Wyvern Decoction",
+      "source": "Core",
+      "duration": "30 minutes",
+      "effect": "You gain +1 damage to your next strike after a successful strike. This +1 is cumulative, and goes up with each hit until the combat ends or you take damage."
+    },
+    "Wyvern Egg": {
+      "name": "Wyvern Egg",
+      "forageLocation": "Wyverns",
+      "forageQuantity": "N/A"
+    },
+    "Wyvern Eyes": {
+      "name": "Wyvern Eyes",
+      "forageLocation": "Wyverns",
+      "forageQuantity": "N/A"
+    },
+    "Wyvern Scale Shield": {
+      "name": "Wyvern Scale Shield",
+      "forageLocation": "Shield"
+    },
+    "Xenovox": {
+      "name": "Xenovox",
+      "description": "Allows a mage to communicate via the Xenovox.\n\nEducation DC:16 to determine nature."
+    },
+    "Zerrikanian Fire": {
+      "name": "Zerrikanian Fire",
+      "source": "Core",
+      "duration": "N/A",
+      "effect": "Immediately sets whatever it touches on fire.\n\nThrowing it is an Athletics attack with a range equal to your BODYx2m, and the it splatters in a 2m cone away from where it lands, lighting anyone and anything in that area on fire."
+    },
+    "Zerrikanian Powder": {
+      "name": "Zerrikanian Powder",
+      "forageLocation": "Mountains or underground",
+      "forageQuantity": "1d6/2"
+    },
+    "Zerrikanian Sun": {
+      "name": "Zerrikanian Sun",
+      "range": "Body*4m"
+    },
+    "Zoria": {
+      "name": "Zoria"
+    }
+  }
+}
